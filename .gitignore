@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+database.csv
+**/*fishery*
+literature
+methods_used.png
