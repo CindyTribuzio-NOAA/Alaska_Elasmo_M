@@ -2,9 +2,9 @@
 
 Cindy Tribuzio, Beth Matta, Kathrin Bayer
 
-Objective:  Update natural mortality estimates for elasmobranch species in the Gulf of Alaska and Bering Sea and Aleutian Islands, including rougheye, blackspotted, shortraker, shortspine thornyhead, yelloweye, sharpchin, dusky, harlequin, silvergray, redbanded, and redstripe rockfish. 
+Objective:  Update natural mortality (M) estimates for elasmobranch species in the Gulf of Alaska and Bering Sea and Aleutian Islands.
 
-Methods:  Conduct literature review for the species of interest. Use AFSC fishery and survey ages to get a range of 'longevity' or tmax estimates. Select an appropriate subset of natural mortality estimators based on the data available for each species. Use code developed in Jason Cope's Natural Mortality Tool to estimate a range of natural mortalities for each species.
+Methods:  Conduct literature review for the species of interest. Use AFSC fishery and survey ages to get a range of 'longevity' or tmax estimates, when available. Select an appropriate subset of natural mortality estimators based on the data available for each species and the appropriateness of the estimator method. Use code developed in Jason Cope's Natural Mortality Tool to estimate a range of natural mortalities for each species.
 
 Resources:  
 Natural Mortality Tool https://github.com/shcaba/Natural-Mortality-Tool  
