@@ -10,4 +10,4 @@ Resources:
 Natural Mortality Tool https://github.com/shcaba/Natural-Mortality-Tool  
 ADF&G age determination unit website https://mtalab.adfg.alaska.gov/ADU/analysis.aspx#/maxage  
 AFSC age and growth website (careful, not everything here is up to date): https://apps-afsc.fisheries.noaa.gov/refm/age/stats/max_age.htm 
-"# Alaska_Elasmo_M" 
+

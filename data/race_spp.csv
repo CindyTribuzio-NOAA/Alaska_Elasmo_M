@@ -1,0 +1,31 @@
+species_name,common_name,species_code,id_rank,database_id,database,genus_taxon,subfamily_taxon,family_taxon,superfamily_taxon,suborder_taxon,order_taxon,superorder_taxon,subclass_taxon,class_taxon,superclass_taxon,subphylum_taxon,phylum_taxon,kingdom_taxon,akfin_load_date
+Bathyraja maculata,whiteblotched skate,480,species,271520,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja mariposa,butterfly skate,483,species,271522,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja minispinosa,whitebrow skate,485,species,271524,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja smirnovi,golden skate,490,species,271535,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja violacea,Okhotsk skate,495,species,271540,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Lamna ditropis,salmon shark,232,species,271421,WORMS,Lamna,NA,Lamnidae,NA,NA,Lamniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Cetorhinus maximus,basking shark,242,species,105837,WORMS,Cetorhinus,NA,Cetorhinidae,NA,NA,Lamniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Squatina californica,Pacific angel shark,252,species,271667,WORMS,Squatina,NA,Squatinidae,NA,NA,Squatiniformes,Squalomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Squalus suckleyi,spiny dogfish,310,species,299224,WORMS,Squalus,NA,Squalidae,NA,NA,Squaliformes,Squalomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Centroscyllium nigrum,combtooth dogfish,311,species,271623,WORMS,Centroscyllium,NA,Etmopteridae,NA,NA,Squaliformes,Squalomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Somniosus pacificus,Pacific sleeper shark,320,species,271654,WORMS,Somniosus,NA,Somniosidae,NA,NA,Squaliformes,Squalomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Galeorhinus galeus,soupfin shark,332,species,105820,WORMS,Galeorhinus,Galeorhininae,Triakidae,NA,NA,Carcharhiniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Mustelus henlei,brown smoothhound,340,species,271386,WORMS,Mustelus,Triakinae,Triakidae,NA,NA,Carcharhiniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Mustelus californicus,gray smoothhound,341,species,271381,WORMS,Mustelus,Triakinae,Triakidae,NA,NA,Carcharhiniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Prionace glauca,blue shark,351,species,105801,WORMS,Prionace,NA,Carcharhinidae,NA,NA,Carcharhiniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Triakis semifasciata,leopard shark,355,species,279060,WORMS,Triakis,Triakinae,Triakidae,NA,NA,Carcharhiniformes,Galeomorphi,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja spinosissima,white skate,406,species,271536,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja abyssicola,deepsea skate,410,species,271503,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Beringraja binoculata,big skate,420,species,1021330,WORMS,Beringraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Beringraja inornata,California skate,425,species,1461134,WORMS,Beringraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja interrupta,Bering skate,435,species,271515,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Beringraja rhina,longnose skate,440,species,1461133,WORMS,Beringraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Amblyraja hyperborea,roughshoulder skate,445,species,105863,WORMS,Amblyraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Beringraja stellulata,starry skate,450,species,1461135,WORMS,Beringraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja taranetzi,mud skate,455,species,298834,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja trachura,roughtail skate,460,species,271538,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Arctoraja parmifera,Alaska skate,471,species,1577324,WORMS,Arctoraja,NA,Rajidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja aleutica,Aleutian skate,472,species,271506,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja lindbergi,Commander skate,475,species,271517,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25
+Bathyraja panthera,leopard skate,477,species,712390,WORMS,Bathyraja,NA,Arhynchobatidae,NA,NA,Rajiformes,NA,Neoselachii,Elasmobranchii,NA,Vertebrata,Chordata,Animalia,22-MAY-25

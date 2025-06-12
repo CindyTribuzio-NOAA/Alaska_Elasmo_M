@@ -1,0 +1,657 @@
+species,input_area,lh_param,data_area,method_or_source,estimate,version
+alaska skate,BC,agemat_yr,NA,NA,NA,1
+alaska skate,BC,gsi,NA,NA,NA,1
+alaska skate,BC,maxage_yr,NA,NA,NA,1
+alaska skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+alaska skate,BC,vbgf_linf_cm,NA,NA,NA,1
+alaska skate,BC,vbgf_t0_yr,NA,NA,NA,1
+alaska skate,BS,agemat_yr,BS,Matta and Gunderson 2007,10,1
+alaska skate,BS,gsi,NA,NA,NA,1
+alaska skate,BS,maxage_yr,BS,AFSC max age,26,1
+alaska skate,BS,maxage_yr,BS,AFSC mean top 5,18,2
+alaska skate,BS,maxage_yr,BS,Matta and Gunderson 2007,17,3
+alaska skate,BS,vbgf_k_cm-1,BS,Matta and Gunderson 2007,0.087,1
+alaska skate,BS,vbgf_linf_cm,BS,Matta and Gunderson 2007,144.62,1
+alaska skate,BS,vbgf_t0_yr,BS,Matta and Gunderson 2007,-1.75,1
+alaska skate,GOA,agemat_yr,NA,NA,NA,1
+alaska skate,GOA,gsi,NA,NA,NA,1
+alaska skate,GOA,maxage_yr,NA,NA,NA,1
+alaska skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+alaska skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+alaska skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+alaska skate,multi_region,agemat_yr,NA,NA,NA,1
+alaska skate,multi_region,gsi,NA,NA,NA,1
+alaska skate,multi_region,maxage_yr,NA,NA,NA,1
+alaska skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+alaska skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+alaska skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+alaska skate,NWP,agemat_yr,NA,NA,NA,1
+alaska skate,NWP,gsi,NA,NA,NA,1
+alaska skate,NWP,maxage_yr,NA,NA,NA,1
+alaska skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+alaska skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+alaska skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+alaska skate,WC,agemat_yr,NA,NA,NA,1
+alaska skate,WC,gsi,NA,NA,NA,1
+alaska skate,WC,maxage_yr,NA,NA,NA,1
+alaska skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+alaska skate,WC,vbgf_linf_cm,NA,NA,NA,1
+alaska skate,WC,vbgf_t0_yr,NA,NA,NA,1
+aleutian skate,BC,agemat_yr,NA,NA,NA,1
+aleutian skate,BC,gsi,NA,NA,NA,1
+aleutian skate,BC,maxage_yr,NA,NA,NA,1
+aleutian skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+aleutian skate,BC,vbgf_linf_cm,NA,NA,NA,1
+aleutian skate,BC,vbgf_t0_yr,NA,NA,NA,1
+aleutian skate,BS,agemat_yr,EBS,Ebert et al. 2007,10.2,1
+aleutian skate,BS,gsi,NA,NA,NA,1
+aleutian skate,BS,maxage_yr,EBS,Haas 2011,17,1
+aleutian skate,BS,vbgf_k_cm-1,EBS,Haas 2011,0.13,1
+aleutian skate,BS,vbgf_k_cm-1,EBS,Haas 2011,0.14,2
+aleutian skate,BS,vbgf_k_cm-1,EBS,Ebert et al. 2007,0.11,3
+aleutian skate,BS,vbgf_k_cm-1,EBS,Ebert et al. 2007,0.11,4
+aleutian skate,BS,vbgf_linf_cm,EBS,Haas 2011,162.1,1
+aleutian skate,BS,vbgf_linf_cm,EBS,Haas 2011,158.9,2
+aleutian skate,BS,vbgf_linf_cm,EBS,Ebert et al. 2007,170.47,3
+aleutian skate,BS,vbgf_linf_cm,EBS,Ebert et al. 2007,172.6,4
+aleutian skate,BS,vbgf_t0_yr,EBS,Ebert et al. 2007,-1.69,1
+aleutian skate,BS,vbgf_t0_yr,EBS,Ebert et al. 2007,-1.78,2
+aleutian skate,GOA,agemat_yr,NA,NA,NA,1
+aleutian skate,GOA,gsi,NA,NA,NA,1
+aleutian skate,GOA,maxage_yr,GOA,Haas 2011,19,1
+aleutian skate,GOA,vbgf_k_cm-1,GOA,Haas 2011,0.11,1
+aleutian skate,GOA,vbgf_k_cm-1,GOA,Haas 2011,0.15,2
+aleutian skate,GOA,vbgf_linf_cm,GOA,Haas 2011,160,1
+aleutian skate,GOA,vbgf_linf_cm,GOA,Haas 2011,138.2,2
+aleutian skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+aleutian skate,multi_region,agemat_yr,NA,NA,NA,1
+aleutian skate,multi_region,gsi,NA,NA,NA,1
+aleutian skate,multi_region,maxage_yr,NA,NA,NA,1
+aleutian skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+aleutian skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+aleutian skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+aleutian skate,NWP,agemat_yr,NA,NA,NA,1
+aleutian skate,NWP,gsi,NA,NA,NA,1
+aleutian skate,NWP,maxage_yr,NA,NA,NA,1
+aleutian skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+aleutian skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+aleutian skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+aleutian skate,WC,agemat_yr,NA,NA,NA,1
+aleutian skate,WC,gsi,NA,NA,NA,1
+aleutian skate,WC,maxage_yr,NA,NA,NA,1
+aleutian skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+aleutian skate,WC,vbgf_linf_cm,NA,NA,NA,1
+aleutian skate,WC,vbgf_t0_yr,NA,NA,NA,1
+bering skate,BC,agemat_yr,NA,NA,NA,1
+bering skate,BC,gsi,NA,NA,NA,1
+bering skate,BC,maxage_yr,NA,NA,NA,1
+bering skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+bering skate,BC,vbgf_linf_cm,NA,NA,NA,1
+bering skate,BC,vbgf_t0_yr,NA,NA,NA,1
+bering skate,BS,agemat_yr,NA,NA,NA,1
+bering skate,BS,gsi,NA,NA,NA,1
+bering skate,BS,maxage_yr,BS,Ainsley 2014,21,1
+bering skate,BS,vbgf_k_cm-1,BS,Ainsley 2009,0.072,1
+bering skate,BS,vbgf_k_cm-1,BS,Ainsley 2014,0.07,2
+bering skate,BS,vbgf_linf_cm,BS,Ainsley 2009,104.907,1
+bering skate,BS,vbgf_linf_cm,BS,Ainsley 2014,104.91,2
+bering skate,BS,vbgf_t0_yr,BS,Ainsley 2009,-2.5406,1
+bering skate,BS,vbgf_t0_yr,BS,Ainsley 2014,-2.54,2
+bering skate,GOA,agemat_yr,NA,NA,NA,1
+bering skate,GOA,gsi,NA,NA,NA,1
+bering skate,GOA,maxage_yr,GOA,Ainsley 2014,21,1
+bering skate,GOA,vbgf_k_cm-1,GOA,Ainsley 2009,0.0611,1
+bering skate,GOA,vbgf_k_cm-1,GOA,Ainsley 2014,0.06,2
+bering skate,GOA,vbgf_linf_cm,GOA,Ainsley 2009,114.4277,1
+bering skate,GOA,vbgf_linf_cm,GOA,Ainsley 2014,114.43,2
+bering skate,GOA,vbgf_t0_yr,GOA,Ainsley 2009,-2.5435,1
+bering skate,GOA,vbgf_t0_yr,GOA,Ainsley 2014,-2.54,2
+bering skate,multi_region,agemat_yr,NA,NA,NA,1
+bering skate,multi_region,gsi,NA,NA,NA,1
+bering skate,multi_region,maxage_yr,NA,NA,NA,1
+bering skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+bering skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+bering skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+bering skate,NWP,agemat_yr,NA,NA,NA,1
+bering skate,NWP,gsi,NA,NA,NA,1
+bering skate,NWP,maxage_yr,NA,NA,NA,1
+bering skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+bering skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+bering skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+bering skate,WC,agemat_yr,NA,NA,NA,1
+bering skate,WC,gsi,NA,NA,NA,1
+bering skate,WC,maxage_yr,NA,NA,NA,1
+bering skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+bering skate,WC,vbgf_linf_cm,NA,NA,NA,1
+bering skate,WC,vbgf_t0_yr,NA,NA,NA,1
+big skate,BC,agemat_yr,BC,McFarlane et al. 2006,8,1
+big skate,BC,gsi,NA,NA,NA,1
+big skate,BC,maxage_yr,BC,Gburski 2007,26,1
+big skate,BC,maxage_yr,BC,McFarlane et al. 2006,26,2
+big skate,BC,vbgf_k_cm-1,BC,Gburski 2007,0.04,1
+big skate,BC,vbgf_k_cm-1,BC,"King 2010, GROTAG",0.02,2
+big skate,BC,vbgf_k_cm-1,BC,"King 2010, Fabens",0.06,3
+big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2006,0.04,4
+big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2010,0.04,5
+big skate,BC,vbgf_linf_cm,BC,Gburski 2007,293.5,1
+big skate,BC,vbgf_linf_cm,BC,"King 2010, GROTAG",719.81,2
+big skate,BC,vbgf_linf_cm,BC,"King 2010, Fabens",151.09,3
+big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2006,293.5,4
+big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2010,293.4,5
+big skate,BC,vbgf_t0_yr,BC,Gburski 2007,-1.6,1
+big skate,BC,vbgf_t0_yr,BC,"King 2010, GROTAG",-1.62,2
+big skate,BC,vbgf_t0_yr,BC,"King 2010, Fabens",-2.75,3
+big skate,BC,vbgf_t0_yr,BC,McFarlane et al. 2006,-1.6,4
+big skate,BC,vbgf_t0_yr,BC,McFarlane et al. 2010,-2.01,5
+big skate,BS,agemat_yr,NA,NA,NA,1
+big skate,BS,gsi,NA,NA,NA,1
+big skate,BS,maxage_yr,NA,NA,NA,1
+big skate,BS,vbgf_k_cm-1,NA,NA,NA,1
+big skate,BS,vbgf_linf_cm,NA,NA,NA,1
+big skate,BS,vbgf_t0_yr,NA,NA,NA,1
+big skate,GOA,agemat_yr,NA,NA,NA,1
+big skate,GOA,gsi,NA,NA,NA,1
+big skate,GOA,maxage_yr,GOA,AFSC max age,13,1
+big skate,GOA,maxage_yr,GOA,AFSC mean top 5,12.166666666666666,2
+big skate,GOA,maxage_yr,GOA,Gburski 2007,14,3
+big skate,GOA,vbgf_k_cm-1,GOA,Gburski 2007,0.0796,1
+big skate,GOA,vbgf_linf_cm,GOA,Gburski 2007,247.5,1
+big skate,GOA,vbgf_t0_yr,GOA,Gburski 2007,-1.075,1
+big skate,multi_region,agemat_yr,NA,NA,NA,1
+big skate,multi_region,gsi,NA,NA,NA,1
+big skate,multi_region,maxage_yr,NA,NA,NA,1
+big skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+big skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+big skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+big skate,NWP,agemat_yr,NA,NA,NA,1
+big skate,NWP,gsi,NA,NA,NA,1
+big skate,NWP,maxage_yr,NA,NA,NA,1
+big skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+big skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+big skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+big skate,WC,agemat_yr,NA,NA,NA,1
+big skate,WC,gsi,NA,NA,NA,1
+big skate,WC,maxage_yr,California,Zeiner and Wolf 1993,12,1
+big skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+big skate,WC,vbgf_linf_cm,California,Zeiner and Wolf 1993,167.9,1
+big skate,WC,vbgf_t0_yr,NA,NA,NA,1
+blue shark,BC,agemat_yr,NA,NA,NA,1
+blue shark,BC,gsi,NA,NA,NA,1
+blue shark,BC,maxage_yr,NA,NA,NA,1
+blue shark,BC,vbgf_k_cm-1,NA,NA,NA,1
+blue shark,BC,vbgf_linf_cm,NA,NA,NA,1
+blue shark,BC,vbgf_t0_yr,NA,NA,NA,1
+blue shark,BS,agemat_yr,NA,NA,NA,1
+blue shark,BS,gsi,NA,NA,NA,1
+blue shark,BS,maxage_yr,NA,NA,NA,1
+blue shark,BS,vbgf_k_cm-1,NA,NA,NA,1
+blue shark,BS,vbgf_linf_cm,NA,NA,NA,1
+blue shark,BS,vbgf_t0_yr,NA,NA,NA,1
+blue shark,GOA,agemat_yr,NA,NA,NA,1
+blue shark,GOA,gsi,NA,NA,NA,1
+blue shark,GOA,maxage_yr,NA,NA,NA,1
+blue shark,GOA,vbgf_k_cm-1,NA,NA,NA,1
+blue shark,GOA,vbgf_linf_cm,NA,NA,NA,1
+blue shark,GOA,vbgf_t0_yr,NA,NA,NA,1
+blue shark,multi_region,agemat_yr,North Pacific,Tsai and Liu 2013,4.3,1
+blue shark,multi_region,agemat_yr,North Pacific,Tsai and Liu 2013,6.5,2
+blue shark,multi_region,agemat_yr,North Pacific,Tsai and Liu 2013,6,3
+blue shark,multi_region,gsi,NA,NA,NA,1
+blue shark,multi_region,maxage_yr,NA,NA,NA,1
+blue shark,multi_region,vbgf_k_cm-1,North Pacific,Hsu et al. 2011,0.172,1
+blue shark,multi_region,vbgf_k_cm-1,North Pacific,Cailliet and Bedford 1983,0.251,2
+blue shark,multi_region,vbgf_k_cm-1,North Pacific,Nakano 1994,0.144,3
+blue shark,multi_region,vbgf_linf_cm,North Pacific,Hsu et al. 2011,317.4,1
+blue shark,multi_region,vbgf_linf_cm,North Pacific,Cailliet and Bedford 1983,241.9,2
+blue shark,multi_region,vbgf_linf_cm,North Pacific,Nakano 1994,322.6,3
+blue shark,multi_region,vbgf_t0_yr,North Pacific,Hsu et al. 2011,-1.123,1
+blue shark,multi_region,vbgf_t0_yr,North Pacific,Cailliet and Bedford 1983,-0.795,2
+blue shark,multi_region,vbgf_t0_yr,North Pacific,Nakano 1994,-0.849,3
+blue shark,NWP,agemat_yr,NA,NA,NA,1
+blue shark,NWP,gsi,NA,NA,NA,1
+blue shark,NWP,maxage_yr,NA,NA,NA,1
+blue shark,NWP,vbgf_k_cm-1,NA,NA,NA,1
+blue shark,NWP,vbgf_linf_cm,NA,NA,NA,1
+blue shark,NWP,vbgf_t0_yr,NA,NA,NA,1
+blue shark,WC,agemat_yr,NA,NA,NA,1
+blue shark,WC,gsi,NA,NA,NA,1
+blue shark,WC,maxage_yr,NA,NA,NA,1
+blue shark,WC,vbgf_k_cm-1,NA,NA,NA,1
+blue shark,WC,vbgf_linf_cm,NA,NA,NA,1
+blue shark,WC,vbgf_t0_yr,NA,NA,NA,1
+commander skate,BC,agemat_yr,NA,NA,NA,1
+commander skate,BC,gsi,NA,NA,NA,1
+commander skate,BC,maxage_yr,NA,NA,NA,1
+commander skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+commander skate,BC,vbgf_linf_cm,NA,NA,NA,1
+commander skate,BC,vbgf_t0_yr,NA,NA,NA,1
+commander skate,BS,agemat_yr,BS,Maurer 2009,21,1
+commander skate,BS,agemat_yr,BS,Maurer 2009,18,2
+commander skate,BS,agemat_yr,BS,Maurer 2009,20,3
+commander skate,BS,agemat_yr,BS,Maurer 2009,19,4
+commander skate,BS,gsi,NA,NA,NA,1
+commander skate,BS,maxage_yr,BS,Maurer 2009,35,1
+commander skate,BS,maxage_yr,BS,Maurer 2009,32,2
+commander skate,BS,maxage_yr,BS,Maurer 2009,32,3
+commander skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.04,1
+commander skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.0454,2
+commander skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.0417,3
+commander skate,BS,vbgf_linf_cm,BS,Maurer 2009,119.3,1
+commander skate,BS,vbgf_linf_cm,BS,Maurer 2009,119.3,2
+commander skate,BS,vbgf_linf_cm,BS,Maurer 2009,131.96,3
+commander skate,BS,vbgf_t0_yr,BS,Maurer 2009,-2.63,1
+commander skate,BS,vbgf_t0_yr,BS,Maurer 2009,-2.627,2
+commander skate,BS,vbgf_t0_yr,BS,Maurer 2009,-4.266,3
+commander skate,GOA,agemat_yr,NA,NA,NA,1
+commander skate,GOA,gsi,NA,NA,NA,1
+commander skate,GOA,maxage_yr,NA,NA,NA,1
+commander skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+commander skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+commander skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+commander skate,multi_region,agemat_yr,NA,NA,NA,1
+commander skate,multi_region,gsi,NA,NA,NA,1
+commander skate,multi_region,maxage_yr,NA,NA,NA,1
+commander skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+commander skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+commander skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+commander skate,NWP,agemat_yr,NA,NA,NA,1
+commander skate,NWP,gsi,NA,NA,NA,1
+commander skate,NWP,maxage_yr,NA,NA,NA,1
+commander skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+commander skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+commander skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+commander skate,WC,agemat_yr,NA,NA,NA,1
+commander skate,WC,gsi,NA,NA,NA,1
+commander skate,WC,maxage_yr,NA,NA,NA,1
+commander skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+commander skate,WC,vbgf_linf_cm,NA,NA,NA,1
+commander skate,WC,vbgf_t0_yr,NA,NA,NA,1
+longnose skate,BC,agemat_yr,BC,McFarlane and King 2006,10,1
+longnose skate,BC,gsi,NA,NA,NA,1
+longnose skate,BC,maxage_yr,BC,Gburski 2007,26,1
+longnose skate,BC,maxage_yr,BC,McFarlane and King 2006,26,2
+longnose skate,BC,vbgf_k_cm-1,BC,Gburski 2007,0.06,1
+longnose skate,BC,vbgf_k_cm-1,BC,McFarlane and King 2006,0.06,2
+longnose skate,BC,vbgf_linf_cm,BC,Gburski 2007,137.2,1
+longnose skate,BC,vbgf_linf_cm,BC,McFarlane and King 2006,1372,2
+longnose skate,BC,vbgf_t0_yr,BC,Gburski 2007,-1.8,1
+longnose skate,BC,vbgf_t0_yr,BC,McFarlane and King 2006,-1.8,2
+longnose skate,BS,agemat_yr,NA,NA,NA,1
+longnose skate,BS,gsi,NA,NA,NA,1
+longnose skate,BS,maxage_yr,NA,NA,NA,1
+longnose skate,BS,vbgf_k_cm-1,NA,NA,NA,1
+longnose skate,BS,vbgf_linf_cm,NA,NA,NA,1
+longnose skate,BS,vbgf_t0_yr,NA,NA,NA,1
+longnose skate,GOA,agemat_yr,GOA,Arrington 2020,13,1
+longnose skate,GOA,gsi,NA,NA,NA,1
+longnose skate,GOA,maxage_yr,GOA,AFSC max age,23,1
+longnose skate,GOA,maxage_yr,GOA,AFSC mean top 5,21.714285714285715,2
+longnose skate,GOA,maxage_yr,GOA,Arrington 2020,18,3
+longnose skate,GOA,maxage_yr,GOA,Gburski 2007,24,4
+longnose skate,GOA,vbgf_k_cm-1,GOA,Arrington 2020,0.04,1
+longnose skate,GOA,vbgf_k_cm-1,GOA,Gburski 2007,0.0368,2
+longnose skate,GOA,vbgf_linf_cm,GOA,Arrington 2020,251,1
+longnose skate,GOA,vbgf_linf_cm,GOA,Gburski 2007,234.1,2
+longnose skate,GOA,vbgf_t0_yr,GOA,Gburski 2007,-1.993,1
+longnose skate,multi_region,agemat_yr,"GOA, BC",Arrington 2020,13,1
+longnose skate,multi_region,gsi,NA,NA,NA,1
+longnose skate,multi_region,maxage_yr,"GOA, BC",Arrington 2020,20,1
+longnose skate,multi_region,vbgf_k_cm-1,"GOA, BC",Arrington 2020,0.04,1
+longnose skate,multi_region,vbgf_linf_cm,"GOA, BC",Arrington 2020,221,1
+longnose skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+longnose skate,NWP,agemat_yr,NA,NA,NA,1
+longnose skate,NWP,gsi,NA,NA,NA,1
+longnose skate,NWP,maxage_yr,NA,NA,NA,1
+longnose skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+longnose skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+longnose skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+longnose skate,WC,agemat_yr,WC,Arrington 2020,12,1
+longnose skate,WC,agemat_yr,WC,"Thompson 2005, north CA",16,2
+longnose skate,WC,agemat_yr,WC,"Thompson 2005, south CA",13,3
+longnose skate,WC,gsi,WC,Thompson 2005,0.0163,1
+longnose skate,WC,maxage_yr,WC,Gertseva 2019,22,1
+longnose skate,WC,maxage_yr,WC,Arrington 2020,19,2
+longnose skate,WC,maxage_yr,WC,Gburski 2007,22,3
+longnose skate,WC,maxage_yr,WC,"Thompson 2005, north CA",23,4
+longnose skate,WC,maxage_yr,WC,"Thompson 2005, south CA",16,5
+longnose skate,WC,maxage_yr,California,Zeiner and Wolf 1993,12,6
+longnose skate,WC,vbgf_k_cm-1,WC,Arrington 2020,0.04,1
+longnose skate,WC,vbgf_k_cm-1,WC,Thompson 2005,0.0513,2
+longnose skate,WC,vbgf_k_cm-1,California,Zeiner and Wolf 1993,0.16,3
+longnose skate,WC,vbgf_linf_cm,WC,Arrington 2020,210,1
+longnose skate,WC,vbgf_linf_cm,WC,Thompson 2005,180.9115,2
+longnose skate,WC,vbgf_linf_cm,California,Zeiner and Wolf 1993,104.7,3
+longnose skate,WC,vbgf_t0_yr,California,zeiner and Wolf 1995,0.73,1
+mud skate,BC,agemat_yr,NA,NA,NA,1
+mud skate,BC,gsi,NA,NA,NA,1
+mud skate,BC,maxage_yr,NA,NA,NA,1
+mud skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+mud skate,BC,vbgf_linf_cm,NA,NA,NA,1
+mud skate,BC,vbgf_t0_yr,NA,NA,NA,1
+mud skate,BS,agemat_yr,BS,Ebert et al. 2009,9.1,1
+mud skate,BS,gsi,NA,NA,NA,1
+mud skate,BS,maxage_yr,BS,Ebert et al. 2009,14,1
+mud skate,BS,maxage_yr,BS,Ebert et al. 2009,14,2
+mud skate,BS,vbgf_k_cm-1,BS,Ebert et al. 2009,0.1108,1
+mud skate,BS,vbgf_k_cm-1,BS,Ebert et al. 2009,0.1325,2
+mud skate,BS,vbgf_linf_cm,BS,Ebert et al. 2009,85.4,1
+mud skate,BS,vbgf_linf_cm,BS,Ebert et al. 2009,78.1,2
+mud skate,BS,vbgf_t0_yr,BS,Ebert et al. 2009,-2.2034,1
+mud skate,BS,vbgf_t0_yr,BS,Ebert et al. 2009,-1.9006,2
+mud skate,GOA,agemat_yr,NA,NA,NA,1
+mud skate,GOA,gsi,NA,NA,NA,1
+mud skate,GOA,maxage_yr,NA,NA,NA,1
+mud skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+mud skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+mud skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+mud skate,multi_region,agemat_yr,NA,NA,NA,1
+mud skate,multi_region,gsi,NA,NA,NA,1
+mud skate,multi_region,maxage_yr,NA,NA,NA,1
+mud skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+mud skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+mud skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+mud skate,NWP,agemat_yr,NA,NA,NA,1
+mud skate,NWP,gsi,NA,NA,NA,1
+mud skate,NWP,maxage_yr,NA,NA,NA,1
+mud skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+mud skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+mud skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+mud skate,WC,agemat_yr,NA,NA,NA,1
+mud skate,WC,gsi,NA,NA,NA,1
+mud skate,WC,maxage_yr,NA,NA,NA,1
+mud skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+mud skate,WC,vbgf_linf_cm,NA,NA,NA,1
+mud skate,WC,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,BC,agemat_yr,NA,NA,NA,1
+pacific sleeper_shark,BC,gsi,NA,NA,NA,1
+pacific sleeper_shark,BC,maxage_yr,NA,NA,NA,1
+pacific sleeper_shark,BC,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,BC,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,BC,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,BS,agemat_yr,NA,NA,NA,1
+pacific sleeper_shark,BS,gsi,NA,NA,NA,1
+pacific sleeper_shark,BS,maxage_yr,NA,NA,NA,1
+pacific sleeper_shark,BS,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,BS,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,BS,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,GOA,agemat_yr,NA,NA,NA,1
+pacific sleeper_shark,GOA,gsi,NA,NA,NA,1
+pacific sleeper_shark,GOA,maxage_yr,NA,NA,NA,1
+pacific sleeper_shark,GOA,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,GOA,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,GOA,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,multi_region,agemat_yr,N Atlantic,Nielsen et al. 2019,156,1
+pacific sleeper_shark,multi_region,agemat_yr,N Atlantic,Nielsen et al. 2020,134,2
+pacific sleeper_shark,multi_region,agemat_yr,N Atlantic,Nielsen et al. 2021,178,3
+pacific sleeper_shark,multi_region,gsi,NA,NA,NA,1
+pacific sleeper_shark,multi_region,maxage_yr,NA,Courtney 2016,100,1
+pacific sleeper_shark,multi_region,maxage_yr,N Atlantic,Nielsen et al. 2016,392,2
+pacific sleeper_shark,multi_region,maxage_yr,N Atlantic,Nielsen et al. 2017,512,3
+pacific sleeper_shark,multi_region,maxage_yr,N Atlantic,Nielsen et al. 2018,272,4
+pacific sleeper_shark,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,multi_region,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,multi_region,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,NWP,agemat_yr,NA,NA,NA,1
+pacific sleeper_shark,NWP,gsi,NA,NA,NA,1
+pacific sleeper_shark,NWP,maxage_yr,NA,NA,NA,1
+pacific sleeper_shark,NWP,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,NWP,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,NWP,vbgf_t0_yr,NA,NA,NA,1
+pacific sleeper_shark,WC,agemat_yr,NA,NA,NA,1
+pacific sleeper_shark,WC,gsi,NA,NA,NA,1
+pacific sleeper_shark,WC,maxage_yr,NA,NA,NA,1
+pacific sleeper_shark,WC,vbgf_k_cm-1,NA,NA,NA,1
+pacific sleeper_shark,WC,vbgf_linf_cm,NA,NA,NA,1
+pacific sleeper_shark,WC,vbgf_t0_yr,NA,NA,NA,1
+roughtail skate,BC,agemat_yr,NA,NA,NA,1
+roughtail skate,BC,gsi,NA,NA,NA,1
+roughtail skate,BC,maxage_yr,NA,NA,NA,1
+roughtail skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+roughtail skate,BC,vbgf_linf_cm,NA,NA,NA,1
+roughtail skate,BC,vbgf_t0_yr,NA,NA,NA,1
+roughtail skate,BS,agemat_yr,BS,Winton 2013,24.7,1
+roughtail skate,BS,gsi,NA,NA,NA,1
+roughtail skate,BS,maxage_yr,BS,Winton 2011 sectioning,30,1
+roughtail skate,BS,maxage_yr,BS,Winton 2011 histology,36,2
+roughtail skate,BS,maxage_yr,BS,Winton 2013,36,3
+roughtail skate,BS,vbgf_k_cm-1,BS,Winton 2011 sectioning,0.064,1
+roughtail skate,BS,vbgf_k_cm-1,BS,Winton 2011 histology,0.031,2
+roughtail skate,BS,vbgf_k_cm-1,BS,Winton 2011,0.038,3
+roughtail skate,BS,vbgf_linf_cm,BS,Winton 2011 sectioning,1050.6,1
+roughtail skate,BS,vbgf_linf_cm,BS,Winton 2011 histology,1323.7,2
+roughtail skate,BS,vbgf_linf_cm,BS,Winton 2011,1192,3
+roughtail skate,BS,vbgf_t0_yr,BS,Winton 2011 sectioning,-3.41,1
+roughtail skate,BS,vbgf_t0_yr,BS,Winton 2011 histology,-3.99,2
+roughtail skate,BS,vbgf_t0_yr,BS,Winton 2013,-3.03,3
+roughtail skate,BS,vbgf_t0_yr,BS,Winton 2011,-3.04,4
+roughtail skate,GOA,agemat_yr,NA,NA,NA,1
+roughtail skate,GOA,gsi,NA,NA,NA,1
+roughtail skate,GOA,maxage_yr,NA,NA,NA,1
+roughtail skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+roughtail skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+roughtail skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+roughtail skate,multi_region,agemat_yr,NA,NA,NA,1
+roughtail skate,multi_region,gsi,NA,NA,NA,1
+roughtail skate,multi_region,maxage_yr,NA,NA,NA,1
+roughtail skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+roughtail skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+roughtail skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+roughtail skate,NWP,agemat_yr,NA,NA,NA,1
+roughtail skate,NWP,gsi,NA,NA,NA,1
+roughtail skate,NWP,maxage_yr,NA,NA,NA,1
+roughtail skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+roughtail skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+roughtail skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+roughtail skate,WC,agemat_yr,WC,Davis 2006,14,1
+roughtail skate,WC,gsi,NA,NA,NA,1
+roughtail skate,WC,maxage_yr,WC,Davis 2006,17,1
+roughtail skate,WC,vbgf_k_cm-1,WC,Davis 2006,0.06,1
+roughtail skate,WC,vbgf_linf_cm,WC,Davis 2006,112.11,1
+roughtail skate,WC,vbgf_t0_yr,WC,Davis 2006,-3.45,1
+salmon shark,BC,agemat_yr,NA,NA,NA,1
+salmon shark,BC,gsi,NA,NA,NA,1
+salmon shark,BC,maxage_yr,NA,NA,NA,1
+salmon shark,BC,vbgf_k_cm-1,NA,NA,NA,1
+salmon shark,BC,vbgf_linf_cm,NA,NA,NA,1
+salmon shark,BC,vbgf_t0_yr,NA,NA,NA,1
+salmon shark,BS,agemat_yr,NA,NA,NA,1
+salmon shark,BS,gsi,NA,NA,NA,1
+salmon shark,BS,maxage_yr,NA,NA,NA,1
+salmon shark,BS,vbgf_k_cm-1,NA,NA,NA,1
+salmon shark,BS,vbgf_linf_cm,NA,NA,NA,1
+salmon shark,BS,vbgf_t0_yr,NA,NA,NA,1
+salmon shark,GOA,agemat_yr,NA,NA,NA,1
+salmon shark,GOA,gsi,NA,NA,NA,1
+salmon shark,GOA,maxage_yr,NA,NA,NA,1
+salmon shark,GOA,vbgf_k_cm-1,NA,NA,NA,1
+salmon shark,GOA,vbgf_linf_cm,NA,NA,NA,1
+salmon shark,GOA,vbgf_t0_yr,NA,NA,NA,1
+salmon shark,multi_region,agemat_yr,NA,NA,NA,1
+salmon shark,multi_region,gsi,NA,NA,NA,1
+salmon shark,multi_region,maxage_yr,Alaska,Goldman 2006,20,1
+salmon shark,multi_region,maxage_yr,California to SE Alaska,Goldman 2006,5,2
+salmon shark,multi_region,vbgf_k_cm-1,NE Pacific,Goldman and Music 2006,0.23,1
+salmon shark,multi_region,vbgf_linf_cm,NE Pacific,Goldman and Music 2006,-1.9,1
+salmon shark,multi_region,vbgf_t0_yr,NE Pacific,Goldman and Music 2006,182.8,1
+salmon shark,NWP,agemat_yr,NA,NA,NA,1
+salmon shark,NWP,gsi,NA,NA,NA,1
+salmon shark,NWP,maxage_yr,NA,NA,NA,1
+salmon shark,NWP,vbgf_k_cm-1,NW Pacific,Tanaka 1980,0.17,1
+salmon shark,NWP,vbgf_linf_cm,NW Pacific,Tanaka 1980,180,1
+salmon shark,NWP,vbgf_t0_yr,NW Pacific,Tanaka 1980,-3.6,1
+salmon shark,WC,agemat_yr,NA,NA,NA,1
+salmon shark,WC,gsi,NA,NA,NA,1
+salmon shark,WC,maxage_yr,NA,NA,NA,1
+salmon shark,WC,vbgf_k_cm-1,NA,NA,NA,1
+salmon shark,WC,vbgf_linf_cm,NA,NA,NA,1
+salmon shark,WC,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,BC,agemat_yr,NA,NA,NA,1
+sandpaper skate,BC,gsi,NA,NA,NA,1
+sandpaper skate,BC,maxage_yr,NA,NA,NA,1
+sandpaper skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+sandpaper skate,BC,vbgf_linf_cm,NA,NA,NA,1
+sandpaper skate,BC,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,BS,agemat_yr,NA,NA,NA,1
+sandpaper skate,BS,gsi,NA,NA,NA,1
+sandpaper skate,BS,maxage_yr,NA,NA,NA,1
+sandpaper skate,BS,vbgf_k_cm-1,NA,NA,NA,1
+sandpaper skate,BS,vbgf_linf_cm,NA,NA,NA,1
+sandpaper skate,BS,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,GOA,agemat_yr,NA,NA,NA,1
+sandpaper skate,GOA,gsi,NA,NA,NA,1
+sandpaper skate,GOA,maxage_yr,NA,NA,NA,1
+sandpaper skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+sandpaper skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+sandpaper skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,multi_region,agemat_yr,GOA/BS,Ebert et al. 2007,10,1
+sandpaper skate,multi_region,gsi,NA,NA,NA,1
+sandpaper skate,multi_region,maxage_yr,GOA/BS,Ebert et al. 2007,13,1
+sandpaper skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+sandpaper skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+sandpaper skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,NWP,agemat_yr,NA,NA,NA,1
+sandpaper skate,NWP,gsi,NA,NA,NA,1
+sandpaper skate,NWP,maxage_yr,NA,NA,NA,1
+sandpaper skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+sandpaper skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+sandpaper skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+sandpaper skate,WC,agemat_yr,NA,NA,NA,1
+sandpaper skate,WC,gsi,NA,NA,NA,1
+sandpaper skate,WC,maxage_yr,WC,Perez 2010,17,1
+sandpaper skate,WC,vbgf_k_cm-1,WC,Perez 2010,0.21,1
+sandpaper skate,WC,vbgf_linf_cm,WC,Perez 2010,55.78,1
+sandpaper skate,WC,vbgf_t0_yr,WC,Perez 2010,-2.1,1
+spiny dogfish,BC,agemat_yr,BC,Saunders and McFarlane 1993,35.5,1
+spiny dogfish,BC,agemat_yr,BC,Jones and Geen 1977,29,2
+spiny dogfish,BC,agemat_yr,Hecate ST/BC,Ketchen 1972,34,3
+spiny dogfish,BC,agemat_yr,BC,Smith 1998,25,4
+spiny dogfish,BC,gsi,NA,NA,NA,1
+spiny dogfish,BC,maxage_yr,BC,Smith 1998 (Hoenig 1983),70,1
+spiny dogfish,BC,maxage_yr,BC,Saunders and McFarlane 1993,81,2
+spiny dogfish,BC,maxage_yr,BC,G. McFarlane (pers comm),107,3
+spiny dogfish,BC,maxage_yr,BC,Smith 1998,70,4
+spiny dogfish,BC,maxage_yr,BC,Munk 2001,66,5
+spiny dogfish,BC,vbgf_k_cm-1,Hecate ST/BC,Ketchen 1972,0.031,1
+spiny dogfish,BC,vbgf_k_cm-1,BC,Saunders and McFarlane 1993,0.0437,2
+spiny dogfish,BC,vbgf_linf_cm,Hecate ST/BC,Ketchen 1972,125.1,1
+spiny dogfish,BC,vbgf_linf_cm,BC,Saunders and McFarlane 1993,114.94,2
+spiny dogfish,BC,vbgf_t0_yr,Hecate ST/BC,Ketchen 1972,-10.6,1
+spiny dogfish,BC,vbgf_t0_yr,BC,Saunders and McFarlane 1993,-3.557,2
+spiny dogfish,BS,agemat_yr,NA,NA,NA,1
+spiny dogfish,BS,gsi,NA,NA,NA,1
+spiny dogfish,BS,maxage_yr,NA,NA,NA,1
+spiny dogfish,BS,vbgf_k_cm-1,NA,NA,NA,1
+spiny dogfish,BS,vbgf_linf_cm,NA,NA,NA,1
+spiny dogfish,BS,vbgf_t0_yr,NA,NA,NA,1
+spiny dogfish,GOA,agemat_yr,GOA,Tribuzio et al. 2010,36.1,1
+spiny dogfish,GOA,agemat_yr,GOA,Tribuzio and Kruse 2012,36,2
+spiny dogfish,GOA,gsi,GOA,Tribuzio and Kruse 2012,0.04,1
+spiny dogfish,GOA,maxage_yr,GOA,C Tribuzio per observation,48,1
+spiny dogfish,GOA,vbgf_k_cm-1,GOA,Tribuzio et al. 2010,0.034,1
+spiny dogfish,GOA,vbgf_k_cm-1,GOA,Tribuzio 2010,0.034,2
+spiny dogfish,GOA,vbgf_linf_cm,GOA,Tribuzio et al. 2010,121.4,1
+spiny dogfish,GOA,vbgf_linf_cm,GOA,Tribuzio 2010,121.4,2
+spiny dogfish,GOA,vbgf_t0_yr,GOA,Tribuzio et al. 2010,-12.1,1
+spiny dogfish,GOA,vbgf_t0_yr,GOA,Tribuzio 2010,-12.1,2
+spiny dogfish,multi_region,agemat_yr,NA,NA,NA,1
+spiny dogfish,multi_region,gsi,NA,NA,NA,1
+spiny dogfish,multi_region,maxage_yr,NA,NA,NA,1
+spiny dogfish,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+spiny dogfish,multi_region,vbgf_linf_cm,NA,NA,NA,1
+spiny dogfish,multi_region,vbgf_t0_yr,NA,NA,NA,1
+spiny dogfish,NWP,agemat_yr,NA,NA,NA,1
+spiny dogfish,NWP,gsi,NA,NA,NA,1
+spiny dogfish,NWP,maxage_yr,NA,NA,NA,1
+spiny dogfish,NWP,vbgf_k_cm-1,NA,NA,NA,1
+spiny dogfish,NWP,vbgf_linf_cm,NA,NA,NA,1
+spiny dogfish,NWP,vbgf_t0_yr,NA,NA,NA,1
+spiny dogfish,WC,agemat_yr,WC,Richards 2005,28,1
+spiny dogfish,WC,gsi,NA,NA,NA,1
+spiny dogfish,WC,maxage_yr,WOC,AFSC max age,88,1
+spiny dogfish,WC,maxage_yr,WOC,AFSC mean top 5,81.6,2
+spiny dogfish,WC,vbgf_k_cm-1,WC,Richards 2005,0.0201,1
+spiny dogfish,WC,vbgf_linf_cm,WC,Richards 2005,163.63,1
+spiny dogfish,WC,vbgf_t0_yr,WC,Richards 2005,-9.5056,1
+whiteblotched skate,BC,agemat_yr,NA,NA,NA,1
+whiteblotched skate,BC,gsi,NA,NA,NA,1
+whiteblotched skate,BC,maxage_yr,NA,NA,NA,1
+whiteblotched skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+whiteblotched skate,BC,vbgf_linf_cm,NA,NA,NA,1
+whiteblotched skate,BC,vbgf_t0_yr,NA,NA,NA,1
+whiteblotched skate,BS,agemat_yr,BS,Maurer 2009,26,1
+whiteblotched skate,BS,agemat_yr,BS,Maurer 2009,22,2
+whiteblotched skate,BS,agemat_yr,BS,Maurer 2009,26,3
+whiteblotched skate,BS,agemat_yr,BS,Maurer 2009,22,4
+whiteblotched skate,BS,gsi,NA,NA,NA,1
+whiteblotched skate,BS,maxage_yr,BS,Maurer 2009,36,1
+whiteblotched skate,BS,maxage_yr,BS,Maurer 2009,32,2
+whiteblotched skate,BS,maxage_yr,BS,Maurer 2009,33,3
+whiteblotched skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.02,1
+whiteblotched skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.0264,2
+whiteblotched skate,BS,vbgf_k_cm-1,BS,Maurer 2009,0.0362,3
+whiteblotched skate,BS,vbgf_linf_cm,BS,Maurer 2009,169.6,1
+whiteblotched skate,BS,vbgf_linf_cm,BS,Maurer 2009,169.56,2
+whiteblotched skate,BS,vbgf_linf_cm,BS,Maurer 2009,155.6,3
+whiteblotched skate,BS,vbgf_t0_yr,BS,Maurer 2009,-5.41,1
+whiteblotched skate,BS,vbgf_t0_yr,BS,Maurer 2009,-5.414,2
+whiteblotched skate,BS,vbgf_t0_yr,BS,Maurer 2009,-4.251,3
+whiteblotched skate,GOA,agemat_yr,NA,NA,NA,1
+whiteblotched skate,GOA,gsi,NA,NA,NA,1
+whiteblotched skate,GOA,maxage_yr,NA,NA,NA,1
+whiteblotched skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+whiteblotched skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+whiteblotched skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+whiteblotched skate,multi_region,agemat_yr,NA,NA,NA,1
+whiteblotched skate,multi_region,gsi,NA,NA,NA,1
+whiteblotched skate,multi_region,maxage_yr,NA,NA,NA,1
+whiteblotched skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+whiteblotched skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+whiteblotched skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+whiteblotched skate,NWP,agemat_yr,NA,NA,NA,1
+whiteblotched skate,NWP,gsi,NA,NA,NA,1
+whiteblotched skate,NWP,maxage_yr,NA,NA,NA,1
+whiteblotched skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+whiteblotched skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+whiteblotched skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+whiteblotched skate,WC,agemat_yr,NA,NA,NA,1
+whiteblotched skate,WC,gsi,NA,NA,NA,1
+whiteblotched skate,WC,maxage_yr,NA,NA,NA,1
+whiteblotched skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+whiteblotched skate,WC,vbgf_linf_cm,NA,NA,NA,1
+whiteblotched skate,WC,vbgf_t0_yr,NA,NA,NA,1
+whitebrow skate,BC,agemat_yr,NA,NA,NA,1
+whitebrow skate,BC,gsi,NA,NA,NA,1
+whitebrow skate,BC,maxage_yr,NA,NA,NA,1
+whitebrow skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+whitebrow skate,BC,vbgf_linf_cm,NA,NA,NA,1
+whitebrow skate,BC,vbgf_t0_yr,NA,NA,NA,1
+whitebrow skate,BS,agemat_yr,BS,Ainsley 2011,24,1
+whitebrow skate,BS,gsi,NA,NA,NA,1
+whitebrow skate,BS,maxage_yr,BS,Ainsley 2011,37,1
+whitebrow skate,BS,vbgf_k_cm-1,BS,Ainsley 2011,0.0162,1
+whitebrow skate,BS,vbgf_linf_cm,BS,Ainsley 2011,171.9,1
+whitebrow skate,BS,vbgf_t0_yr,BS,Ainsley 2011,-6.6565,1
+whitebrow skate,GOA,agemat_yr,NA,NA,NA,1
+whitebrow skate,GOA,gsi,NA,NA,NA,1
+whitebrow skate,GOA,maxage_yr,NA,NA,NA,1
+whitebrow skate,GOA,vbgf_k_cm-1,NA,NA,NA,1
+whitebrow skate,GOA,vbgf_linf_cm,NA,NA,NA,1
+whitebrow skate,GOA,vbgf_t0_yr,NA,NA,NA,1
+whitebrow skate,multi_region,agemat_yr,NA,NA,NA,1
+whitebrow skate,multi_region,gsi,NA,NA,NA,1
+whitebrow skate,multi_region,maxage_yr,NA,NA,NA,1
+whitebrow skate,multi_region,vbgf_k_cm-1,NA,NA,NA,1
+whitebrow skate,multi_region,vbgf_linf_cm,NA,NA,NA,1
+whitebrow skate,multi_region,vbgf_t0_yr,NA,NA,NA,1
+whitebrow skate,NWP,agemat_yr,NA,NA,NA,1
+whitebrow skate,NWP,gsi,NA,NA,NA,1
+whitebrow skate,NWP,maxage_yr,NA,NA,NA,1
+whitebrow skate,NWP,vbgf_k_cm-1,NA,NA,NA,1
+whitebrow skate,NWP,vbgf_linf_cm,NA,NA,NA,1
+whitebrow skate,NWP,vbgf_t0_yr,NA,NA,NA,1
+whitebrow skate,WC,agemat_yr,NA,NA,NA,1
+whitebrow skate,WC,gsi,NA,NA,NA,1
+whitebrow skate,WC,maxage_yr,NA,NA,NA,1
+whitebrow skate,WC,vbgf_k_cm-1,NA,NA,NA,1
+whitebrow skate,WC,vbgf_linf_cm,NA,NA,NA,1
+whitebrow skate,WC,vbgf_t0_yr,NA,NA,NA,1

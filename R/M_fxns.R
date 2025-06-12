@@ -1,8 +1,8 @@
-# Formulas for the four natural mortality estimators selected for this study.
+# Formulas for the natural mortality estimators selected for this study.
 # See further rationale for the selection of these estimators at
-# https://docs.google.com/spreadsheets/d/1NQJJwwhiUOaMHUCJ4ETbPH_UBzjgCfqsWeowf-lTmF0/edit#gid=0
+# https://docs.google.com/spreadsheets/d/1cj5mtrbQ4w2GCJTK-mRY-rKKBnhm2e1yedlw9KMfXuo/edit?gid=0#gid=0
 
-# Last updated Feb 2022
+# Last updated June 2025
 
 # References ----
 # Gunderson, D. R. 1997. Trade-off between reproductive effort and adult
@@ -11,10 +11,16 @@
 # Hamel, O. S. 2015. A method for calculating a meta-analytical prior for the
 # natural mortality rate using multiple life history correlates. – ICES Journal
 # of Marine Science, 72: 62–69.
+# Hamel, O. S. and J. M. Cope. 2022. Development and considerations for application
+# of a longevity-based prior for the natural mortality rate. Fisheries Research 256: 106477
 # Then, A. Y., Hoenig, J. M., Hall, N. G., and Hewitt, D. A. 2015. Evaluating the
 # predictive performance of empirical estimators of natural mortality rate using
 # information on over 200 fish species. – ICES Journal of Marine Science, 72:
 # 82–92.
+# Jensen 1996 (pull code from NMT)
+# Zhang and Megrey 2006
+# Frisk et al. 2001
+# Hisano et al. 2011
 # Natural Mortality Tool (NMT) Jason Cope https://github.com/shcaba/Natural-Mortality-Tool
 
 # M estimator functions ----
@@ -50,22 +56,23 @@ calcM_gsi <- function(input_gsi) {
   return(out)
 }
 
+###### Omitted, not applicable to elasmos
 # McCoy and Gillooly 2008 and reformulation in Hamel 2015. 
-calcM_mass_temp <-function(input_dry_mass, # grams
-                           input_temp # Celsius
-) {
+#calcM_mass_temp <-function(input_dry_mass, # grams
+#                           input_temp # Celsius
+#) {
   # see equations 1 and 2 in McCoy and Gillooly 2008  and equation 17 in Hamel
   # 2015 for definitions. The one difference is that the value of -7540 is
   # expressed as -eV/K in equation 17 in Hamel 2015, where K=Boltzmann's
   # constant=8.62e-5, and
   # eV=0.65.
-  if(is.na(input_dry_mass) | is.na(input_temp)) {
-    out <- NA
-  } else { 
-  out <- 3.2 * ((input_dry_mass / 4)^ -0.27) * exp(-7540 * ((1 / (273 + input_temp))- (1 / 293.15)))
-  }
-  return(out)
-}
+#  if(is.na(input_dry_mass) | is.na(input_temp)) {
+#    out <- NA
+#  } else { 
+#  out <- 3.2 * ((input_dry_mass / 4)^ -0.27) * exp(-7540 * ((1 / (273 + input_temp))- (1 / 293.15)))
+#  }
+#  return(out)
+#}
 
 # Then et al 2015 revision of the Pauly (1980) estimator that omits
 # temperature (see Table 1 in Then et al 2015, M=ak^(b)*Linf^(c)). Then et al
@@ -84,8 +91,6 @@ calcM_lvb <-function(input_linf, # cm
   return(out)
 }
 
-# I think we're omitting this one:
-
 # Zhang and Megrey (2006). This estimator is a modification of the Alverson and
 # Carney 1975 method and is reformulated to include beta and t0 parameters.
 # Emailed Jason C 2022-03-14 about whether or not its ok to use length-based
@@ -97,9 +102,42 @@ calcM_lvb <-function(input_linf, # cm
 # and Carney 1975. Also in email correspondence with Jason Cope 2022-03-14, he
 # said that this estimator routinely performs poorly
 
-# M_ZM_AC<-function(k,Amax,t0) {
-#   Mvals.out<-c(NA,NA)
-#   Mvals.out[1]<- (3*k)/(exp(k*((0.302 * Amax)-t0))-1) # pelagic - not relevant for our study
-#   Mvals.out[2]<- (3*k)/(exp(k*((0.44 * Amax)-t0))-1) # demersal
-#   return(Mvals.out) 
-# }
+ M_ZM_AC<-function(k,Amax,t0) {
+   Mvals.out<-c(NA,NA)
+#  Mvals.out[1]<- (3*k)/(exp(k*((0.302 * Amax)-t0))-1) # pelagic - not relevant for our study
+   Mvals.out[2]<- (3*k)/(exp(k*((0.44 * Amax)-t0))-1) # demersal
+   return(Mvals.out) 
+ }
+
+ ######
+ #add in new functions below here
+ 
+ 
+# Hamel_k
+ 
+ Hamel_M_k<-function(k)
+ {
+   M_val_Hamel_k<-k*1.55
+   return(M_val_Hamel_k)
+ }
+ 
+# Jensen_k1
+# Jensen_k2
+ 
+ Jensen_M_k<-function(k)
+ {
+   M_val_Jensen_k<-k*c(1.5,1.6)
+   return(M_val_Jensen_k)
+ }
+# Frisk_k
+ # approximation from ln(M)=0.42*ln(k)-0.83 
+ # M~0.436*k^0.42 because 0.436 is rounded, so close enough
+# Fristk_tmat
+ # M=9/(0.44tmat+1.87)
+# Hisano_tmat
+ Hisano_M_amat<-function(Amat, t0)
+ {
+   M_val_Hisano<-1.65/(Amat - t0)
+   return(M_val_Hisano)
+ }
+ 
