@@ -1,106 +1,285 @@
-species,area,version,data_input,data_input_values,M_estimate,references
-alaska skate,BS,1,Max age (y),26,0.208,AFSC max age
-alaska skate,BS,2,Max age (y),18,0.300,AFSC mean top 5
-alaska skate,BS,3,Max age (y),17,0.318,Matta and Gunderson 2007
-alaska skate,BS,1,VBGF Linf (cm) / k,144.6 / 0.087,0.134,Matta and Gunderson 2007
-aleutian skate,BS,1,Max age (y),17,0.318,Haas 2011
-aleutian skate,BS,1,VBGF Linf (cm) / k,162.1 / 0.130,0.173,Haas 2011
-aleutian skate,BS,2,NA,NA,0.184,Ebert et al. 2007
-aleutian skate,BS,3,NA,NA,0.151,Haas 2011
-aleutian skate,BS,4,VBGF Linf (cm) / k,172.6 / 0.110,0.150,Ebert et al. 2007
-aleutian skate,GOA,1,Max age (y),19,0.284,Haas 2011
-aleutian skate,GOA,1,VBGF Linf (cm) / k,160.0 / 0.110,0.154,Haas 2011
-aleutian skate,GOA,2,VBGF Linf (cm) / k,138.2 / 0.150,0.202,Haas 2011
-bering skate,BS,1,Max age (y),21,0.257,Ainsley 2014
-bering skate,BS,1,VBGF Linf (cm) / k,104.9 / 0.072,0.130,Ainsley 2009
-bering skate,BS,2,VBGF Linf (cm) / k,104.9 / 0.070,0.127,Ainsley 2014
-bering skate,GOA,1,Max age (y),21,0.257,Ainsley 2014
-bering skate,GOA,1,VBGF Linf (cm) / k,114.4 / 0.061,0.112,Ainsley 2009
-bering skate,GOA,2,VBGF Linf (cm) / k,114.4 / 0.060,0.110,Ainsley 2014
-big skate,BC,1,Max age (y),26,0.208,Gburski 2007
-big skate,BC,2,Max age (y),26,0.208,McFarlane et al. 2006
-big skate,BC,1,VBGF Linf (cm) / k,293.5 / 0.040,0.060,Gburski 2007
-big skate,BC,2,VBGF Linf (cm) / k,719.8 / 0.020,0.027,"King 2010, GROTAG"
-big skate,BC,3,VBGF Linf (cm) / k,151.1 / 0.060,0.101,"King 2010, Fabens"
-big skate,BC,4,VBGF Linf (cm) / k,293.5 / 0.040,0.060,McFarlane et al. 2006
-big skate,BC,5,VBGF Linf (cm) / k,293.4 / 0.040,0.060,McFarlane et al. 2010
-big skate,GOA,1,Max age (y),13,0.415,AFSC max age
-big skate,GOA,2,Max age (y),12,0.444,AFSC mean top 5
-big skate,GOA,3,Max age (y),14,0.386,Gburski 2007
-big skate,GOA,1,VBGF Linf (cm) / k,247.5 / 0.080,0.105,Gburski 2007
-big skate,WC,1,Max age (y),12,0.450,Zeiner and Wolf 1993
-blue shark,North Pacific,1,VBGF Linf (cm) / k,317.4 / 0.172,0.170,Hsu et al. 2011
-blue shark,North Pacific,2,VBGF Linf (cm) / k,241.9 / 0.251,0.245,Cailliet and Bedford 1983
-blue shark,North Pacific,3,VBGF Linf (cm) / k,322.6 / 0.144,0.148,Nakano 1994
-commander skate,BS,1,Max age (y),35,0.154,Maurer 2009
-commander skate,BS,2,Max age (y),32,0.169,Maurer 2009
-commander skate,BS,3,Max age (y),32,0.169,Maurer 2009
-commander skate,BS,1,VBGF Linf (cm) / k,119.3 / 0.040,0.081,Maurer 2009
-commander skate,BS,2,VBGF Linf (cm) / k,119.3 / 0.045,0.089,Maurer 2009
-commander skate,BS,3,VBGF Linf (cm) / k,132.0 / 0.042,0.081,Maurer 2009
-longnose skate,BC,1,Max age (y),26,0.208,Gburski 2007
-longnose skate,BC,2,Max age (y),26,0.208,McFarlane and King 2006
-longnose skate,BC,1,VBGF Linf (cm) / k,137.2 / 0.060,0.104,Gburski 2007
-longnose skate,BC,2,VBGF Linf (cm) / k,1372.0 / 0.060,0.049,McFarlane and King 2006
-longnose skate,GOA,1,Max age (y),23,0.235,AFSC max age
-longnose skate,GOA,2,Max age (y),22,0.249,AFSC mean top 5
-longnose skate,GOA,3,Max age (y),18,0.300,Arrington 2020
-longnose skate,GOA,4,Max age (y),24,0.225,Gburski 2007
-longnose skate,GOA,1,VBGF Linf (cm) / k,251.0 / 0.040,0.063,Arrington 2020
-longnose skate,GOA,2,VBGF Linf (cm) / k,234.1 / 0.037,0.061,Gburski 2007
-longnose skate,"GOA, BC",1,Max age (y),20,0.270,Arrington 2020
-longnose skate,"GOA, BC",1,VBGF Linf (cm) / k,221.0 / 0.040,0.066,Arrington 2020
-longnose skate,WC,1,Max age (y),22,0.245,Gertseva 2019
-longnose skate,WC,2,Max age (y),19,0.284,Arrington 2020
-longnose skate,WC,3,Max age (y),22,0.245,Gburski 2007
-longnose skate,WC,4,Max age (y),23,0.235,"Thompson 2005, north CA"
-longnose skate,WC,5,Max age (y),16,0.338,"Thompson 2005, south CA"
-longnose skate,WC,6,Max age (y),12,0.450,Zeiner and Wolf 1993
-longnose skate,WC,1,GSI,0.0163,0.030,Thompson 2005
-longnose skate,WC,1,VBGF Linf (cm) / k,210.0 / 0.040,0.067,Arrington 2020
-longnose skate,WC,2,VBGF Linf (cm) / k,180.9 / 0.051,0.085,Thompson 2005
-longnose skate,WC,3,VBGF Linf (cm) / k,104.7 / 0.160,0.232,Zeiner and Wolf 1993
-mud skate,BS,1,Max age (y),14,0.386,Ebert et al. 2009
-mud skate,BS,2,Max age (y),14,0.386,Ebert et al. 2009
-mud skate,BS,1,VBGF Linf (cm) / k,85.4 / 0.111,0.190,Ebert et al. 2009
-mud skate,BS,2,VBGF Linf (cm) / k,78.1 / 0.132,0.223,Ebert et al. 2009
-pacific sleeper_shark,NA,1,Max age (y),100,0.054,Courtney 2016
-pacific sleeper_shark,N Atlantic,2,Max age (y),392,0.014,Nielsen et al. 2016
-pacific sleeper_shark,N Atlantic,3,Max age (y),512,0.011,Nielsen et al. 2017
-pacific sleeper_shark,N Atlantic,4,Max age (y),272,0.020,Nielsen et al. 2018
-roughtail skate,BS,1,Max age (y),30,0.180,Winton 2011 sectioning
-roughtail skate,BS,2,Max age (y),36,0.150,Winton 2011 histology
-roughtail skate,BS,3,Max age (y),36,0.150,Winton 2013
-roughtail skate,BS,1,VBGF Linf (cm) / k,1050.6 / 0.064,0.056,Winton 2011 sectioning
-roughtail skate,BS,2,VBGF Linf (cm) / k,1323.7 / 0.031,0.030,Winton 2011 histology
-roughtail skate,BS,3,VBGF Linf (cm) / k,1192.0 / 0.038,0.036,Winton 2011
-roughtail skate,WC,1,Max age (y),17,0.318,Davis 2006
-roughtail skate,WC,1,VBGF Linf (cm) / k,112.1 / 0.060,0.111,Davis 2006
-salmon shark,Alaska,1,Max age (y),20,0.270,Goldman 2006
-salmon shark,California to SE Alaska,2,Max age (y),5,1.080,Goldman 2006
-salmon shark,NWP,1,VBGF Linf (cm) / k,180.0 / 0.170,0.203,Tanaka 1980
-sandpaper skate,GOA/BS,1,Max age (y),13,0.415,Ebert et al. 2007
-sandpaper skate,WC,1,Max age (y),17,0.318,Perez 2010
-sandpaper skate,WC,1,VBGF Linf (cm) / k,55.8 / 0.210,0.349,Perez 2010
-spiny dogfish,BC,1,Max age (y),70,0.077,Smith 1998 (Hoenig 1983)
-spiny dogfish,BC,2,Max age (y),81,0.067,Saunders and McFarlane 1993
-spiny dogfish,BC,3,Max age (y),107,0.050,G. McFarlane (pers comm)
-spiny dogfish,BC,4,Max age (y),70,0.077,Smith 1998
-spiny dogfish,BC,5,Max age (y),66,0.082,Munk 2001
-spiny dogfish,BC,1,VBGF Linf (cm) / k,125.1 / 0.031,0.066,Ketchen 1972
-spiny dogfish,BC,2,VBGF Linf (cm) / k,114.9 / 0.044,0.087,Saunders and McFarlane 1993
-spiny dogfish,GOA,1,Max age (y),48,0.112,C Tribuzio per observation
-spiny dogfish,GOA,1,GSI,0.0400,0.073,Tribuzio and Kruse 2012
-spiny dogfish,GOA,1,VBGF Linf (cm) / k,121.4 / 0.034,0.071,Tribuzio et al. 2010
-spiny dogfish,GOA,2,VBGF Linf (cm) / k,121.4 / 0.034,0.071,Tribuzio 2010
-spiny dogfish,WC,1,Max age (y),88,0.061,AFSC max age
-spiny dogfish,WC,2,Max age (y),82,0.066,AFSC mean top 5
-spiny dogfish,WC,1,VBGF Linf (cm) / k,163.6 / 0.020,0.044,Richards 2005
-whiteblotched skate,BS,1,Max age (y),36,0.150,Maurer 2009
-whiteblotched skate,BS,2,Max age (y),32,0.169,Maurer 2009
-whiteblotched skate,BS,3,Max age (y),33,0.164,Maurer 2009
-whiteblotched skate,BS,1,VBGF Linf (cm) / k,169.6 / 0.020,0.043,Maurer 2009
-whiteblotched skate,BS,2,VBGF Linf (cm) / k,169.6 / 0.026,0.053,Maurer 2009
-whiteblotched skate,BS,3,VBGF Linf (cm) / k,155.6 / 0.036,0.069,Maurer 2009
-whitebrow skate,BS,1,Max age (y),37,0.146,Ainsley 2011
-whitebrow skate,BS,1,VBGF Linf (cm) / k,171.9 / 0.016,0.037,Ainsley 2011
+species,area,M_method,data_input,data_input_values,M_estimate,references
+alaska skate,BS,amax.v1,Max age (y),26,0.208,AFSC max age
+alaska skate,BS,amax.v2,Max age (y),18,0.300,AFSC mean top 5
+alaska skate,BS,amax.v3,Max age (y),17,0.318,Matta and Gunderson 2007
+aleutian skate,BS,amax.v1,Max age (y),17,0.318,Haas 2011
+aleutian skate,GOA,amax.v1,Max age (y),19,0.284,Haas 2011
+bering skate,BS,amax.v1,Max age (y),21,0.257,Ainsley 2014
+bering skate,GOA,amax.v1,Max age (y),21,0.257,Ainsley 2014
+big skate,BC,amax.v1,Max age (y),26,0.208,Gburski 2007
+big skate,BC,amax.v2,Max age (y),26,0.208,McFarlane et al. 2006
+big skate,GOA,amax.v1,Max age (y),13,0.415,AFSC max age
+big skate,GOA,amax.v2,Max age (y),12,0.444,AFSC mean top 5
+big skate,GOA,amax.v3,Max age (y),14,0.386,Gburski 2007
+big skate,WC,amax.v1,Max age (y),12,0.450,Zeiner and Wolf 1993
+commander skate,BS,amax.v1,Max age (y),35,0.154,"Maurer 2009, overall"
+commander skate,BS,amax.v2,Max age (y),32,0.169,"Maurer 2009, gross"
+longnose skate,BC,amax.v1,Max age (y),26,0.208,Gburski 2007
+longnose skate,GOA,amax.v1,Max age (y),23,0.235,AFSC max age
+longnose skate,GOA,amax.v2,Max age (y),22,0.249,AFSC mean top 5
+longnose skate,GOA,amax.v3,Max age (y),18,0.300,Arrington 2020
+longnose skate,GOA,amax.v4,Max age (y),24,0.225,Gburski 2007
+longnose skate,"GOA, BC",amax.v1,Max age (y),20,0.270,Arrington 2020
+longnose skate,WC,amax.v1,Max age (y),22,0.245,Gertseva 2019
+longnose skate,WC,amax.v2,Max age (y),19,0.284,Arrington 2020
+longnose skate,WC,amax.v3,Max age (y),22,0.245,Gburski 2007
+longnose skate,WC,amax.v4,Max age (y),23,0.235,"Thompson 2005, north CA"
+longnose skate,WC,amax.v5,Max age (y),16,0.338,"Thompson 2005, south CA"
+longnose skate,WC,amax.v6,Max age (y),12,0.450,Zeiner and Wolf 1993
+longnose skate,WC,gsi.v1,GSI,0.0163,0.030,Thompson 2005
+mud skate,BS,amax.v1,Max age (y),14,0.386,Ebert et al. 2009
+mud skate,BS,amax.v2,Max age (y),14,0.386,Ebert et al. 2009
+pacific sleeper_shark,NA,amax.v1,Max age (y),100,0.054,Courtney 2016
+pacific sleeper_shark,N Atlantic,amax.v2,Max age (y),392,0.014,Nielsen et al. 2016
+pacific sleeper_shark,N Atlantic,amax.v3,Max age (y),512,0.011,Nielsen et al. 2017
+pacific sleeper_shark,N Atlantic,amax.v4,Max age (y),272,0.020,Nielsen et al. 2018
+roughtail skate,BS,amax.v1,Max age (y),30,0.180,Winton 2011 sectioning
+roughtail skate,BS,amax.v2,Max age (y),36,0.150,Winton 2011 histology
+roughtail skate,BS,amax.v3,Max age (y),36,0.150,Winton 2013
+roughtail skate,WC,amax.v1,Max age (y),17,0.318,Davis 2006
+salmon shark,Alaska,amax.v1,Max age (y),20,0.270,Goldman 2006
+salmon shark,California to SE Alaska,amax.v2,Max age (y),5,1.080,Goldman 2006
+sandpaper skate,WC,amax.v1,Max age (y),17,0.318,Perez 2010
+spiny dogfish,BC,amax.v1,Max age (y),70,0.077,Smith 1998 (Hoenig 1983)
+spiny dogfish,BC,amax.v2,Max age (y),81,0.067,Saunders and McFarlane 1993
+spiny dogfish,BC,amax.v3,Max age (y),107,0.050,G. McFarlane (pers comm)
+spiny dogfish,BC,amax.v4,Max age (y),70,0.077,Smith 1998
+spiny dogfish,BC,amax.v5,Max age (y),66,0.082,Munk 2001
+spiny dogfish,GOA,amax.v1,Max age (y),48,0.112,C Tribuzio per observation
+spiny dogfish,GOA,gsi.v1,GSI,0.0400,0.073,Tribuzio and Kruse 2012
+spiny dogfish,WC,amax.v1,Max age (y),88,0.061,AFSC max age
+spiny dogfish,WC,amax.v2,Max age (y),82,0.066,AFSC mean top 5
+whiteblotched skate,BS,amax.v1,Max age (y),36,0.150,Maurer 2009
+whiteblotched skate,BS,amax.v2,Max age (y),32,0.169,Maurer 2009
+whiteblotched skate,BS,amax.v3,Max age (y),33,0.164,Maurer 2009
+whitebrow skate,BS,amax.v1,Max age (y),37,0.146,Ainsley 2011
+alaska skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),144.6 / 0.087,0.134,Matta and Gunderson 2007
+aleutian skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),162.1 / 0.130,0.173,Haas 2011
+aleutian skate,BS,then.v4,VBGF Linf (cm) / k (cm-1),172.6 / 0.110,0.150,Ebert et al. 2007
+aleutian skate,GOA,then.v1,VBGF Linf (cm) / k (cm-1),160.0 / 0.110,0.154,Haas 2011
+aleutian skate,GOA,then.v2,VBGF Linf (cm) / k (cm-1),138.2 / 0.150,0.202,Haas 2011
+bering skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),104.9 / 0.072,0.130,Ainsley 2009
+bering skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),104.9 / 0.070,0.127,Ainsley 2014
+bering skate,GOA,then.v1,VBGF Linf (cm) / k (cm-1),114.4 / 0.061,0.112,Ainsley 2009
+bering skate,GOA,then.v2,VBGF Linf (cm) / k (cm-1),114.4 / 0.060,0.110,Ainsley 2014
+big skate,BC,then.v1,VBGF Linf (cm) / k (cm-1),293.5 / 0.040,0.060,Gburski 2007
+big skate,BC,then.v2,VBGF Linf (cm) / k (cm-1),719.8 / 0.020,0.027,"King 2010, GROTAG"
+big skate,BC,then.v3,VBGF Linf (cm) / k (cm-1),151.1 / 0.060,0.101,"King 2010, Fabens"
+big skate,BC,then.v4,VBGF Linf (cm) / k (cm-1),293.5 / 0.040,0.060,McFarlane et al. 2006
+big skate,BC,then.v5,VBGF Linf (cm) / k (cm-1),293.4 / 0.040,0.060,McFarlane et al. 2010
+big skate,GOA,then.v1,VBGF Linf (cm) / k (cm-1),247.5 / 0.080,0.105,Gburski 2007
+commander skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),132.0 / 0.042,0.081,"Maurer 2009, gross"
+longnose skate,BC,then.v1,VBGF Linf (cm) / k (cm-1),137.2 / 0.060,0.104,Gburski 2007
+longnose skate,GOA,then.v1,VBGF Linf (cm) / k (cm-1),251.0 / 0.040,0.063,Arrington 2020
+longnose skate,GOA,then.v2,VBGF Linf (cm) / k (cm-1),234.1 / 0.037,0.061,Gburski 2007
+longnose skate,"GOA, BC",then.v1,VBGF Linf (cm) / k (cm-1),221.0 / 0.040,0.066,Arrington 2020
+longnose skate,WC,then.v1,VBGF Linf (cm) / k (cm-1),210.0 / 0.040,0.067,Arrington 2020
+longnose skate,WC,then.v2,VBGF Linf (cm) / k (cm-1),180.9 / 0.051,0.085,Thompson 2005
+longnose skate,WC,then.v3,VBGF Linf (cm) / k (cm-1),104.7 / 0.160,0.232,Zeiner and Wolf 1993
+mud skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),85.4 / 0.111,0.190,Ebert et al. 2009
+mud skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),78.1 / 0.132,0.223,Ebert et al. 2009
+roughtail skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),1050.6 / 0.064,0.056,Winton 2011 sectioning
+roughtail skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),1323.7 / 0.031,0.030,Winton 2011 histology
+roughtail skate,BS,then.v3,VBGF Linf (cm) / k (cm-1),1192.0 / 0.038,0.036,Winton 2011
+roughtail skate,WC,then.v1,VBGF Linf (cm) / k (cm-1),112.1 / 0.060,0.111,Davis 2006
+salmon shark,NWP,then.v1,VBGF Linf (cm) / k (cm-1),180.0 / 0.170,0.203,Tanaka 1980
+sandpaper skate,WC,then.v1,VBGF Linf (cm) / k (cm-1),55.8 / 0.210,0.349,Perez 2010
+spiny dogfish,BC,then.v1,VBGF Linf (cm) / k (cm-1),125.1 / 0.031,0.066,Ketchen 1972
+spiny dogfish,BC,then.v2,VBGF Linf (cm) / k (cm-1),114.9 / 0.044,0.087,Saunders and McFarlane 1993
+spiny dogfish,GOA,then.v1,VBGF Linf (cm) / k (cm-1),121.4 / 0.034,0.071,Tribuzio et al. 2010
+spiny dogfish,GOA,then.v2,VBGF Linf (cm) / k (cm-1),121.4 / 0.034,0.071,Tribuzio 2010
+spiny dogfish,WC,then.v1,VBGF Linf (cm) / k (cm-1),163.6 / 0.020,0.044,Richards 2005
+whiteblotched skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),169.6 / 0.020,0.043,Maurer 2009
+whiteblotched skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),169.6 / 0.026,0.053,Maurer 2009
+whiteblotched skate,BS,then.v3,VBGF Linf (cm) / k (cm-1),155.6 / 0.036,0.069,Maurer 2009
+whitebrow skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),171.9 / 0.016,0.037,Ainsley 2011
+alaska skate,BS,frisk_tmat.v1,Age at Maturity (yr),10.0,0.159,Matta and Gunderson 2007
+aleutian skate,BS,frisk_tmat.v1,Age at Maturity (yr),10.2,0.157,Ebert et al. 2007
+big skate,BC,frisk_tmat.v1,Age at Maturity (yr),8.0,0.186,McFarlane et al. 2006
+commander skate,BS,frisk_tmat.v1,Age at Maturity (yr),21.1,0.090,"Maurer 2009, histo"
+commander skate,BS,frisk_tmat.v2,Age at Maturity (yr),17.5,0.104,"Maurer 2009, gross"
+longnose skate,GOA,frisk_tmat.v1,Age at Maturity (yr),13.0,0.132,Arrington 2020
+longnose skate,"GOA, BC",frisk_tmat.v1,Age at Maturity (yr),13.0,0.132,Arrington 2020
+longnose skate,WC,frisk_tmat.v1,Age at Maturity (yr),12.0,0.140,Arrington 2020
+mud skate,BS,frisk_tmat.v1,Age at Maturity (yr),9.1,0.170,Ebert et al. 2009
+pacific sleeper_shark,N Atlantic,frisk_tmat.v1,Age at Maturity (yr),156.0,0.014,Nielsen et al. 2019
+pacific sleeper_shark,N Atlantic,frisk_tmat.v2,Age at Maturity (yr),134.0,0.016,Nielsen et al. 2020
+pacific sleeper_shark,N Atlantic,frisk_tmat.v3,Age at Maturity (yr),178.0,0.012,Nielsen et al. 2021
+roughtail skate,BS,frisk_tmat.v1,Age at Maturity (yr),24.7,0.079,Winton 2013
+roughtail skate,WC,frisk_tmat.v1,Age at Maturity (yr),14.0,0.125,Davis 2006
+spiny dogfish,BC,frisk_tmat.v1,Age at Maturity (yr),35.5,0.057,Saunders and McFarlane 1993
+spiny dogfish,BC,frisk_tmat.v2,Age at Maturity (yr),29.0,0.068,Jones and Geen 1977
+spiny dogfish,BC,frisk_tmat.v3,Age at Maturity (yr),34.0,0.059,Ketchen 1972
+spiny dogfish,BC,frisk_tmat.v4,Age at Maturity (yr),25.0,0.078,Smith 1998
+spiny dogfish,GOA,frisk_tmat.v1,Age at Maturity (yr),36.1,0.056,Tribuzio et al. 2010
+spiny dogfish,GOA,frisk_tmat.v2,Age at Maturity (yr),36.0,0.056,Tribuzio and Kruse 2012
+spiny dogfish,WC,frisk_tmat.v1,Age at Maturity (yr),28.0,0.070,Richards 2005
+whiteblotched skate,BS,frisk_tmat.v1,Age at Maturity (yr),26.0,0.075,Maurer 2009
+whiteblotched skate,BS,frisk_tmat.v2,Age at Maturity (yr),22.0,0.087,Maurer 2009
+whiteblotched skate,BS,frisk_tmat.v3,Age at Maturity (yr),26.0,0.075,Maurer 2009
+whiteblotched skate,BS,frisk_tmat.v4,Age at Maturity (yr),22.0,0.087,Maurer 2009
+whitebrow skate,BS,frisk_tmat.v1,Age at Maturity (yr),24.0,0.080,Ainsley 2011
+alaska skate,BS,hamel_k.v1,VBGF k (cm-1),0.087,0.153,Matta and Gunderson 2007
+alaska skate,BS,jensen_k1.v1,VBGF k (cm-1),0.087,0.130,Matta and Gunderson 2007
+alaska skate,BS,jensen_k2.v1,VBGF k (cm-1),0.087,0.139,Matta and Gunderson 2007
+alaska skate,BS,frisk_k.v1,VBGF k (cm-1),0.087,0.156,Matta and Gunderson 2007
+aleutian skate,BS,hamel_k.v1,VBGF k (cm-1),0.130,0.228,Haas 2011
+aleutian skate,BS,hamel_k.v4,VBGF k (cm-1),0.110,0.193,Ebert et al. 2007
+aleutian skate,BS,jensen_k1.v1,VBGF k (cm-1),0.130,0.195,Haas 2011
+aleutian skate,BS,jensen_k1.v4,VBGF k (cm-1),0.110,0.165,Ebert et al. 2007
+aleutian skate,BS,jensen_k2.v1,VBGF k (cm-1),0.130,0.208,Haas 2011
+aleutian skate,BS,jensen_k2.v4,VBGF k (cm-1),0.110,0.176,Ebert et al. 2007
+aleutian skate,BS,frisk_k.v1,VBGF k (cm-1),0.130,0.185,Haas 2011
+aleutian skate,BS,frisk_k.v4,VBGF k (cm-1),0.110,0.173,Ebert et al. 2007
+aleutian skate,GOA,hamel_k.v1,VBGF k (cm-1),0.110,0.193,Haas 2011
+aleutian skate,GOA,hamel_k.v2,VBGF k (cm-1),0.150,0.263,Haas 2011
+aleutian skate,GOA,jensen_k1.v1,VBGF k (cm-1),0.110,0.165,Haas 2011
+aleutian skate,GOA,jensen_k1.v2,VBGF k (cm-1),0.150,0.225,Haas 2011
+aleutian skate,GOA,jensen_k2.v1,VBGF k (cm-1),0.110,0.176,Haas 2011
+aleutian skate,GOA,jensen_k2.v2,VBGF k (cm-1),0.150,0.240,Haas 2011
+aleutian skate,GOA,frisk_k.v1,VBGF k (cm-1),0.110,0.173,Haas 2011
+aleutian skate,GOA,frisk_k.v2,VBGF k (cm-1),0.150,0.197,Haas 2011
+bering skate,BS,hamel_k.v1,VBGF k (cm-1),0.072,0.126,Ainsley 2009
+bering skate,BS,hamel_k.v2,VBGF k (cm-1),0.070,0.123,Ainsley 2014
+bering skate,BS,jensen_k1.v1,VBGF k (cm-1),0.072,0.108,Ainsley 2009
+bering skate,BS,jensen_k1.v2,VBGF k (cm-1),0.070,0.105,Ainsley 2014
+bering skate,BS,jensen_k2.v1,VBGF k (cm-1),0.072,0.115,Ainsley 2009
+bering skate,BS,jensen_k2.v2,VBGF k (cm-1),0.070,0.112,Ainsley 2014
+bering skate,BS,frisk_k.v1,VBGF k (cm-1),0.072,0.144,Ainsley 2009
+bering skate,BS,frisk_k.v2,VBGF k (cm-1),0.070,0.143,Ainsley 2014
+bering skate,GOA,hamel_k.v1,VBGF k (cm-1),0.061,0.107,Ainsley 2009
+bering skate,GOA,hamel_k.v2,VBGF k (cm-1),0.060,0.105,Ainsley 2014
+bering skate,GOA,jensen_k1.v1,VBGF k (cm-1),0.061,0.092,Ainsley 2009
+bering skate,GOA,jensen_k1.v2,VBGF k (cm-1),0.060,0.090,Ainsley 2014
+bering skate,GOA,jensen_k2.v1,VBGF k (cm-1),0.061,0.098,Ainsley 2009
+bering skate,GOA,jensen_k2.v2,VBGF k (cm-1),0.060,0.096,Ainsley 2014
+bering skate,GOA,frisk_k.v1,VBGF k (cm-1),0.061,0.135,Ainsley 2009
+bering skate,GOA,frisk_k.v2,VBGF k (cm-1),0.060,0.134,Ainsley 2014
+big skate,BC,hamel_k.v1,VBGF k (cm-1),0.040,0.070,Gburski 2007
+big skate,BC,hamel_k.v2,VBGF k (cm-1),0.020,0.035,"King 2010, GROTAG"
+big skate,BC,hamel_k.v3,VBGF k (cm-1),0.060,0.105,"King 2010, Fabens"
+big skate,BC,hamel_k.v4,VBGF k (cm-1),0.040,0.070,McFarlane et al. 2006
+big skate,BC,hamel_k.v5,VBGF k (cm-1),0.040,0.070,McFarlane et al. 2010
+big skate,BC,jensen_k1.v1,VBGF k (cm-1),0.040,0.060,Gburski 2007
+big skate,BC,jensen_k1.v2,VBGF k (cm-1),0.020,0.030,"King 2010, GROTAG"
+big skate,BC,jensen_k1.v3,VBGF k (cm-1),0.060,0.090,"King 2010, Fabens"
+big skate,BC,jensen_k1.v4,VBGF k (cm-1),0.040,0.060,McFarlane et al. 2006
+big skate,BC,jensen_k1.v5,VBGF k (cm-1),0.040,0.060,McFarlane et al. 2010
+big skate,BC,jensen_k2.v1,VBGF k (cm-1),0.040,0.064,Gburski 2007
+big skate,BC,jensen_k2.v2,VBGF k (cm-1),0.020,0.032,"King 2010, GROTAG"
+big skate,BC,jensen_k2.v3,VBGF k (cm-1),0.060,0.096,"King 2010, Fabens"
+big skate,BC,jensen_k2.v4,VBGF k (cm-1),0.040,0.064,McFarlane et al. 2006
+big skate,BC,jensen_k2.v5,VBGF k (cm-1),0.040,0.064,McFarlane et al. 2010
+big skate,BC,frisk_k.v1,VBGF k (cm-1),0.040,0.113,Gburski 2007
+big skate,BC,frisk_k.v2,VBGF k (cm-1),0.020,0.084,"King 2010, GROTAG"
+big skate,BC,frisk_k.v3,VBGF k (cm-1),0.060,0.134,"King 2010, Fabens"
+big skate,BC,frisk_k.v4,VBGF k (cm-1),0.040,0.113,McFarlane et al. 2006
+big skate,BC,frisk_k.v5,VBGF k (cm-1),0.040,0.113,McFarlane et al. 2010
+big skate,GOA,hamel_k.v1,VBGF k (cm-1),0.080,0.140,Gburski 2007
+big skate,GOA,jensen_k1.v1,VBGF k (cm-1),0.080,0.119,Gburski 2007
+big skate,GOA,jensen_k2.v1,VBGF k (cm-1),0.080,0.127,Gburski 2007
+big skate,GOA,frisk_k.v1,VBGF k (cm-1),0.080,0.151,Gburski 2007
+commander skate,BS,hamel_k.v1,VBGF k (cm-1),0.042,0.073,"Maurer 2009, gross"
+commander skate,BS,jensen_k1.v1,VBGF k (cm-1),0.042,0.063,"Maurer 2009, gross"
+commander skate,BS,jensen_k2.v1,VBGF k (cm-1),0.042,0.067,"Maurer 2009, gross"
+commander skate,BS,frisk_k.v1,VBGF k (cm-1),0.042,0.115,"Maurer 2009, gross"
+longnose skate,BC,hamel_k.v1,VBGF k (cm-1),0.060,0.105,Gburski 2007
+longnose skate,BC,jensen_k1.v1,VBGF k (cm-1),0.060,0.090,Gburski 2007
+longnose skate,BC,jensen_k2.v1,VBGF k (cm-1),0.060,0.096,Gburski 2007
+longnose skate,BC,frisk_k.v1,VBGF k (cm-1),0.060,0.134,Gburski 2007
+longnose skate,GOA,hamel_k.v1,VBGF k (cm-1),0.040,0.070,Arrington 2020
+longnose skate,GOA,hamel_k.v2,VBGF k (cm-1),0.037,0.065,Gburski 2007
+longnose skate,GOA,jensen_k1.v1,VBGF k (cm-1),0.040,0.060,Arrington 2020
+longnose skate,GOA,jensen_k1.v2,VBGF k (cm-1),0.037,0.055,Gburski 2007
+longnose skate,GOA,jensen_k2.v1,VBGF k (cm-1),0.040,0.064,Arrington 2020
+longnose skate,GOA,jensen_k2.v2,VBGF k (cm-1),0.037,0.059,Gburski 2007
+longnose skate,GOA,frisk_k.v1,VBGF k (cm-1),0.040,0.113,Arrington 2020
+longnose skate,GOA,frisk_k.v2,VBGF k (cm-1),0.037,0.109,Gburski 2007
+longnose skate,"GOA, BC",hamel_k.v1,VBGF k (cm-1),0.040,0.070,Arrington 2020
+longnose skate,"GOA, BC",jensen_k1.v1,VBGF k (cm-1),0.040,0.060,Arrington 2020
+longnose skate,"GOA, BC",jensen_k2.v1,VBGF k (cm-1),0.040,0.064,Arrington 2020
+longnose skate,"GOA, BC",frisk_k.v1,VBGF k (cm-1),0.040,0.113,Arrington 2020
+longnose skate,WC,hamel_k.v1,VBGF k (cm-1),0.040,0.070,Arrington 2020
+longnose skate,WC,hamel_k.v2,VBGF k (cm-1),0.051,0.090,Thompson 2005
+longnose skate,WC,hamel_k.v3,VBGF k (cm-1),0.160,0.280,Zeiner and Wolf 1993
+longnose skate,WC,jensen_k1.v1,VBGF k (cm-1),0.040,0.060,Arrington 2020
+longnose skate,WC,jensen_k1.v2,VBGF k (cm-1),0.051,0.077,Thompson 2005
+longnose skate,WC,jensen_k1.v3,VBGF k (cm-1),0.160,0.240,Zeiner and Wolf 1993
+longnose skate,WC,jensen_k2.v1,VBGF k (cm-1),0.040,0.064,Arrington 2020
+longnose skate,WC,jensen_k2.v2,VBGF k (cm-1),0.051,0.082,Thompson 2005
+longnose skate,WC,jensen_k2.v3,VBGF k (cm-1),0.160,0.256,Zeiner and Wolf 1993
+longnose skate,WC,frisk_k.v1,VBGF k (cm-1),0.040,0.113,Arrington 2020
+longnose skate,WC,frisk_k.v2,VBGF k (cm-1),0.051,0.125,Thompson 2005
+longnose skate,WC,frisk_k.v3,VBGF k (cm-1),0.160,0.202,Zeiner and Wolf 1993
+mud skate,BS,hamel_k.v1,VBGF k (cm-1),0.111,0.194,Ebert et al. 2009
+mud skate,BS,hamel_k.v2,VBGF k (cm-1),0.132,0.232,Ebert et al. 2009
+mud skate,BS,jensen_k1.v1,VBGF k (cm-1),0.111,0.166,Ebert et al. 2009
+mud skate,BS,jensen_k1.v2,VBGF k (cm-1),0.132,0.199,Ebert et al. 2009
+mud skate,BS,jensen_k2.v1,VBGF k (cm-1),0.111,0.177,Ebert et al. 2009
+mud skate,BS,jensen_k2.v2,VBGF k (cm-1),0.132,0.212,Ebert et al. 2009
+mud skate,BS,frisk_k.v1,VBGF k (cm-1),0.111,0.173,Ebert et al. 2009
+mud skate,BS,frisk_k.v2,VBGF k (cm-1),0.132,0.187,Ebert et al. 2009
+roughtail skate,BS,hamel_k.v1,VBGF k (cm-1),0.064,0.112,Winton 2011 sectioning
+roughtail skate,BS,hamel_k.v2,VBGF k (cm-1),0.031,0.054,Winton 2011 histology
+roughtail skate,BS,hamel_k.v3,VBGF k (cm-1),0.038,0.067,Winton 2011
+roughtail skate,BS,jensen_k1.v1,VBGF k (cm-1),0.064,0.096,Winton 2011 sectioning
+roughtail skate,BS,jensen_k1.v2,VBGF k (cm-1),0.031,0.046,Winton 2011 histology
+roughtail skate,BS,jensen_k1.v3,VBGF k (cm-1),0.038,0.057,Winton 2011
+roughtail skate,BS,jensen_k2.v1,VBGF k (cm-1),0.064,0.102,Winton 2011 sectioning
+roughtail skate,BS,jensen_k2.v2,VBGF k (cm-1),0.031,0.050,Winton 2011 histology
+roughtail skate,BS,jensen_k2.v3,VBGF k (cm-1),0.038,0.061,Winton 2011
+roughtail skate,BS,frisk_k.v1,VBGF k (cm-1),0.064,0.137,Winton 2011 sectioning
+roughtail skate,BS,frisk_k.v2,VBGF k (cm-1),0.031,0.101,Winton 2011 histology
+roughtail skate,BS,frisk_k.v3,VBGF k (cm-1),0.038,0.110,Winton 2011
+roughtail skate,WC,hamel_k.v1,VBGF k (cm-1),0.060,0.105,Davis 2006
+roughtail skate,WC,jensen_k1.v1,VBGF k (cm-1),0.060,0.090,Davis 2006
+roughtail skate,WC,jensen_k2.v1,VBGF k (cm-1),0.060,0.096,Davis 2006
+roughtail skate,WC,frisk_k.v1,VBGF k (cm-1),0.060,0.134,Davis 2006
+salmon shark,NE Pacific,hamel_k.v1,VBGF k (cm-1),0.230,0.403,Goldman and Music 2006
+salmon shark,NE Pacific,jensen_k1.v1,VBGF k (cm-1),0.230,0.345,Goldman and Music 2006
+salmon shark,NE Pacific,jensen_k2.v1,VBGF k (cm-1),0.230,0.368,Goldman and Music 2006
+salmon shark,NE Pacific,frisk_k.v1,VBGF k (cm-1),0.230,0.235,Goldman and Music 2006
+salmon shark,NWP,hamel_k.v1,VBGF k (cm-1),0.170,0.298,Tanaka 1980
+salmon shark,NWP,jensen_k1.v1,VBGF k (cm-1),0.170,0.255,Tanaka 1980
+salmon shark,NWP,jensen_k2.v1,VBGF k (cm-1),0.170,0.272,Tanaka 1980
+salmon shark,NWP,frisk_k.v1,VBGF k (cm-1),0.170,0.207,Tanaka 1980
+sandpaper skate,WC,hamel_k.v1,VBGF k (cm-1),0.210,0.368,Perez 2010
+sandpaper skate,WC,jensen_k1.v1,VBGF k (cm-1),0.210,0.315,Perez 2010
+sandpaper skate,WC,jensen_k2.v1,VBGF k (cm-1),0.210,0.336,Perez 2010
+sandpaper skate,WC,frisk_k.v1,VBGF k (cm-1),0.210,0.226,Perez 2010
+spiny dogfish,BC,hamel_k.v1,VBGF k (cm-1),0.031,0.054,Ketchen 1972
+spiny dogfish,BC,hamel_k.v2,VBGF k (cm-1),0.044,0.077,Saunders and McFarlane 1993
+spiny dogfish,BC,jensen_k1.v1,VBGF k (cm-1),0.031,0.046,Ketchen 1972
+spiny dogfish,BC,jensen_k1.v2,VBGF k (cm-1),0.044,0.066,Saunders and McFarlane 1993
+spiny dogfish,BC,jensen_k2.v1,VBGF k (cm-1),0.031,0.050,Ketchen 1972
+spiny dogfish,BC,jensen_k2.v2,VBGF k (cm-1),0.044,0.070,Saunders and McFarlane 1993
+spiny dogfish,BC,frisk_k.v1,VBGF k (cm-1),0.031,0.101,Ketchen 1972
+spiny dogfish,BC,frisk_k.v2,VBGF k (cm-1),0.044,0.117,Saunders and McFarlane 1993
+spiny dogfish,GOA,hamel_k.v1,VBGF k (cm-1),0.034,0.060,Tribuzio et al. 2010
+spiny dogfish,GOA,hamel_k.v2,VBGF k (cm-1),0.034,0.060,Tribuzio 2010
+spiny dogfish,GOA,jensen_k1.v1,VBGF k (cm-1),0.034,0.051,Tribuzio et al. 2010
+spiny dogfish,GOA,jensen_k1.v2,VBGF k (cm-1),0.034,0.051,Tribuzio 2010
+spiny dogfish,GOA,jensen_k2.v1,VBGF k (cm-1),0.034,0.054,Tribuzio et al. 2010
+spiny dogfish,GOA,jensen_k2.v2,VBGF k (cm-1),0.034,0.054,Tribuzio 2010
+spiny dogfish,GOA,frisk_k.v1,VBGF k (cm-1),0.034,0.105,Tribuzio et al. 2010
+spiny dogfish,GOA,frisk_k.v2,VBGF k (cm-1),0.034,0.105,Tribuzio 2010
+spiny dogfish,WC,hamel_k.v1,VBGF k (cm-1),0.020,0.035,Richards 2005
+spiny dogfish,WC,jensen_k1.v1,VBGF k (cm-1),0.020,0.030,Richards 2005
+spiny dogfish,WC,jensen_k2.v1,VBGF k (cm-1),0.020,0.032,Richards 2005
+spiny dogfish,WC,frisk_k.v1,VBGF k (cm-1),0.020,0.084,Richards 2005
+whiteblotched skate,BS,hamel_k.v1,VBGF k (cm-1),0.020,0.035,Maurer 2009
+whiteblotched skate,BS,hamel_k.v2,VBGF k (cm-1),0.026,0.046,Maurer 2009
+whiteblotched skate,BS,hamel_k.v3,VBGF k (cm-1),0.036,0.063,Maurer 2009
+whiteblotched skate,BS,jensen_k1.v1,VBGF k (cm-1),0.020,0.030,Maurer 2009
+whiteblotched skate,BS,jensen_k1.v2,VBGF k (cm-1),0.026,0.040,Maurer 2009
+whiteblotched skate,BS,jensen_k1.v3,VBGF k (cm-1),0.036,0.054,Maurer 2009
+whiteblotched skate,BS,jensen_k2.v1,VBGF k (cm-1),0.020,0.032,Maurer 2009
+whiteblotched skate,BS,jensen_k2.v2,VBGF k (cm-1),0.026,0.042,Maurer 2009
+whiteblotched skate,BS,jensen_k2.v3,VBGF k (cm-1),0.036,0.058,Maurer 2009
+whiteblotched skate,BS,frisk_k.v1,VBGF k (cm-1),0.020,0.084,Maurer 2009
+whiteblotched skate,BS,frisk_k.v2,VBGF k (cm-1),0.026,0.095,Maurer 2009
+whiteblotched skate,BS,frisk_k.v3,VBGF k (cm-1),0.036,0.108,Maurer 2009
+whitebrow skate,BS,hamel_k.v1,VBGF k (cm-1),0.016,0.028,Ainsley 2011
+whitebrow skate,BS,jensen_k1.v1,VBGF k (cm-1),0.016,0.024,Ainsley 2011
+whitebrow skate,BS,jensen_k2.v1,VBGF k (cm-1),0.016,0.026,Ainsley 2011
+whitebrow skate,BS,frisk_k.v1,VBGF k (cm-1),0.016,0.077,Ainsley 2011

@@ -152,22 +152,101 @@ for(i in 1:length(species_ls)) {
     #                                             input_temp = v_tmpdf$estimate[v_tmpdf$lh_param == 'temp_C'])
     #}
     
-    # lvb estimator ----
+    # then linf/k estimator ----
     tmpdf <- df %>% filter(lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'))
     
-    lvb_out <- data.frame(method = 'lvb',
+    then_out <- data.frame(method = 'then',
                           version = unique(tmpdf$version),
                           Mest = NA,
                           method_or_source = unique(tmpdf$method_or_source))
     
     for(k in 1:length(unique(tmpdf$version))) {
       v_tmpdf <- tmpdf %>% filter(version == k)
-      lvb_out[k, 'Mest'] <- calcM_lvb(input_linf = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_linf_cm'],
+      then_out[k, 'Mest'] <- calcM_lvb(input_linf = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_linf_cm'],
                                       input_k = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_k_cm-1'])
     }
     
-    # Bind and output data
-    out <- bind_rows(amax_out, gsi_out, lvb_out) %>% 
+    # hamel_k estimator ----
+    tmpdf <- df %>% filter(lh_param %in% c('vbgf_k_cm-1'))
+    
+    hamelk_out <- data.frame(method = 'hamel_k',
+                           version = unique(tmpdf$version),
+                           Mest = NA,
+                           method_or_source = unique(tmpdf$method_or_source))
+    
+    for(k in 1:length(unique(tmpdf$version))) {
+      v_tmpdf <- tmpdf %>% filter(version == k)
+      hamelk_out[k, 'Mest'] <- calcM_hamelk(input_k = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_k_cm-1'])
+    }
+    
+    # Jensen_k1 estimator ----
+    tmpdf <- df %>% filter(lh_param %in% c('vbgf_k_cm-1'))
+    
+    jensenk1_out <- data.frame(method = 'jensen_k1',
+                             version = unique(tmpdf$version),
+                             Mest = NA,
+                             method_or_source = unique(tmpdf$method_or_source))
+    
+    for(k in 1:length(unique(tmpdf$version))) {
+      v_tmpdf <- tmpdf %>% filter(version == k)
+      jensenk1_out[k, 'Mest'] <- calcM_jensenk1(input_k = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_k_cm-1'])
+    }
+    
+    # Jensen_k2 estimator ----
+    tmpdf <- df %>% filter(lh_param %in% c('vbgf_k_cm-1'))
+    
+    jensenk2_out <- data.frame(method = 'jensen_k2',
+                               version = unique(tmpdf$version),
+                               Mest = NA,
+                               method_or_source = unique(tmpdf$method_or_source))
+    
+    for(k in 1:length(unique(tmpdf$version))) {
+      v_tmpdf <- tmpdf %>% filter(version == k)
+      jensenk2_out[k, 'Mest'] <- calcM_jensenk2(input_k = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_k_cm-1'])
+    }
+    
+    # Frisk_k estimator ----
+    tmpdf <- df %>% filter(lh_param %in% c('vbgf_k_cm-1'))
+    
+    friskk_out <- data.frame(method = 'frisk_k',
+                               version = unique(tmpdf$version),
+                               Mest = NA,
+                               method_or_source = unique(tmpdf$method_or_source))
+    
+    for(k in 1:length(unique(tmpdf$version))) {
+      v_tmpdf <- tmpdf %>% filter(version == k)
+      friskk_out[k, 'Mest'] <- calcM_friskk(input_k = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_k_cm-1'])
+    }
+
+    # Frisk_tmat estimator ----
+    tmpdf <- df %>% filter(lh_param %in% c('agemat_yr'))
+    
+    frisktmat_out <- data.frame(method = 'frisk_tmat',
+                             version = unique(tmpdf$version),
+                             Mest = NA,
+                             method_or_source = unique(tmpdf$method_or_source))
+    
+    for(k in 1:length(unique(tmpdf$version))) {
+      v_tmpdf <- tmpdf %>% filter(version == k)
+      frisktmat_out[k, 'Mest'] <- calcM_frisktmat(input_tmat = v_tmpdf$estimate[v_tmpdf$lh_param == 'agemat_yr'])
+    } 
+    # Hisano_t0 estimator ----
+    #tmpdf <- df %>% filter(lh_param %in% c('agemat_yr', 'vbgf_t0_yr'))
+    
+    #hisanotmat_out <- data.frame(method = 'hisano_tmat',
+    #                            version = unique(tmpdf$version),
+    #                            Mest = NA,
+    #                            method_or_source = unique(tmpdf$method_or_source))
+    
+    #for(k in 1:length(unique(tmpdf$version))) {
+    #  v_tmpdf <- tmpdf %>% filter(version == k)
+    #  hisanotmat_out[k, 'Mest'] <- calcM_hisanotmat(input_tmat = v_tmpdf$estimate[v_tmpdf$lh_param == 'agemat_yr'],
+    #                                              input_t0 = v_tmpdf$estimate[v_tmpdf$lh_param == 'vbgf_t0_yr'])
+    #} 
+    
+       # Bind and output data
+    out <- bind_rows(amax_out, gsi_out, then_out, hamelk_out, jensenk1_out, jensenk2_out,
+                     friskk_out, zhouk_out, frisktmat_out) %>% #, hisanotmat_out taken out for now
       mutate(species = species_ls[i],
              input_area = area_ls[j]) %>% 
       select(species, input_area, M_method = method, M_estimate = Mest, 
@@ -205,10 +284,23 @@ l_fullout %>% as_tibble()
 unique(l_fullout$M_method)
 unique(input_data$lh_param)
 
-summ <- input_data %>% 
-  mutate(M_method = case_when(lh_param %in% c('maxage_yr') ~ 'amax',
-                              lh_param %in% c('gsi') ~ 'gsi',
-                              lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm') ~ 'lvb'))
+summ <- l_fullout %>% 
+  left_join(input_data, by = c("species", "input_area", "version", "method_or_source")) %>% 
+  filter(!is.na(M_estimate)) %>% 
+  mutate(keep = ifelse(M_method == 'amax' & lh_param == 'maxage_yr', 1, 
+                       ifelse(M_method %in% c('hamel_k', 'jensen_k1', 'jensen_k2', 'frisk_k') 
+                              & lh_param == 'vbgf_k_cm-1', 1, 
+                              ifelse(M_method == 'gsi' & lh_param == 'gsi', 1, 
+                                     ifelse(M_method == 'frisk_tmat' & lh_param == 'agemat_yr', 1,
+                                            ifelse(M_method == 'then' & lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'), 1, 0)))))) %>% 
+  filter(keep == 1)
+
+
+#summ <- input_data %>% 
+#  mutate(M_method = case_when(lh_param %in% c('maxage_yr') ~ 'amax',
+#                              lh_param %in% c('gsi') ~ 'gsi',
+#                              lh_param %in% c('vbgf_linf_cm') ~ 'lvb', #'vbgf_k_cm-1', 
+#                              lh_param %in% c('agemat_yr') ~ 'amat'),)
 summ <- summ %>% 
   filter(M_method %in% c('gsi', 'amax')) %>% 
   mutate(lh_param = ifelse(lh_param == 'gsi', 'GSI', 'Max age (y)')) %>% 
@@ -219,29 +311,40 @@ summ <- summ %>%
                                       formatC(round(input_values, 1), format = 'f', digits = 1),
                                       formatC(round(input_values, 0), format = 'f', digits = 0)))) %>% 
   bind_rows(summ %>% 
-              filter(M_method %in% c('lvb')) %>% 
+              filter(M_method %in% c('then')) %>% 
               mutate(lh_param = ifelse(lh_param == 'vbgf_k_cm-1', 'k', 'linf')) %>% 
-              pivot_wider(id_cols = c('species', 'input_area', 'data_area', 'version', 'M_method', 'method_or_source'),
+              pivot_wider(id_cols = c('species', 'input_area', 'data_area', 'version', 'M_method', 'method_or_source', 'M_estimate'),
                           names_from = lh_param, values_from = estimate) %>% 
-              mutate(input_names = 'VBGF Linf (cm) / k',
+              mutate(input_names = 'VBGF Linf (cm) / k (cm-1)',
                      input_values = ifelse(is.na(k), NA,
                                            paste0(formatC(round(linf, 1), digits = 1, format = 'f'), 
                                                   " / ", 
                                                   formatC(round(k, 3), format = 'f', digits = 3)))) %>% 
-              select(-k, -linf))
-
-summ
-nrow(summ) == nrow(l_fullout) # should be true. if not you probably messed up reformatting the data input values
-
-summ <- l_fullout %>% 
-  left_join(summ, by = c("species", "input_area", "M_method", "version", "method_or_source")) %>% 
-  filter(!is.na(M_estimate)) %>% 
+              select(-k, -linf)) %>% 
+  bind_rows(summ %>% 
+              filter(M_method %in% c('frisk_tmat')) %>% 
+              #mutate(lh_param = 'amat') %>% 
+              rename(input_names = lh_param, input_values = estimate) %>%
+              mutate(input_names = 'Age at Maturity (yr)',
+                     input_values = ifelse(is.na(input_values), NA,
+                                           paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>% 
+  bind_rows(summ %>% 
+              filter(M_method %in% c('hamel_k', 'jensen_k1', 'jensen_k2', 'frisk_k', 'zhou_k')) %>% 
+              rename(input_names = lh_param, input_values = estimate) %>%
+              mutate(input_names = 'VBGF k (cm-1)',
+                     input_values = ifelse(is.na(input_values), NA,
+                                           paste0(formatC(round(input_values, 3), format = 'f', digits = 3))))) %>% 
   mutate(M_estimate = formatC(round(M_estimate, 3), format = 'f', digits = 3),
          M_method = paste0(M_method, '.v', version),
          area = ifelse(input_area == 'multi_region', data_area, input_area)) %>% 
-  select(species, area, version, data_input = input_names, 
+  select(species, area, M_method, data_input = input_names, 
          data_input_values = input_values, M_estimate,
          references = method_or_source) 
+
+summ
+
+
+
 
 #summ <- summ %>% 
 #  mutate(species = factor(species, 
@@ -273,18 +376,20 @@ names(summls) <- summls %>%
 summls %>% 
   writexl::write_xlsx(path = paste0(out_path, '/M_species_tables.xlsx'))
 
+reference_lkup <- summ %>% 
+  distinct(references) %>% 
+  mutate(reference_number = row_number()) 
+# 
+reference_lkup %>% 
+  mutate(txt = paste0(reference_number, ') ', references))
+
 summ %>% 
   left_join(reference_lkup) %>% 
   select(Species = species, Region = area, `Parameter(s)` = data_input,
          `Parameter values(s)` = data_input_values, `M estimate` = M_estimate, Reference = references) %>% 
   write_xlsx(path = paste0(out_path, '/M_species_tables_full.xlsx'))
 
-# reference_lkup <- summ %>% 
-#   distinct(references) %>% 
-#   mutate(reference_number = row_number()) 
-# 
-# reference_lkup %>% 
-#   mutate(txt = paste0(reference_number, ') ', references))
+
 
 # Figures ----
 
@@ -310,108 +415,14 @@ mybarplot <- function(df = plot_data,
 
 theme_set(theme_bw(base_size = 12))
 
-###species specific code at the moment, maybe make into a for loop, because it's painful forALLL elasmos
+unq_key <- unique(l_fullout$species)
 
-# Alaska skate ----
-
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('alaska skate'))
-
-mybarplot(title = 'Alaska skate')
-ggsave(paste0(out_path, '/AKskate_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 9)
-
-#all rockfish species from here down
-# Shortraker ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('shortraker rockfish')) 
-
-mybarplot(title = 'Shortraker rockfish')
-ggsave(paste0(out_path, '/shortraker_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Shortspine thornyhead ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('shortspine thornyhead')) 
-
-mybarplot(title = 'Shortspine thornyhead')
-ggsave(paste0(out_path, '/shortspine_thornyhead_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Dusky rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('dusky rockfish')) 
-
-mybarplot(title = 'Dusky rockfish')
-ggsave(paste0(out_path, '/dusky_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Harlequin rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('harlequin rockfish')) 
-
-mybarplot(title = 'Harlequin rockfish')
-ggsave(paste0(out_path, '/harlequin_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Redbanded, redstripe, sharpchin, slivergray, yelloweye rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('redbanded rockfish', 'redstripe rockfish',
-                        'sharpchin rockfish', 'silvergray rockfish',
-                        'yelloweye rockfish')) 
-
-mybarplot(title = 'Redbanded, redstripe, sharpchin, silvergray, and yelloweye rockfish')
-ggsave(paste0(out_path, '/orox_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 8)
-
-# Redbanded rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('redbanded rockfish')) 
-
-mybarplot(title = 'Redbanded rockfish')
-ggsave(paste0(out_path, '/redbanded_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Redstripe rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('redstripe rockfish')) 
-
-mybarplot(title = 'Redstripe rockfish')
-ggsave(paste0(out_path, '/redstripe_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Sharpchin rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('sharpchin rockfish')) 
-
-mybarplot(title = 'Sharpchin rockfish')
-ggsave(paste0(out_path, '/sharpchin_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Slivergray rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('silvergray rockfish')) 
-
-mybarplot(title = 'Silvergray rockfish')
-ggsave(paste0(out_path, '/silvergray_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
-
-# Yelloweye rockfish ----
-
-plot_data <- l_fullout %>% 
-  filter(species %in% c('yelloweye rockfish')) 
-
-mybarplot(title = 'Yelloweye rockfish')
-ggsave(paste0(out_path, '/yelloweye_M_results.png'),
-       dpi = 300, units = 'in', width = 7, height = 3)
+for(i in 1:length(unq_key)){
+  plot_data <- l_fullout %>% 
+    filter(species == unq_key[i])
+  
+  mybarplot(title = unq_key[i])
+  ggsave(paste0(out_path, '/', unq_key[i], '_M_results.png'),
+         dpi = 300, units = 'in', width = 8, height = 6)
+}
 

@@ -40,7 +40,7 @@ calcM_amax <- function(input_amax # years
 
 
 # Gunderson (1997) used linear regression in real space found a coefficent of
-# 1.79. Hamel (2015) updated this coefficient to 1.871, which is used here. This
+# 1.79. Hamel (2015) updated this coefficient to 1.8717, which is used here. This
 # updated value is based on a log-log trasformation on the regression
 # coefficient, which was most appropriate given heteroscedasticity in the
 # underlying data. Since M is positively correlated with GSI, the log-log
@@ -79,7 +79,8 @@ calcM_gsi <- function(input_gsi) {
 # 2015 estimated the coefficients to be equal to
 # Mest=4.111*K^(0.73)*Linf^(-0.333) with length in cm using non-linear least
 # squares regression methods. Recommendation to use this estimator IF RELIABLE
-# ESTIMATES OF A_MAX WERE NOT AVAILABLE.
+# ESTIMATES OF A_MAX WERE NOT AVAILABLE. However, Hamel and Cope (2023) argue that 
+# Then et al. methods are incorrect because of log-space transformations.
 calcM_lvb <-function(input_linf, # cm
                  input_k # cm^-1
 ) {
@@ -102,42 +103,94 @@ calcM_lvb <-function(input_linf, # cm
 # and Carney 1975. Also in email correspondence with Jason Cope 2022-03-14, he
 # said that this estimator routinely performs poorly
 
- M_ZM_AC<-function(k,Amax,t0) {
-   Mvals.out<-c(NA,NA)
+# M_ZM_AC<-function(k,Amax,t0) {
+#   Mvals.out<-c(NA,NA)
 #  Mvals.out[1]<- (3*k)/(exp(k*((0.302 * Amax)-t0))-1) # pelagic - not relevant for our study
-   Mvals.out[2]<- (3*k)/(exp(k*((0.44 * Amax)-t0))-1) # demersal
-   return(Mvals.out) 
- }
+#   Mvals.out[2]<- (3*k)/(exp(k*((0.44 * Amax)-t0))-1) # demersal
+#   return(Mvals.out) 
+# }
 
  ######
  #add in new functions below here
+
  
+# Hamel_k (Hamel 2015). This is the log-transofrmed approach to Jensen_k2,
+# thus an alternative to the 1.6 Jensen value. Hamel_M_k and Jensen_k1, k2 are
+# are basically sensitivities of the same method.
  
-# Hamel_k
- 
- Hamel_M_k<-function(k)
- {
-   M_val_Hamel_k<-k*1.55
-   return(M_val_Hamel_k)
+ calcM_hamelk<-function(input_k) {
+   if(is.na(input_k)) {
+     out <- NA
+   } else {   
+   out <- input_k*1.753
+   }
+   return(out)
  }
  
-# Jensen_k1
-# Jensen_k2
+# Jensen_k1, Jensen_k2 (Jensen 1996). Relies on the M/k ratio = 1.5. Derived value.
+# The 1.6 is the regression coefficient from the linear regression of M to k data
+calcM_jensenk1<-function(input_k) {
+  if(is.na(input_k)) {
+    out <- NA
+  } else {   
+    out <- input_k*1.5
+  }
+  return(out)
+}
+calcM_jensenk2<-function(input_k) {
+  if(is.na(input_k)) {
+    out <- NA
+  } else {   
+    out <- input_k*1.6
+  }
+  return(out)
+}
+
+# Frisk_k (2001). Demonstrated that elasmobranchs as a group
+# violate the M/k ratio assumptions, however, the data in Fig 3
+# suggests that Rajidae do not. Skates may have a "faster"
+# life history? The k model is done in log space, so fits 
+# the Hamel arguments without concern. Note that the original 
+# equation was a linear regression, but Zhou et al. put it in 
+# log space, with no change in the constants.
+
+calcM_friskk <- function(input_k) {
+  if(is.na(input_k)) {
+    out <- NA
+  } else {   
+    out <- 0.436*(input_k^0.42)
+  }
+  return(out)
+}
+
+# Fristk_tmat. Avoids the M/k assumptions, assumes 
+ # M=1/(0.44tmat+1.87)
+# FEMALE ONLY
+calcM_frisktmat <- function(input_tmat) {
+  if(is.na(input_tmat)) {
+    out <- NA
+  } else {   
+    out <- 1/(0.44*input_tmat + 1.87)
+  }
+  return(out)
+}
+
+# Hisano_tmat Hisano et al. 2011. Argued that Jensen ignored t0
+# which is OK for teleost, but not for elasmos, which are not
+# length = at 'birth'. Supercedes Jensen_tmat equation.
+# this one is problematic due to the input data.mismatches between
+# sources that supply information and/or t0 being kinda meaningless
+# for sharks
+
+calcM_hisanotmat <- function(input_tmat,
+                             input_t0) {
+  if(is.na(input_tmat) | is.na(input_tmat)) {
+    out <- NA
+  } else {   
+    out <- 1.65/(input_tmat - input_t0)
+  }
+  return(out)
+}
+
  
- Jensen_M_k<-function(k)
- {
-   M_val_Jensen_k<-k*c(1.5,1.6)
-   return(M_val_Jensen_k)
- }
-# Frisk_k
- # approximation from ln(M)=0.42*ln(k)-0.83 
- # M~0.436*k^0.42 because 0.436 is rounded, so close enough
-# Fristk_tmat
- # M=9/(0.44tmat+1.87)
-# Hisano_tmat
- Hisano_M_amat<-function(Amat, t0)
- {
-   M_val_Hisano<-1.65/(Amat - t0)
-   return(M_val_Hisano)
- }
  
