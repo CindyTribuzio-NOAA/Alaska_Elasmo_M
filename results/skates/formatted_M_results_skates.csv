@@ -29,26 +29,11 @@ longnose skate,WC,amax.v6,Max age (y),12,0.450,Zeiner and Wolf 1993
 longnose skate,WC,gsi.v1,GSI,0.0163,0.030,Thompson 2005
 mud skate,BS,amax.v1,Max age (y),14,0.386,Ebert et al. 2009
 mud skate,BS,amax.v2,Max age (y),14,0.386,Ebert et al. 2009
-pacific sleeper_shark,NA,amax.v1,Max age (y),100,0.054,Courtney 2016
-pacific sleeper_shark,N Atlantic,amax.v2,Max age (y),392,0.014,Nielsen et al. 2016
-pacific sleeper_shark,N Atlantic,amax.v3,Max age (y),512,0.011,Nielsen et al. 2017
-pacific sleeper_shark,N Atlantic,amax.v4,Max age (y),272,0.020,Nielsen et al. 2018
 roughtail skate,BS,amax.v1,Max age (y),30,0.180,Winton 2011 sectioning
 roughtail skate,BS,amax.v2,Max age (y),36,0.150,Winton 2011 histology
 roughtail skate,BS,amax.v3,Max age (y),36,0.150,Winton 2013
 roughtail skate,WC,amax.v1,Max age (y),17,0.318,Davis 2006
-salmon shark,Alaska,amax.v1,Max age (y),20,0.270,Goldman 2006
-salmon shark,California to SE Alaska,amax.v2,Max age (y),5,1.080,Goldman 2006
 sandpaper skate,WC,amax.v1,Max age (y),17,0.318,Perez 2010
-spiny dogfish,BC,amax.v1,Max age (y),70,0.077,Smith 1998 (Hoenig 1983)
-spiny dogfish,BC,amax.v2,Max age (y),81,0.067,Saunders and McFarlane 1993
-spiny dogfish,BC,amax.v3,Max age (y),107,0.050,G. McFarlane (pers comm)
-spiny dogfish,BC,amax.v4,Max age (y),70,0.077,Smith 1998
-spiny dogfish,BC,amax.v5,Max age (y),66,0.082,Munk 2001
-spiny dogfish,GOA,amax.v1,Max age (y),48,0.112,C Tribuzio per observation
-spiny dogfish,GOA,gsi.v1,GSI,0.0400,0.073,Tribuzio and Kruse 2012
-spiny dogfish,WC,amax.v1,Max age (y),88,0.061,AFSC max age
-spiny dogfish,WC,amax.v2,Max age (y),82,0.066,AFSC mean top 5
 whiteblotched skate,BS,amax.v1,Max age (y),36,0.150,Maurer 2009
 whiteblotched skate,BS,amax.v2,Max age (y),32,0.169,Maurer 2009
 whiteblotched skate,BS,amax.v3,Max age (y),33,0.164,Maurer 2009
@@ -82,13 +67,7 @@ roughtail skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),1050.6 / 0.064,0.056,Winton
 roughtail skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),1323.7 / 0.031,0.030,Winton 2011 histology
 roughtail skate,BS,then.v3,VBGF Linf (cm) / k (cm-1),1192.0 / 0.038,0.036,Winton 2011
 roughtail skate,WC,then.v1,VBGF Linf (cm) / k (cm-1),112.1 / 0.060,0.111,Davis 2006
-salmon shark,NWP,then.v1,VBGF Linf (cm) / k (cm-1),180.0 / 0.170,0.203,Tanaka 1980
 sandpaper skate,WC,then.v1,VBGF Linf (cm) / k (cm-1),55.8 / 0.210,0.349,Perez 2010
-spiny dogfish,BC,then.v1,VBGF Linf (cm) / k (cm-1),125.1 / 0.031,0.066,Ketchen 1972
-spiny dogfish,BC,then.v2,VBGF Linf (cm) / k (cm-1),114.9 / 0.044,0.087,Saunders and McFarlane 1993
-spiny dogfish,GOA,then.v1,VBGF Linf (cm) / k (cm-1),121.4 / 0.034,0.071,Tribuzio et al. 2010
-spiny dogfish,GOA,then.v2,VBGF Linf (cm) / k (cm-1),121.4 / 0.034,0.071,Tribuzio 2010
-spiny dogfish,WC,then.v1,VBGF Linf (cm) / k (cm-1),163.6 / 0.020,0.044,Richards 2005
 whiteblotched skate,BS,then.v1,VBGF Linf (cm) / k (cm-1),169.6 / 0.020,0.043,Maurer 2009
 whiteblotched skate,BS,then.v2,VBGF Linf (cm) / k (cm-1),169.6 / 0.026,0.053,Maurer 2009
 whiteblotched skate,BS,then.v3,VBGF Linf (cm) / k (cm-1),155.6 / 0.036,0.069,Maurer 2009
@@ -102,18 +81,8 @@ longnose skate,GOA,frisk_tmat.v1,Age at Maturity (yr),13.0,0.132,Arrington 2020
 longnose skate,"GOA, BC",frisk_tmat.v1,Age at Maturity (yr),13.0,0.132,Arrington 2020
 longnose skate,WC,frisk_tmat.v1,Age at Maturity (yr),12.0,0.140,Arrington 2020
 mud skate,BS,frisk_tmat.v1,Age at Maturity (yr),9.1,0.170,Ebert et al. 2009
-pacific sleeper_shark,N Atlantic,frisk_tmat.v1,Age at Maturity (yr),156.0,0.014,Nielsen et al. 2019
-pacific sleeper_shark,N Atlantic,frisk_tmat.v2,Age at Maturity (yr),134.0,0.016,Nielsen et al. 2020
-pacific sleeper_shark,N Atlantic,frisk_tmat.v3,Age at Maturity (yr),178.0,0.012,Nielsen et al. 2021
 roughtail skate,BS,frisk_tmat.v1,Age at Maturity (yr),24.7,0.079,Winton 2013
 roughtail skate,WC,frisk_tmat.v1,Age at Maturity (yr),14.0,0.125,Davis 2006
-spiny dogfish,BC,frisk_tmat.v1,Age at Maturity (yr),35.5,0.057,Saunders and McFarlane 1993
-spiny dogfish,BC,frisk_tmat.v2,Age at Maturity (yr),29.0,0.068,Jones and Geen 1977
-spiny dogfish,BC,frisk_tmat.v3,Age at Maturity (yr),34.0,0.059,Ketchen 1972
-spiny dogfish,BC,frisk_tmat.v4,Age at Maturity (yr),25.0,0.078,Smith 1998
-spiny dogfish,GOA,frisk_tmat.v1,Age at Maturity (yr),36.1,0.056,Tribuzio et al. 2010
-spiny dogfish,GOA,frisk_tmat.v2,Age at Maturity (yr),36.0,0.056,Tribuzio and Kruse 2012
-spiny dogfish,WC,frisk_tmat.v1,Age at Maturity (yr),28.0,0.070,Richards 2005
 whiteblotched skate,BS,frisk_tmat.v1,Age at Maturity (yr),26.0,0.075,Maurer 2009
 whiteblotched skate,BS,frisk_tmat.v2,Age at Maturity (yr),22.0,0.087,Maurer 2009
 whiteblotched skate,BS,frisk_tmat.v3,Age at Maturity (yr),26.0,0.075,Maurer 2009
@@ -235,38 +204,10 @@ roughtail skate,WC,hamel_k.v1,VBGF k (cm-1),0.060,0.105,Davis 2006
 roughtail skate,WC,jensen_k1.v1,VBGF k (cm-1),0.060,0.090,Davis 2006
 roughtail skate,WC,jensen_k2.v1,VBGF k (cm-1),0.060,0.096,Davis 2006
 roughtail skate,WC,frisk_k.v1,VBGF k (cm-1),0.060,0.134,Davis 2006
-salmon shark,NE Pacific,hamel_k.v1,VBGF k (cm-1),0.230,0.403,Goldman and Music 2006
-salmon shark,NE Pacific,jensen_k1.v1,VBGF k (cm-1),0.230,0.345,Goldman and Music 2006
-salmon shark,NE Pacific,jensen_k2.v1,VBGF k (cm-1),0.230,0.368,Goldman and Music 2006
-salmon shark,NE Pacific,frisk_k.v1,VBGF k (cm-1),0.230,0.235,Goldman and Music 2006
-salmon shark,NWP,hamel_k.v1,VBGF k (cm-1),0.170,0.298,Tanaka 1980
-salmon shark,NWP,jensen_k1.v1,VBGF k (cm-1),0.170,0.255,Tanaka 1980
-salmon shark,NWP,jensen_k2.v1,VBGF k (cm-1),0.170,0.272,Tanaka 1980
-salmon shark,NWP,frisk_k.v1,VBGF k (cm-1),0.170,0.207,Tanaka 1980
 sandpaper skate,WC,hamel_k.v1,VBGF k (cm-1),0.210,0.368,Perez 2010
 sandpaper skate,WC,jensen_k1.v1,VBGF k (cm-1),0.210,0.315,Perez 2010
 sandpaper skate,WC,jensen_k2.v1,VBGF k (cm-1),0.210,0.336,Perez 2010
 sandpaper skate,WC,frisk_k.v1,VBGF k (cm-1),0.210,0.226,Perez 2010
-spiny dogfish,BC,hamel_k.v1,VBGF k (cm-1),0.031,0.054,Ketchen 1972
-spiny dogfish,BC,hamel_k.v2,VBGF k (cm-1),0.044,0.077,Saunders and McFarlane 1993
-spiny dogfish,BC,jensen_k1.v1,VBGF k (cm-1),0.031,0.046,Ketchen 1972
-spiny dogfish,BC,jensen_k1.v2,VBGF k (cm-1),0.044,0.066,Saunders and McFarlane 1993
-spiny dogfish,BC,jensen_k2.v1,VBGF k (cm-1),0.031,0.050,Ketchen 1972
-spiny dogfish,BC,jensen_k2.v2,VBGF k (cm-1),0.044,0.070,Saunders and McFarlane 1993
-spiny dogfish,BC,frisk_k.v1,VBGF k (cm-1),0.031,0.101,Ketchen 1972
-spiny dogfish,BC,frisk_k.v2,VBGF k (cm-1),0.044,0.117,Saunders and McFarlane 1993
-spiny dogfish,GOA,hamel_k.v1,VBGF k (cm-1),0.034,0.060,Tribuzio et al. 2010
-spiny dogfish,GOA,hamel_k.v2,VBGF k (cm-1),0.034,0.060,Tribuzio 2010
-spiny dogfish,GOA,jensen_k1.v1,VBGF k (cm-1),0.034,0.051,Tribuzio et al. 2010
-spiny dogfish,GOA,jensen_k1.v2,VBGF k (cm-1),0.034,0.051,Tribuzio 2010
-spiny dogfish,GOA,jensen_k2.v1,VBGF k (cm-1),0.034,0.054,Tribuzio et al. 2010
-spiny dogfish,GOA,jensen_k2.v2,VBGF k (cm-1),0.034,0.054,Tribuzio 2010
-spiny dogfish,GOA,frisk_k.v1,VBGF k (cm-1),0.034,0.105,Tribuzio et al. 2010
-spiny dogfish,GOA,frisk_k.v2,VBGF k (cm-1),0.034,0.105,Tribuzio 2010
-spiny dogfish,WC,hamel_k.v1,VBGF k (cm-1),0.020,0.035,Richards 2005
-spiny dogfish,WC,jensen_k1.v1,VBGF k (cm-1),0.020,0.030,Richards 2005
-spiny dogfish,WC,jensen_k2.v1,VBGF k (cm-1),0.020,0.032,Richards 2005
-spiny dogfish,WC,frisk_k.v1,VBGF k (cm-1),0.020,0.084,Richards 2005
 whiteblotched skate,BS,hamel_k.v1,VBGF k (cm-1),0.020,0.035,Maurer 2009
 whiteblotched skate,BS,hamel_k.v2,VBGF k (cm-1),0.026,0.046,Maurer 2009
 whiteblotched skate,BS,hamel_k.v3,VBGF k (cm-1),0.036,0.063,Maurer 2009

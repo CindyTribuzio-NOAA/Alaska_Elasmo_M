@@ -1,0 +1,26 @@
+species,area,M_method,data_input,data_input_values,M_estimate,references
+pacific sleeper_shark,NA,amax.v1,Max age (y),100,0.054,Courtney 2016
+pacific sleeper_shark,N Atlantic,amax.v2,Max age (y),392,0.014,Nielsen et al. 2016
+pacific sleeper_shark,N Atlantic,amax.v3,Max age (y),512,0.011,Nielsen et al. 2017
+pacific sleeper_shark,N Atlantic,amax.v4,Max age (y),272,0.020,Nielsen et al. 2018
+salmon shark,Alaska,amax.v1,Max age (y),20,0.270,Goldman 2006
+salmon shark,California to SE Alaska,amax.v2,Max age (y),5,1.080,Goldman 2006
+spiny dogfish,BC,amax.v1,Max age (y),70,0.077,Smith 1998 (Hoenig 1983)
+spiny dogfish,BC,amax.v2,Max age (y),81,0.067,Saunders and McFarlane 1993
+spiny dogfish,BC,amax.v3,Max age (y),107,0.050,G. McFarlane (pers comm)
+spiny dogfish,BC,amax.v4,Max age (y),70,0.077,Smith 1998
+spiny dogfish,BC,amax.v5,Max age (y),66,0.082,Munk 2001
+spiny dogfish,GOA,amax.v1,Max age (y),48,0.112,C Tribuzio per observation
+spiny dogfish,GOA,gsi.v1,GSI,0.0400,0.073,Tribuzio and Kruse 2012
+spiny dogfish,WC,amax.v1,Max age (y),88,0.061,AFSC max age
+spiny dogfish,WC,amax.v2,Max age (y),82,0.066,AFSC mean top 5
+pacific sleeper_shark,N Atlantic,frisk_tmat.v1,Age at Maturity (yr),156.0,0.014,Nielsen et al. 2019
+pacific sleeper_shark,N Atlantic,frisk_tmat.v2,Age at Maturity (yr),134.0,0.016,Nielsen et al. 2020
+pacific sleeper_shark,N Atlantic,frisk_tmat.v3,Age at Maturity (yr),178.0,0.012,Nielsen et al. 2021
+spiny dogfish,BC,frisk_tmat.v1,Age at Maturity (yr),35.5,0.057,Saunders and McFarlane 1993
+spiny dogfish,BC,frisk_tmat.v2,Age at Maturity (yr),29.0,0.068,Jones and Geen 1977
+spiny dogfish,BC,frisk_tmat.v3,Age at Maturity (yr),34.0,0.059,Ketchen 1972
+spiny dogfish,BC,frisk_tmat.v4,Age at Maturity (yr),25.0,0.078,Smith 1998
+spiny dogfish,GOA,frisk_tmat.v1,Age at Maturity (yr),36.1,0.056,Tribuzio et al. 2010
+spiny dogfish,GOA,frisk_tmat.v2,Age at Maturity (yr),36.0,0.056,Tribuzio and Kruse 2012
+spiny dogfish,WC,frisk_tmat.v1,Age at Maturity (yr),28.0,0.070,Richards 2005
