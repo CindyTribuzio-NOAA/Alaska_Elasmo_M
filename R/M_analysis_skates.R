@@ -8,7 +8,7 @@
 # 4) format output, save
 
 # setup ----
-libs <- c("tidyverse", "googlesheets4", "writexl")
+libs <- c("tidyverse", "googlesheets4", "writexl", "FishLife", 'janitor')
 if(length(libs[which(libs %in% rownames(installed.packages()) == FALSE )]) > 0) {
   install.packages(libs[which(libs %in% rownames(installed.packages()) == FALSE)])}
 lapply(libs, library, character.only = TRUE)
@@ -23,7 +23,7 @@ source('R/M_fxns.R')
 
 # data ----
 
-# see elasmo_M_updates google sheet in ROX_M_updates_2021 google folder
+# see elasmo_M_updates google sheet in SAFE>Natural_Mortality google folder
 lh <- read_sheet("https://docs.google.com/spreadsheets/d/1cj5mtrbQ4w2GCJTK-mRY-rKKBnhm2e1yedlw9KMfXuo/edit?gid=0#gid=0",
            sheet = 'life_history_parameters') %>% 
   filter(species %nin% c('spiny_dogfish', 'blue_shark', 'pacific_sleeper_shark', 'salmon_shark'))
@@ -34,7 +34,7 @@ lh
 lh$use
 
 # tmax estimates based on combined fishery and survey age data. see tmax.R
-tmax <- read_csv(paste0(out_path, '/tmax_summary.csv')) %>% 
+tmax <- read_csv(paste0(getwd(), '/results/tmax_summary.csv')) %>% 
   filter(Species %nin% c('spiny dogfish', 'blue shark', 'pacific sleeper shark', 'salmon shark')) %>% 
   select(common_name = `Species`, area = Region, 
        max_age = `Maximum age observed`, 
@@ -101,6 +101,19 @@ input_data %>% print(n=Inf)
 
 # Run analysis ----
 
+#setup for fishlife
+# uses scientific name as input and doesn't have region specificity
+# get scientific names for things
+stocks <- read_sheet("https://docs.google.com/spreadsheets/d/1cj5mtrbQ4w2GCJTK-mRY-rKKBnhm2e1yedlw9KMfXuo/edit?gid=0#gid=0",
+                     sheet = 'stocks_of_interest') %>% 
+  filter(common_name %nin% c('spiny_dogfish', 'blue_shark', 'pacific_sleeper_shark', 'salmon_shark')) %>% 
+  rename(species = common_name)
+stocks$species <- sub('_', ' ', stocks$species)
+
+#setup fishbase info
+edge_names = c( FishBase_and_Morphometrics$tree$tip.label,
+                FishBase_and_Morphometrics$tree$node.label[-1] )
+
 # calculate four M estimators for each input species and area combo
 
 species_ls <- unique(input_data$species)
@@ -115,6 +128,12 @@ for(i in 1:length(species_ls)) {
     # i = 1; j = 1; k = 1
     df <- input_data %>% 
       filter(species == species_ls[i] & input_area == area_ls[j]) 
+    
+    # fishlife estimator ----
+    fl_out <- data.frame(method = 'fishlife',
+                         version = 1,
+                         Mest = calcM_fishlife(i = i),
+                         method_or_source = 'Thorson')
     
     # max age estimator ----
     tmpdf <- df %>% filter(lh_param == 'maxage_yr')
@@ -251,7 +270,7 @@ for(i in 1:length(species_ls)) {
     #} 
     
        # Bind and output data
-    out <- bind_rows(amax_out, gsi_out, then_out, hamelk_out, jensenk1_out, jensenk2_out,
+    out <- bind_rows(fl_out, amax_out, gsi_out, then_out, hamelk_out, jensenk1_out, jensenk2_out,
                      friskk_out, frisktmat_out) %>% #, hisanotmat_out taken out for now
       mutate(species = species_ls[i],
              input_area = area_ls[j]) %>% 
@@ -298,7 +317,8 @@ summ <- l_fullout %>%
                               & lh_param == 'vbgf_k_cm-1', 1, 
                               ifelse(M_method == 'gsi' & lh_param == 'gsi', 1, 
                                      ifelse(M_method == 'frisk_tmat' & lh_param == 'agemat_yr', 1,
-                                            ifelse(M_method == 'then' & lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'), 1, 0)))))) %>% 
+                                            ifelse(M_method == 'then' & lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'), 1, 
+                                                   ifelse(M_method == 'fishlife', 1, 0))))))) %>% 
   filter(keep == 1)
 
 
@@ -307,6 +327,11 @@ summ <- l_fullout %>%
 #                              lh_param %in% c('gsi') ~ 'gsi',
 #                              lh_param %in% c('vbgf_linf_cm') ~ 'lvb', #'vbgf_k_cm-1', 
 #                              lh_param %in% c('agemat_yr') ~ 'amat'),)
+
+########
+##############
+###########
+#add fishlife to this
 summ <- summ %>% 
   filter(M_method %in% c('gsi', 'amax')) %>% 
   mutate(lh_param = ifelse(lh_param == 'gsi', 'GSI', 'Max age (y)')) %>% 
@@ -333,7 +358,15 @@ summ <- summ %>%
               rename(input_names = lh_param, input_values = estimate) %>%
               mutate(input_names = 'Age at Maturity (yr)',
                      input_values = ifelse(is.na(input_values), NA,
-                                           paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>% 
+                                           paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>%
+  bind_rows(summ %>% 
+              filter(M_method %in% c('fishlife')) %>% 
+              #mutate(lh_param = 'amat') %>% 
+              rename(input_names = lh_param, input_values = estimate) %>%
+              mutate(input_names = 'species name',
+                     data_area = input_area,
+                     input_values = ifelse(is.na(input_values), NA,
+                                           paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>%
   bind_rows(summ %>% 
               filter(M_method %in% c('hamel_k', 'jensen_k1', 'jensen_k2', 'frisk_k', 'zhou_k')) %>% 
               rename(input_names = lh_param, input_values = estimate) %>%

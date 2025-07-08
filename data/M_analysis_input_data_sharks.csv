@@ -39,13 +39,15 @@ salmon shark,GOA,gsi,NA,NA,NA,1
 salmon shark,GOA,maxage_yr,NA,NA,NA,1
 salmon shark,GOA,vbgf_k_cm-1,NA,NA,NA,1
 salmon shark,GOA,vbgf_linf_cm,NA,NA,NA,1
-salmon shark,multi_region,agemat_yr,NA,NA,NA,1
+salmon shark,multi_region,agemat_yr,NWP,Goldman and Music 2006,10,1
+salmon shark,multi_region,agemat_yr,NWP,Goldman and Music 2006,9,2
 salmon shark,multi_region,gsi,NA,NA,NA,1
 salmon shark,multi_region,maxage_yr,Alaska,Goldman 2006,20,1
 salmon shark,multi_region,maxage_yr,California to SE Alaska,Goldman 2006,5,2
 salmon shark,multi_region,vbgf_k_cm-1,NE Pacific,Goldman and Music 2006,0.23,1
 salmon shark,multi_region,vbgf_linf_cm,NE Pacific,Goldman and Music 2006,-1.9,1
-salmon shark,NWP,agemat_yr,NA,NA,NA,1
+salmon shark,NWP,agemat_yr,NWP,Goldman and Music 2006,10,1
+salmon shark,NWP,agemat_yr,NWP,Goldman and Music 2006,9,2
 salmon shark,NWP,gsi,NA,NA,NA,1
 salmon shark,NWP,maxage_yr,NA,NA,NA,1
 salmon shark,NWP,vbgf_k_cm-1,NW Pacific,Tanaka 1980,0.17,1

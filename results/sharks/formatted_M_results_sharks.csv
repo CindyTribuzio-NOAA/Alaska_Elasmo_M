@@ -17,6 +17,10 @@ spiny dogfish,WC,amax.v2,Max age (y),82,0.066,AFSC mean top 5
 pacific sleeper_shark,N Atlantic,frisk_tmat.v1,Age at Maturity (yr),156.0,0.014,Nielsen et al. 2019
 pacific sleeper_shark,N Atlantic,frisk_tmat.v2,Age at Maturity (yr),134.0,0.016,Nielsen et al. 2020
 pacific sleeper_shark,N Atlantic,frisk_tmat.v3,Age at Maturity (yr),178.0,0.012,Nielsen et al. 2021
+salmon shark,NWP,frisk_tmat.v1,Age at Maturity (yr),10.0,0.159,Goldman and Music 2006
+salmon shark,NWP,frisk_tmat.v2,Age at Maturity (yr),9.0,0.172,Goldman and Music 2006
+salmon shark,NWP,frisk_tmat.v1,Age at Maturity (yr),10.0,0.159,Goldman and Music 2006
+salmon shark,NWP,frisk_tmat.v2,Age at Maturity (yr),9.0,0.172,Goldman and Music 2006
 spiny dogfish,BC,frisk_tmat.v1,Age at Maturity (yr),35.5,0.057,Saunders and McFarlane 1993
 spiny dogfish,BC,frisk_tmat.v2,Age at Maturity (yr),29.0,0.068,Jones and Geen 1977
 spiny dogfish,BC,frisk_tmat.v3,Age at Maturity (yr),34.0,0.059,Ketchen 1972
@@ -24,3 +28,18 @@ spiny dogfish,BC,frisk_tmat.v4,Age at Maturity (yr),25.0,0.078,Smith 1998
 spiny dogfish,GOA,frisk_tmat.v1,Age at Maturity (yr),36.1,0.056,Tribuzio et al. 2010
 spiny dogfish,GOA,frisk_tmat.v2,Age at Maturity (yr),36.0,0.056,Tribuzio and Kruse 2012
 spiny dogfish,WC,frisk_tmat.v1,Age at Maturity (yr),28.0,0.070,Richards 2005
+pacific sleeper_shark,BC,fishlife.v1,species name,NA,0.148,Thorson
+pacific sleeper_shark,GOA,fishlife.v1,species name,NA,0.148,Thorson
+pacific sleeper_shark,multi_region,fishlife.v1,species name,NA,0.148,Thorson
+pacific sleeper_shark,NWP,fishlife.v1,species name,NA,0.148,Thorson
+pacific sleeper_shark,WC,fishlife.v1,species name,NA,0.148,Thorson
+salmon shark,BC,fishlife.v1,species name,NA,0.047,Thorson
+salmon shark,GOA,fishlife.v1,species name,NA,0.047,Thorson
+salmon shark,multi_region,fishlife.v1,species name,NA,0.047,Thorson
+salmon shark,NWP,fishlife.v1,species name,NA,0.047,Thorson
+salmon shark,WC,fishlife.v1,species name,NA,0.047,Thorson
+spiny dogfish,BC,fishlife.v1,species name,NA,0.106,Thorson
+spiny dogfish,GOA,fishlife.v1,species name,NA,0.106,Thorson
+spiny dogfish,multi_region,fishlife.v1,species name,NA,0.106,Thorson
+spiny dogfish,NWP,fishlife.v1,species name,NA,0.106,Thorson
+spiny dogfish,WC,fishlife.v1,species name,NA,0.106,Thorson

@@ -90,18 +90,13 @@ bering skate,WC,vbgf_k_cm-1,NA,NA,NA,1
 bering skate,WC,vbgf_linf_cm,NA,NA,NA,1
 big skate,BC,agemat_yr,BC,McFarlane et al. 2006,8,1
 big skate,BC,gsi,NA,NA,NA,1
-big skate,BC,maxage_yr,BC,Gburski 2007,26,1
-big skate,BC,maxage_yr,BC,McFarlane et al. 2006,26,2
-big skate,BC,vbgf_k_cm-1,BC,Gburski 2007,0.04,1
-big skate,BC,vbgf_k_cm-1,BC,"King 2010, GROTAG",0.02,2
-big skate,BC,vbgf_k_cm-1,BC,"King 2010, Fabens",0.06,3
-big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2006,0.04,4
-big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2010,0.04,5
-big skate,BC,vbgf_linf_cm,BC,Gburski 2007,293.5,1
-big skate,BC,vbgf_linf_cm,BC,"King 2010, GROTAG",719.81,2
-big skate,BC,vbgf_linf_cm,BC,"King 2010, Fabens",151.09,3
-big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2006,293.5,4
-big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2010,293.4,5
+big skate,BC,maxage_yr,BC,McFarlane et al. 2006,26,1
+big skate,BC,vbgf_k_cm-1,BC,"King 2010, Fabens",0.06,1
+big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2006,0.04,2
+big skate,BC,vbgf_k_cm-1,BC,McFarlane et al. 2010,0.04,3
+big skate,BC,vbgf_linf_cm,BC,"King 2010, Fabens",151.09,1
+big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2006,293.5,2
+big skate,BC,vbgf_linf_cm,BC,McFarlane et al. 2010,293.4,3
 big skate,BS,agemat_yr,NA,NA,NA,1
 big skate,BS,gsi,NA,NA,NA,1
 big skate,BS,maxage_yr,NA,NA,NA,1
@@ -153,9 +148,9 @@ commander skate,WC,vbgf_k_cm-1,NA,NA,NA,1
 commander skate,WC,vbgf_linf_cm,NA,NA,NA,1
 longnose skate,BC,agemat_yr,NA,NA,NA,1
 longnose skate,BC,gsi,NA,NA,NA,1
-longnose skate,BC,maxage_yr,BC,Gburski 2007,26,1
-longnose skate,BC,vbgf_k_cm-1,BC,Gburski 2007,0.06,1
-longnose skate,BC,vbgf_linf_cm,BC,Gburski 2007,137.2,1
+longnose skate,BC,maxage_yr,NA,NA,NA,1
+longnose skate,BC,vbgf_k_cm-1,NA,NA,NA,1
+longnose skate,BC,vbgf_linf_cm,NA,NA,NA,1
 longnose skate,BS,agemat_yr,NA,NA,NA,1
 longnose skate,BS,gsi,NA,NA,NA,1
 longnose skate,BS,maxage_yr,NA,NA,NA,1
@@ -180,16 +175,8 @@ longnose skate,WC,agemat_yr,WC,Arrington 2020,12,1
 longnose skate,WC,gsi,WC,Thompson 2005,0.0163,1
 longnose skate,WC,maxage_yr,WC,Gertseva 2019,22,1
 longnose skate,WC,maxage_yr,WC,Arrington 2020,19,2
-longnose skate,WC,maxage_yr,WC,Gburski 2007,22,3
-longnose skate,WC,maxage_yr,WC,"Thompson 2005, north CA",23,4
-longnose skate,WC,maxage_yr,WC,"Thompson 2005, south CA",16,5
-longnose skate,WC,maxage_yr,California,Zeiner and Wolf 1993,12,6
 longnose skate,WC,vbgf_k_cm-1,WC,Arrington 2020,0.04,1
-longnose skate,WC,vbgf_k_cm-1,WC,Thompson 2005,0.0513,2
-longnose skate,WC,vbgf_k_cm-1,California,Zeiner and Wolf 1993,0.16,3
 longnose skate,WC,vbgf_linf_cm,WC,Arrington 2020,210,1
-longnose skate,WC,vbgf_linf_cm,WC,Thompson 2005,180.9115,2
-longnose skate,WC,vbgf_linf_cm,California,Zeiner and Wolf 1993,104.7,3
 mud skate,BC,agemat_yr,NA,NA,NA,1
 mud skate,BC,gsi,NA,NA,NA,1
 mud skate,BC,maxage_yr,NA,NA,NA,1

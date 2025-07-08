@@ -1,171 +1,585 @@
-species,version,M_method,GOA,BS,BC,WC,multi_region
-alaska skate,1,amax,NA,0.2076923076923077,NA,NA,NA
-alaska skate,2,amax,NA,0.30000000000000004,NA,NA,NA
-alaska skate,3,amax,NA,0.31764705882352945,NA,NA,NA
-alaska skate,1,frisk_k,NA,0.15634520827545356,NA,NA,NA
-alaska skate,1,frisk_tmat,NA,0.15948963317384368,NA,NA,NA
-alaska skate,1,hamel_k,NA,0.15251099999999998,NA,NA,NA
-alaska skate,1,jensen_k1,NA,0.1305,NA,NA,NA
-alaska skate,1,jensen_k2,NA,0.1392,NA,NA,NA
-alaska skate,1,then,NA,0.13391077343120814,NA,NA,NA
-aleutian skate,1,amax,0.28421052631578947,0.31764705882352945,NA,NA,NA
-aleutian skate,1,frisk_k,0.17253269932466583,0.18507284334075674,NA,NA,NA
-aleutian skate,2,frisk_k,0.19653722423853923,0.1909238855545526,NA,NA,NA
-aleutian skate,3,frisk_k,NA,0.17253269932466583,NA,NA,NA
-aleutian skate,4,frisk_k,NA,0.17253269932466583,NA,NA,NA
-aleutian skate,1,frisk_tmat,NA,0.15728216420257943,NA,NA,NA
-aleutian skate,1,hamel_k,0.19283,0.22788999999999998,NA,NA,NA
-aleutian skate,2,hamel_k,0.26294999999999996,0.24542,NA,NA,NA
-aleutian skate,3,hamel_k,NA,0.19283,NA,NA,NA
-aleutian skate,4,hamel_k,NA,0.19283,NA,NA,NA
-aleutian skate,1,jensen_k1,0.165,0.195,NA,NA,NA
-aleutian skate,2,jensen_k1,0.22499999999999998,0.21000000000000002,NA,NA,NA
-aleutian skate,3,jensen_k1,NA,0.165,NA,NA,NA
-aleutian skate,4,jensen_k1,NA,0.165,NA,NA,NA
-aleutian skate,1,jensen_k2,0.17600000000000002,0.20800000000000002,NA,NA,NA
-aleutian skate,2,jensen_k2,0.24,0.22400000000000003,NA,NA,NA
-aleutian skate,3,jensen_k2,NA,0.17600000000000002,NA,NA,NA
-aleutian skate,4,jensen_k2,NA,0.17600000000000002,NA,NA,NA
-aleutian skate,1,then,0.15370885511035864,0.1728988378551574,NA,NA,NA
-aleutian skate,2,then,0.2023116009448813,0.1837149089342341,NA,NA,NA
-aleutian skate,3,then,NA,0.15052708617317617,NA,NA,NA
-aleutian skate,4,then,NA,0.14991152457495527,NA,NA,NA
-bering skate,1,amax,0.2571428571428572,0.2571428571428572,NA,NA,NA
-bering skate,1,frisk_k,0.1347794865502383,0.14439964906576405,NA,NA,NA
-bering skate,2,frisk_k,0.13375499652970874,0.14270121343384298,NA,NA,NA
-bering skate,1,hamel_k,0.10710829999999999,0.126216,NA,NA,NA
-bering skate,2,hamel_k,0.10518,0.12271,NA,NA,NA
-bering skate,1,jensen_k1,0.09165000000000001,0.10799999999999998,NA,NA,NA
-bering skate,2,jensen_k1,0.09,0.10500000000000001,NA,NA,NA
-bering skate,1,jensen_k2,0.09776000000000001,0.1152,NA,NA,NA
-bering skate,2,jensen_k2,0.096,0.11200000000000002,NA,NA,NA
-bering skate,1,then,0.11177292589962726,0.12966688261945816,NA,NA,NA
-bering skate,2,then,0.11029963323405229,0.12702634976646765,NA,NA,NA
-big skate,1,amax,0.4153846153846154,NA,0.2076923076923077,0.45,NA
-big skate,2,amax,0.44383561643835623,NA,0.2076923076923077,NA,NA
-big skate,3,amax,0.38571428571428573,NA,NA,NA,NA
-big skate,1,frisk_k,0.15061560745775246,NA,0.11281106146672358,NA,NA
-big skate,2,frisk_k,NA,NA,0.0843177652356208,NA,NA
-big skate,3,frisk_k,NA,NA,0.13375499652970874,NA,NA
-big skate,4,frisk_k,NA,NA,0.11281106146672358,NA,NA
-big skate,5,frisk_k,NA,NA,0.11281106146672358,NA,NA
-big skate,1,frisk_tmat,NA,NA,0.18552875695732837,NA,NA
-big skate,1,hamel_k,0.1395388,NA,0.07012,NA,NA
-big skate,2,hamel_k,NA,NA,0.03506,NA,NA
-big skate,3,hamel_k,NA,NA,0.10518,NA,NA
-big skate,4,hamel_k,NA,NA,0.07012,NA,NA
-big skate,5,hamel_k,NA,NA,0.07012,NA,NA
-big skate,1,jensen_k1,0.1194,NA,0.06,NA,NA
-big skate,2,jensen_k1,NA,NA,0.03,NA,NA
-big skate,3,jensen_k1,NA,NA,0.09,NA,NA
-big skate,4,jensen_k1,NA,NA,0.06,NA,NA
-big skate,5,jensen_k1,NA,NA,0.06,NA,NA
-big skate,1,jensen_k2,0.12736,NA,0.064,NA,NA
-big skate,2,jensen_k2,NA,NA,0.032,NA,NA
-big skate,3,jensen_k2,NA,NA,0.096,NA,NA
-big skate,4,jensen_k2,NA,NA,0.064,NA,NA
-big skate,5,jensen_k2,NA,NA,0.064,NA,NA
-big skate,1,then,0.10510625065820242,NA,0.060122210622574494,NA,NA
-big skate,2,then,NA,NA,0.026959499151095388,NA,NA
-big skate,3,then,NA,NA,0.10063393310100129,NA,NA
-big skate,4,then,NA,NA,0.060122210622574494,NA,NA
-big skate,5,then,NA,NA,0.06012897206244981,NA,NA
-commander skate,1,amax,NA,0.1542857142857143,NA,NA,NA
-commander skate,2,amax,NA,0.16875,NA,NA,NA
-commander skate,1,frisk_k,NA,0.11480046108239098,NA,NA,NA
-commander skate,1,frisk_tmat,NA,0.08965393580778196,NA,NA,NA
-commander skate,2,frisk_tmat,NA,0.1044932079414838,NA,NA,NA
-commander skate,1,hamel_k,NA,0.0731001,NA,NA,NA
-commander skate,1,jensen_k1,NA,0.06255,NA,NA,NA
-commander skate,1,jensen_k2,NA,0.06672,NA,NA,NA
-commander skate,1,then,NA,0.08068544168449845,NA,NA,NA
-longnose skate,1,amax,0.23478260869565218,NA,0.2076923076923077,0.24545454545454548,0.27
-longnose skate,2,amax,0.24868421052631579,NA,NA,0.28421052631578947,NA
-longnose skate,3,amax,0.30000000000000004,NA,NA,0.24545454545454548,NA
-longnose skate,4,amax,0.225,NA,NA,0.23478260869565218,NA
-longnose skate,5,amax,NA,NA,NA,0.3375,NA
-longnose skate,6,amax,NA,NA,NA,0.45,NA
-longnose skate,1,frisk_k,0.11281106146672358,NA,0.13375499652970874,0.11281106146672358,0.11281106146672358
-longnose skate,2,frisk_k,0.1089287633307902,NA,NA,0.12523790170059917,NA
-longnose skate,3,frisk_k,NA,NA,NA,0.20193745658142828,NA
-longnose skate,1,frisk_tmat,0.13175230566534915,NA,NA,0.13986013986013984,0.13175230566534915
-longnose skate,1,gsi,NA,NA,NA,0.029617099999999997,NA
-longnose skate,1,hamel_k,0.07012,NA,0.10518,0.07012,0.07012
-longnose skate,2,hamel_k,0.0645104,NA,NA,0.08992889999999999,NA
-longnose skate,3,hamel_k,NA,NA,NA,0.28048,NA
-longnose skate,1,jensen_k1,0.06,NA,0.09,0.06,0.06
-longnose skate,2,jensen_k1,0.0552,NA,NA,0.07694999999999999,NA
-longnose skate,3,jensen_k1,NA,NA,NA,0.24,NA
-longnose skate,1,jensen_k2,0.064,NA,0.096,0.064,0.064
-longnose skate,2,jensen_k2,0.05888,NA,NA,0.08208,NA
-longnose skate,3,jensen_k2,NA,NA,NA,0.256,NA
-longnose skate,1,then,0.06330722650454053,NA,0.10388799817604193,0.06714493353766862,0.06602313849444441
-longnose skate,2,then,0.06095484945413107,NA,NA,0.08457921709826113,NA
-longnose skate,3,then,NA,NA,NA,0.2324165254074117,NA
-mud skate,1,amax,NA,0.38571428571428573,NA,NA,NA
-mud skate,2,amax,NA,0.38571428571428573,NA,NA,NA
-mud skate,1,frisk_k,NA,0.1730586010248673,NA,NA,NA
-mud skate,2,frisk_k,NA,0.18655940936940815,NA,NA,NA
-mud skate,1,frisk_tmat,NA,0.17024174327545116,NA,NA,NA
-mud skate,1,hamel_k,NA,0.19423239999999997,NA,NA,NA
-mud skate,2,hamel_k,NA,0.2322725,NA,NA,NA
-mud skate,1,jensen_k1,NA,0.1662,NA,NA,NA
-mud skate,2,jensen_k1,NA,0.19875,NA,NA,NA
-mud skate,1,jensen_k2,NA,0.17728,NA,NA,NA
-mud skate,2,jensen_k2,NA,0.21200000000000002,NA,NA,NA
-mud skate,1,then,NA,0.19009677523280444,NA,NA,NA
-mud skate,2,then,NA,0.22309229532924246,NA,NA,NA
-roughtail skate,1,amax,NA,0.18000000000000002,NA,0.31764705882352945,NA
-roughtail skate,2,amax,NA,0.15000000000000002,NA,NA,NA
-roughtail skate,3,amax,NA,0.15000000000000002,NA,NA,NA
-roughtail skate,1,frisk_k,NA,0.1374301682997449,NA,0.13375499652970874,NA
-roughtail skate,2,frisk_k,NA,0.1013580859406385,NA,NA,NA
-roughtail skate,3,frisk_k,NA,0.11040674337375465,NA,NA,NA
-roughtail skate,1,frisk_tmat,NA,0.07850525985241011,NA,0.12453300124533,NA
-roughtail skate,1,hamel_k,NA,0.112192,NA,0.10518,NA
-roughtail skate,2,hamel_k,NA,0.054342999999999995,NA,NA,NA
-roughtail skate,3,hamel_k,NA,0.06661399999999999,NA,NA,NA
-roughtail skate,1,jensen_k1,NA,0.096,NA,0.09,NA
-roughtail skate,2,jensen_k1,NA,0.0465,NA,NA,NA
-roughtail skate,3,jensen_k1,NA,0.056999999999999995,NA,NA,NA
-roughtail skate,1,jensen_k2,NA,0.1024,NA,0.096,NA
-roughtail skate,2,jensen_k2,NA,0.049600000000000005,NA,NA,NA
-roughtail skate,3,jensen_k2,NA,0.0608,NA,NA,NA
-roughtail skate,1,then,NA,0.055626132001846476,NA,0.11104770776291752,NA
-roughtail skate,2,then,NA,0.03036304342140112,NA,NA,NA
-roughtail skate,3,then,NA,0.03646806188605079,NA,NA,NA
-sandpaper skate,1,amax,NA,NA,NA,0.31764705882352945,NA
-sandpaper skate,1,frisk_k,NA,NA,NA,0.2263698552053822,NA
-sandpaper skate,1,hamel_k,NA,NA,NA,0.36812999999999996,NA
-sandpaper skate,1,jensen_k1,NA,NA,NA,0.315,NA
-sandpaper skate,1,jensen_k2,NA,NA,NA,0.336,NA
-sandpaper skate,1,then,NA,NA,NA,0.34891850158940085,NA
-whiteblotched skate,1,amax,NA,0.15000000000000002,NA,NA,NA
-whiteblotched skate,2,amax,NA,0.16875,NA,NA,NA
-whiteblotched skate,3,amax,NA,0.16363636363636364,NA,NA,NA
-whiteblotched skate,1,frisk_k,NA,0.0843177652356208,NA,NA,NA
-whiteblotched skate,2,frisk_k,NA,0.09474583739022593,NA,NA,NA
-whiteblotched skate,3,frisk_k,NA,0.10817928056672661,NA,NA,NA
-whiteblotched skate,1,frisk_tmat,NA,0.07513148009015778,NA,NA,NA
-whiteblotched skate,2,frisk_tmat,NA,0.08658008658008658,NA,NA,NA
-whiteblotched skate,3,frisk_tmat,NA,0.07513148009015778,NA,NA,NA
-whiteblotched skate,4,frisk_tmat,NA,0.08658008658008658,NA,NA,NA
-whiteblotched skate,1,hamel_k,NA,0.03506,NA,NA,NA
-whiteblotched skate,2,hamel_k,NA,0.0462792,NA,NA,NA
-whiteblotched skate,3,hamel_k,NA,0.0634586,NA,NA,NA
-whiteblotched skate,1,jensen_k1,NA,0.03,NA,NA,NA
-whiteblotched skate,2,jensen_k1,NA,0.039599999999999996,NA,NA,NA
-whiteblotched skate,3,jensen_k1,NA,0.0543,NA,NA,NA
-whiteblotched skate,1,jensen_k2,NA,0.032,NA,NA,NA
-whiteblotched skate,2,jensen_k2,NA,0.04224,NA,NA,NA
-whiteblotched skate,3,jensen_k2,NA,0.057920000000000006,NA,NA,NA
-whiteblotched skate,1,then,NA,0.04343933707564484,NA,NA,NA
-whiteblotched skate,2,then,NA,0.05320298064312852,NA,NA,NA
-whiteblotched skate,3,then,NA,0.06891851527554343,NA,NA,NA
-whitebrow skate,1,amax,NA,0.14594594594594595,NA,NA,NA
-whitebrow skate,1,frisk_k,NA,0.07717609415851172,NA,NA,NA
-whitebrow skate,1,frisk_tmat,NA,0.08045052292839903,NA,NA,NA
-whitebrow skate,1,hamel_k,NA,0.028398599999999996,NA,NA,NA
-whitebrow skate,1,jensen_k1,NA,0.0243,NA,NA,NA
-whitebrow skate,1,jensen_k2,NA,0.02592,NA,NA,NA
-whitebrow skate,1,then,NA,0.03708059917616137,NA,NA,NA
+species,input_area,M_method,M_estimate,version,method_or_source
+alaska skate,BC,fishlife,0.1598409962549273,1,Thorson
+alaska skate,BC,amax,NA,1,NA
+alaska skate,BC,gsi,NA,1,NA
+alaska skate,BC,then,NA,1,NA
+alaska skate,BC,hamel_k,NA,1,NA
+alaska skate,BC,jensen_k1,NA,1,NA
+alaska skate,BC,jensen_k2,NA,1,NA
+alaska skate,BC,frisk_k,NA,1,NA
+alaska skate,BC,frisk_tmat,NA,1,NA
+alaska skate,BS,fishlife,0.1598409962549273,1,Thorson
+alaska skate,BS,amax,0.2076923076923077,1,AFSC max age
+alaska skate,BS,amax,0.30000000000000004,2,AFSC mean top 5
+alaska skate,BS,amax,0.31764705882352945,3,Matta and Gunderson 2007
+alaska skate,BS,gsi,NA,1,NA
+alaska skate,BS,then,0.13391077343120814,1,Matta and Gunderson 2007
+alaska skate,BS,hamel_k,0.15251099999999998,1,Matta and Gunderson 2007
+alaska skate,BS,jensen_k1,0.1305,1,Matta and Gunderson 2007
+alaska skate,BS,jensen_k2,0.1392,1,Matta and Gunderson 2007
+alaska skate,BS,frisk_k,0.15634520827545356,1,Matta and Gunderson 2007
+alaska skate,BS,frisk_tmat,0.15948963317384368,1,Matta and Gunderson 2007
+alaska skate,GOA,fishlife,0.1598409962549273,1,Thorson
+alaska skate,GOA,amax,NA,1,NA
+alaska skate,GOA,gsi,NA,1,NA
+alaska skate,GOA,then,NA,1,NA
+alaska skate,GOA,hamel_k,NA,1,NA
+alaska skate,GOA,jensen_k1,NA,1,NA
+alaska skate,GOA,jensen_k2,NA,1,NA
+alaska skate,GOA,frisk_k,NA,1,NA
+alaska skate,GOA,frisk_tmat,NA,1,NA
+alaska skate,multi_region,fishlife,0.1598409962549273,1,Thorson
+alaska skate,multi_region,amax,NA,1,NA
+alaska skate,multi_region,gsi,NA,1,NA
+alaska skate,multi_region,then,NA,1,NA
+alaska skate,multi_region,hamel_k,NA,1,NA
+alaska skate,multi_region,jensen_k1,NA,1,NA
+alaska skate,multi_region,jensen_k2,NA,1,NA
+alaska skate,multi_region,frisk_k,NA,1,NA
+alaska skate,multi_region,frisk_tmat,NA,1,NA
+alaska skate,WC,fishlife,0.1598409962549273,1,Thorson
+alaska skate,WC,amax,NA,1,NA
+alaska skate,WC,gsi,NA,1,NA
+alaska skate,WC,then,NA,1,NA
+alaska skate,WC,hamel_k,NA,1,NA
+alaska skate,WC,jensen_k1,NA,1,NA
+alaska skate,WC,jensen_k2,NA,1,NA
+alaska skate,WC,frisk_k,NA,1,NA
+alaska skate,WC,frisk_tmat,NA,1,NA
+aleutian skate,BC,fishlife,0.1598409962549273,1,Thorson
+aleutian skate,BC,amax,NA,1,NA
+aleutian skate,BC,gsi,NA,1,NA
+aleutian skate,BC,then,NA,1,NA
+aleutian skate,BC,hamel_k,NA,1,NA
+aleutian skate,BC,jensen_k1,NA,1,NA
+aleutian skate,BC,jensen_k2,NA,1,NA
+aleutian skate,BC,frisk_k,NA,1,NA
+aleutian skate,BC,frisk_tmat,NA,1,NA
+aleutian skate,BS,fishlife,0.1598409962549273,1,Thorson
+aleutian skate,BS,amax,0.31764705882352945,1,Haas 2011
+aleutian skate,BS,gsi,NA,1,NA
+aleutian skate,BS,then,0.1728988378551574,1,Haas 2011
+aleutian skate,BS,then,0.1837149089342341,2,Ebert et al. 2007
+aleutian skate,BS,then,0.15052708617317617,3,Haas 2011
+aleutian skate,BS,then,0.14991152457495527,4,Ebert et al. 2007
+aleutian skate,BS,hamel_k,0.22788999999999998,1,Haas 2011
+aleutian skate,BS,hamel_k,0.24542,2,Ebert et al. 2007
+aleutian skate,BS,hamel_k,0.19283,3,Haas 2011
+aleutian skate,BS,hamel_k,0.19283,4,Ebert et al. 2007
+aleutian skate,BS,jensen_k1,0.195,1,Haas 2011
+aleutian skate,BS,jensen_k1,0.21000000000000002,2,Ebert et al. 2007
+aleutian skate,BS,jensen_k1,0.165,3,Haas 2011
+aleutian skate,BS,jensen_k1,0.165,4,Ebert et al. 2007
+aleutian skate,BS,jensen_k2,0.20800000000000002,1,Haas 2011
+aleutian skate,BS,jensen_k2,0.22400000000000003,2,Ebert et al. 2007
+aleutian skate,BS,jensen_k2,0.17600000000000002,3,Haas 2011
+aleutian skate,BS,jensen_k2,0.17600000000000002,4,Ebert et al. 2007
+aleutian skate,BS,frisk_k,0.18507284334075674,1,Haas 2011
+aleutian skate,BS,frisk_k,0.1909238855545526,2,Ebert et al. 2007
+aleutian skate,BS,frisk_k,0.17253269932466583,3,Haas 2011
+aleutian skate,BS,frisk_k,0.17253269932466583,4,Ebert et al. 2007
+aleutian skate,BS,frisk_tmat,0.15728216420257943,1,Ebert et al. 2007
+aleutian skate,GOA,fishlife,0.1598409962549273,1,Thorson
+aleutian skate,GOA,amax,0.28421052631578947,1,Haas 2011
+aleutian skate,GOA,gsi,NA,1,NA
+aleutian skate,GOA,then,0.15370885511035864,1,Haas 2011
+aleutian skate,GOA,then,0.2023116009448813,2,Haas 2011
+aleutian skate,GOA,hamel_k,0.19283,1,Haas 2011
+aleutian skate,GOA,hamel_k,0.26294999999999996,2,Haas 2011
+aleutian skate,GOA,jensen_k1,0.165,1,Haas 2011
+aleutian skate,GOA,jensen_k1,0.22499999999999998,2,Haas 2011
+aleutian skate,GOA,jensen_k2,0.17600000000000002,1,Haas 2011
+aleutian skate,GOA,jensen_k2,0.24,2,Haas 2011
+aleutian skate,GOA,frisk_k,0.17253269932466583,1,Haas 2011
+aleutian skate,GOA,frisk_k,0.19653722423853923,2,Haas 2011
+aleutian skate,GOA,frisk_tmat,NA,1,NA
+aleutian skate,multi_region,fishlife,0.1598409962549273,1,Thorson
+aleutian skate,multi_region,amax,NA,1,NA
+aleutian skate,multi_region,gsi,NA,1,NA
+aleutian skate,multi_region,then,NA,1,NA
+aleutian skate,multi_region,hamel_k,NA,1,NA
+aleutian skate,multi_region,jensen_k1,NA,1,NA
+aleutian skate,multi_region,jensen_k2,NA,1,NA
+aleutian skate,multi_region,frisk_k,NA,1,NA
+aleutian skate,multi_region,frisk_tmat,NA,1,NA
+aleutian skate,WC,fishlife,0.1598409962549273,1,Thorson
+aleutian skate,WC,amax,NA,1,NA
+aleutian skate,WC,gsi,NA,1,NA
+aleutian skate,WC,then,NA,1,NA
+aleutian skate,WC,hamel_k,NA,1,NA
+aleutian skate,WC,jensen_k1,NA,1,NA
+aleutian skate,WC,jensen_k2,NA,1,NA
+aleutian skate,WC,frisk_k,NA,1,NA
+aleutian skate,WC,frisk_tmat,NA,1,NA
+bering skate,BC,fishlife,0.11749588055778094,1,Thorson
+bering skate,BC,amax,NA,1,NA
+bering skate,BC,gsi,NA,1,NA
+bering skate,BC,then,NA,1,NA
+bering skate,BC,hamel_k,NA,1,NA
+bering skate,BC,jensen_k1,NA,1,NA
+bering skate,BC,jensen_k2,NA,1,NA
+bering skate,BC,frisk_k,NA,1,NA
+bering skate,BC,frisk_tmat,NA,1,NA
+bering skate,BS,fishlife,0.11749588055778094,1,Thorson
+bering skate,BS,amax,0.2571428571428572,1,Ainsley 2014
+bering skate,BS,gsi,NA,1,NA
+bering skate,BS,then,0.12966688261945816,1,Ainsley 2009
+bering skate,BS,then,0.12702634976646765,2,Ainsley 2014
+bering skate,BS,hamel_k,0.126216,1,Ainsley 2009
+bering skate,BS,hamel_k,0.12271,2,Ainsley 2014
+bering skate,BS,jensen_k1,0.10799999999999998,1,Ainsley 2009
+bering skate,BS,jensen_k1,0.10500000000000001,2,Ainsley 2014
+bering skate,BS,jensen_k2,0.1152,1,Ainsley 2009
+bering skate,BS,jensen_k2,0.11200000000000002,2,Ainsley 2014
+bering skate,BS,frisk_k,0.14439964906576405,1,Ainsley 2009
+bering skate,BS,frisk_k,0.14270121343384298,2,Ainsley 2014
+bering skate,BS,frisk_tmat,NA,1,NA
+bering skate,GOA,fishlife,0.11749588055778094,1,Thorson
+bering skate,GOA,amax,0.2571428571428572,1,Ainsley 2014
+bering skate,GOA,gsi,NA,1,NA
+bering skate,GOA,then,0.11177292589962726,1,Ainsley 2009
+bering skate,GOA,then,0.11029963323405229,2,Ainsley 2014
+bering skate,GOA,hamel_k,0.10710829999999999,1,Ainsley 2009
+bering skate,GOA,hamel_k,0.10518,2,Ainsley 2014
+bering skate,GOA,jensen_k1,0.09165000000000001,1,Ainsley 2009
+bering skate,GOA,jensen_k1,0.09,2,Ainsley 2014
+bering skate,GOA,jensen_k2,0.09776000000000001,1,Ainsley 2009
+bering skate,GOA,jensen_k2,0.096,2,Ainsley 2014
+bering skate,GOA,frisk_k,0.1347794865502383,1,Ainsley 2009
+bering skate,GOA,frisk_k,0.13375499652970874,2,Ainsley 2014
+bering skate,GOA,frisk_tmat,NA,1,NA
+bering skate,multi_region,fishlife,0.11749588055778094,1,Thorson
+bering skate,multi_region,amax,NA,1,NA
+bering skate,multi_region,gsi,NA,1,NA
+bering skate,multi_region,then,NA,1,NA
+bering skate,multi_region,hamel_k,NA,1,NA
+bering skate,multi_region,jensen_k1,NA,1,NA
+bering skate,multi_region,jensen_k2,NA,1,NA
+bering skate,multi_region,frisk_k,NA,1,NA
+bering skate,multi_region,frisk_tmat,NA,1,NA
+bering skate,WC,fishlife,0.11749588055778094,1,Thorson
+bering skate,WC,amax,NA,1,NA
+bering skate,WC,gsi,NA,1,NA
+bering skate,WC,then,NA,1,NA
+bering skate,WC,hamel_k,NA,1,NA
+bering skate,WC,jensen_k1,NA,1,NA
+bering skate,WC,jensen_k2,NA,1,NA
+bering skate,WC,frisk_k,NA,1,NA
+bering skate,WC,frisk_tmat,NA,1,NA
+big skate,BC,fishlife,0.18649355106539695,1,Thorson
+big skate,BC,amax,0.2076923076923077,1,McFarlane et al. 2006
+big skate,BC,gsi,NA,1,NA
+big skate,BC,then,0.10063393310100129,1,"King 2010, Fabens"
+big skate,BC,then,0.060122210622574494,2,McFarlane et al. 2006
+big skate,BC,then,0.06012897206244981,3,McFarlane et al. 2010
+big skate,BC,hamel_k,0.10518,1,"King 2010, Fabens"
+big skate,BC,hamel_k,0.07012,2,McFarlane et al. 2006
+big skate,BC,hamel_k,0.07012,3,McFarlane et al. 2010
+big skate,BC,jensen_k1,0.09,1,"King 2010, Fabens"
+big skate,BC,jensen_k1,0.06,2,McFarlane et al. 2006
+big skate,BC,jensen_k1,0.06,3,McFarlane et al. 2010
+big skate,BC,jensen_k2,0.096,1,"King 2010, Fabens"
+big skate,BC,jensen_k2,0.064,2,McFarlane et al. 2006
+big skate,BC,jensen_k2,0.064,3,McFarlane et al. 2010
+big skate,BC,frisk_k,0.13375499652970874,1,"King 2010, Fabens"
+big skate,BC,frisk_k,0.11281106146672358,2,McFarlane et al. 2006
+big skate,BC,frisk_k,0.11281106146672358,3,McFarlane et al. 2010
+big skate,BC,frisk_tmat,0.18552875695732837,1,McFarlane et al. 2006
+big skate,BS,fishlife,0.18649355106539695,1,Thorson
+big skate,BS,amax,NA,1,NA
+big skate,BS,gsi,NA,1,NA
+big skate,BS,then,NA,1,NA
+big skate,BS,hamel_k,NA,1,NA
+big skate,BS,jensen_k1,NA,1,NA
+big skate,BS,jensen_k2,NA,1,NA
+big skate,BS,frisk_k,NA,1,NA
+big skate,BS,frisk_tmat,NA,1,NA
+big skate,GOA,fishlife,0.18649355106539695,1,Thorson
+big skate,GOA,amax,0.4153846153846154,1,AFSC max age
+big skate,GOA,amax,0.44383561643835623,2,AFSC mean top 5
+big skate,GOA,amax,0.38571428571428573,3,Gburski 2007
+big skate,GOA,gsi,NA,1,NA
+big skate,GOA,then,0.10510625065820242,1,Gburski 2007
+big skate,GOA,hamel_k,0.1395388,1,Gburski 2007
+big skate,GOA,jensen_k1,0.1194,1,Gburski 2007
+big skate,GOA,jensen_k2,0.12736,1,Gburski 2007
+big skate,GOA,frisk_k,0.15061560745775246,1,Gburski 2007
+big skate,GOA,frisk_tmat,NA,1,NA
+big skate,multi_region,fishlife,0.18649355106539695,1,Thorson
+big skate,multi_region,amax,NA,1,NA
+big skate,multi_region,gsi,NA,1,NA
+big skate,multi_region,then,NA,1,NA
+big skate,multi_region,hamel_k,NA,1,NA
+big skate,multi_region,jensen_k1,NA,1,NA
+big skate,multi_region,jensen_k2,NA,1,NA
+big skate,multi_region,frisk_k,NA,1,NA
+big skate,multi_region,frisk_tmat,NA,1,NA
+big skate,WC,fishlife,0.18649355106539695,1,Thorson
+big skate,WC,amax,0.45,1,Zeiner and Wolf 1993
+big skate,WC,gsi,NA,1,NA
+big skate,WC,then,NA,1,NA
+big skate,WC,then,NA,1,Zeiner and Wolf 1993
+big skate,WC,hamel_k,NA,1,NA
+big skate,WC,jensen_k1,NA,1,NA
+big skate,WC,jensen_k2,NA,1,NA
+big skate,WC,frisk_k,NA,1,NA
+big skate,WC,frisk_tmat,NA,1,NA
+commander skate,BC,fishlife,0.11749588055778094,1,Thorson
+commander skate,BC,amax,NA,1,NA
+commander skate,BC,gsi,NA,1,NA
+commander skate,BC,then,NA,1,NA
+commander skate,BC,hamel_k,NA,1,NA
+commander skate,BC,jensen_k1,NA,1,NA
+commander skate,BC,jensen_k2,NA,1,NA
+commander skate,BC,frisk_k,NA,1,NA
+commander skate,BC,frisk_tmat,NA,1,NA
+commander skate,BS,fishlife,0.11749588055778094,1,Thorson
+commander skate,BS,amax,0.1542857142857143,1,"Maurer 2009, overall"
+commander skate,BS,amax,0.16875,2,"Maurer 2009, gross"
+commander skate,BS,gsi,NA,1,NA
+commander skate,BS,then,0.08068544168449845,1,"Maurer 2009, gross"
+commander skate,BS,hamel_k,0.0731001,1,"Maurer 2009, gross"
+commander skate,BS,jensen_k1,0.06255,1,"Maurer 2009, gross"
+commander skate,BS,jensen_k2,0.06672,1,"Maurer 2009, gross"
+commander skate,BS,frisk_k,0.11480046108239098,1,"Maurer 2009, gross"
+commander skate,BS,frisk_tmat,0.08965393580778196,1,"Maurer 2009, histo"
+commander skate,BS,frisk_tmat,0.1044932079414838,2,"Maurer 2009, gross"
+commander skate,GOA,fishlife,0.11749588055778094,1,Thorson
+commander skate,GOA,amax,NA,1,NA
+commander skate,GOA,gsi,NA,1,NA
+commander skate,GOA,then,NA,1,NA
+commander skate,GOA,hamel_k,NA,1,NA
+commander skate,GOA,jensen_k1,NA,1,NA
+commander skate,GOA,jensen_k2,NA,1,NA
+commander skate,GOA,frisk_k,NA,1,NA
+commander skate,GOA,frisk_tmat,NA,1,NA
+commander skate,multi_region,fishlife,0.11749588055778094,1,Thorson
+commander skate,multi_region,amax,NA,1,NA
+commander skate,multi_region,gsi,NA,1,NA
+commander skate,multi_region,then,NA,1,NA
+commander skate,multi_region,hamel_k,NA,1,NA
+commander skate,multi_region,jensen_k1,NA,1,NA
+commander skate,multi_region,jensen_k2,NA,1,NA
+commander skate,multi_region,frisk_k,NA,1,NA
+commander skate,multi_region,frisk_tmat,NA,1,NA
+commander skate,WC,fishlife,0.11749588055778094,1,Thorson
+commander skate,WC,amax,NA,1,NA
+commander skate,WC,gsi,NA,1,NA
+commander skate,WC,then,NA,1,NA
+commander skate,WC,hamel_k,NA,1,NA
+commander skate,WC,jensen_k1,NA,1,NA
+commander skate,WC,jensen_k2,NA,1,NA
+commander skate,WC,frisk_k,NA,1,NA
+commander skate,WC,frisk_tmat,NA,1,NA
+longnose skate,BC,fishlife,0.18649355106539695,1,Thorson
+longnose skate,BC,amax,NA,1,NA
+longnose skate,BC,gsi,NA,1,NA
+longnose skate,BC,then,NA,1,NA
+longnose skate,BC,hamel_k,NA,1,NA
+longnose skate,BC,jensen_k1,NA,1,NA
+longnose skate,BC,jensen_k2,NA,1,NA
+longnose skate,BC,frisk_k,NA,1,NA
+longnose skate,BC,frisk_tmat,NA,1,NA
+longnose skate,BS,fishlife,0.18649355106539695,1,Thorson
+longnose skate,BS,amax,NA,1,NA
+longnose skate,BS,gsi,NA,1,NA
+longnose skate,BS,then,NA,1,NA
+longnose skate,BS,hamel_k,NA,1,NA
+longnose skate,BS,jensen_k1,NA,1,NA
+longnose skate,BS,jensen_k2,NA,1,NA
+longnose skate,BS,frisk_k,NA,1,NA
+longnose skate,BS,frisk_tmat,NA,1,NA
+longnose skate,GOA,fishlife,0.18649355106539695,1,Thorson
+longnose skate,GOA,amax,0.23478260869565218,1,AFSC max age
+longnose skate,GOA,amax,0.24868421052631579,2,AFSC mean top 5
+longnose skate,GOA,amax,0.30000000000000004,3,Arrington 2020
+longnose skate,GOA,amax,0.225,4,Gburski 2007
+longnose skate,GOA,gsi,NA,1,NA
+longnose skate,GOA,then,0.06330722650454053,1,Arrington 2020
+longnose skate,GOA,then,0.06095484945413107,2,Gburski 2007
+longnose skate,GOA,hamel_k,0.07012,1,Arrington 2020
+longnose skate,GOA,hamel_k,0.0645104,2,Gburski 2007
+longnose skate,GOA,jensen_k1,0.06,1,Arrington 2020
+longnose skate,GOA,jensen_k1,0.0552,2,Gburski 2007
+longnose skate,GOA,jensen_k2,0.064,1,Arrington 2020
+longnose skate,GOA,jensen_k2,0.05888,2,Gburski 2007
+longnose skate,GOA,frisk_k,0.11281106146672358,1,Arrington 2020
+longnose skate,GOA,frisk_k,0.1089287633307902,2,Gburski 2007
+longnose skate,GOA,frisk_tmat,0.13175230566534915,1,Arrington 2020
+longnose skate,multi_region,fishlife,0.18649355106539695,1,Thorson
+longnose skate,multi_region,amax,0.27,1,Arrington 2020
+longnose skate,multi_region,gsi,NA,1,NA
+longnose skate,multi_region,then,0.06602313849444441,1,Arrington 2020
+longnose skate,multi_region,hamel_k,0.07012,1,Arrington 2020
+longnose skate,multi_region,jensen_k1,0.06,1,Arrington 2020
+longnose skate,multi_region,jensen_k2,0.064,1,Arrington 2020
+longnose skate,multi_region,frisk_k,0.11281106146672358,1,Arrington 2020
+longnose skate,multi_region,frisk_tmat,0.13175230566534915,1,Arrington 2020
+longnose skate,WC,fishlife,0.18649355106539695,1,Thorson
+longnose skate,WC,amax,0.24545454545454548,1,Gertseva 2019
+longnose skate,WC,amax,0.28421052631578947,2,Arrington 2020
+longnose skate,WC,gsi,0.029617099999999997,1,Thompson 2005
+longnose skate,WC,then,0.06714493353766862,1,Arrington 2020
+longnose skate,WC,hamel_k,0.07012,1,Arrington 2020
+longnose skate,WC,jensen_k1,0.06,1,Arrington 2020
+longnose skate,WC,jensen_k2,0.064,1,Arrington 2020
+longnose skate,WC,frisk_k,0.11281106146672358,1,Arrington 2020
+longnose skate,WC,frisk_tmat,0.13986013986013984,1,Arrington 2020
+mud skate,BC,fishlife,0.12505686594768517,1,Thorson
+mud skate,BC,amax,NA,1,NA
+mud skate,BC,gsi,NA,1,NA
+mud skate,BC,then,NA,1,NA
+mud skate,BC,hamel_k,NA,1,NA
+mud skate,BC,jensen_k1,NA,1,NA
+mud skate,BC,jensen_k2,NA,1,NA
+mud skate,BC,frisk_k,NA,1,NA
+mud skate,BC,frisk_tmat,NA,1,NA
+mud skate,BS,fishlife,0.12505686594768517,1,Thorson
+mud skate,BS,amax,0.38571428571428573,1,Ebert et al. 2009
+mud skate,BS,amax,0.38571428571428573,2,Ebert et al. 2009
+mud skate,BS,gsi,NA,1,NA
+mud skate,BS,then,0.19009677523280444,1,Ebert et al. 2009
+mud skate,BS,then,0.22309229532924246,2,Ebert et al. 2009
+mud skate,BS,hamel_k,0.19423239999999997,1,Ebert et al. 2009
+mud skate,BS,hamel_k,0.2322725,2,Ebert et al. 2009
+mud skate,BS,jensen_k1,0.1662,1,Ebert et al. 2009
+mud skate,BS,jensen_k1,0.19875,2,Ebert et al. 2009
+mud skate,BS,jensen_k2,0.17728,1,Ebert et al. 2009
+mud skate,BS,jensen_k2,0.21200000000000002,2,Ebert et al. 2009
+mud skate,BS,frisk_k,0.1730586010248673,1,Ebert et al. 2009
+mud skate,BS,frisk_k,0.18655940936940815,2,Ebert et al. 2009
+mud skate,BS,frisk_tmat,0.17024174327545116,1,Ebert et al. 2009
+mud skate,GOA,fishlife,0.12505686594768517,1,Thorson
+mud skate,GOA,amax,NA,1,NA
+mud skate,GOA,gsi,NA,1,NA
+mud skate,GOA,then,NA,1,NA
+mud skate,GOA,hamel_k,NA,1,NA
+mud skate,GOA,jensen_k1,NA,1,NA
+mud skate,GOA,jensen_k2,NA,1,NA
+mud skate,GOA,frisk_k,NA,1,NA
+mud skate,GOA,frisk_tmat,NA,1,NA
+mud skate,multi_region,fishlife,0.12505686594768517,1,Thorson
+mud skate,multi_region,amax,NA,1,NA
+mud skate,multi_region,gsi,NA,1,NA
+mud skate,multi_region,then,NA,1,NA
+mud skate,multi_region,hamel_k,NA,1,NA
+mud skate,multi_region,jensen_k1,NA,1,NA
+mud skate,multi_region,jensen_k2,NA,1,NA
+mud skate,multi_region,frisk_k,NA,1,NA
+mud skate,multi_region,frisk_tmat,NA,1,NA
+mud skate,WC,fishlife,0.12505686594768517,1,Thorson
+mud skate,WC,amax,NA,1,NA
+mud skate,WC,gsi,NA,1,NA
+mud skate,WC,then,NA,1,NA
+mud skate,WC,hamel_k,NA,1,NA
+mud skate,WC,jensen_k1,NA,1,NA
+mud skate,WC,jensen_k2,NA,1,NA
+mud skate,WC,frisk_k,NA,1,NA
+mud skate,WC,frisk_tmat,NA,1,NA
+roughtail skate,BC,fishlife,0.21949099396933225,1,Thorson
+roughtail skate,BC,amax,NA,1,NA
+roughtail skate,BC,gsi,NA,1,NA
+roughtail skate,BC,then,NA,1,NA
+roughtail skate,BC,hamel_k,NA,1,NA
+roughtail skate,BC,jensen_k1,NA,1,NA
+roughtail skate,BC,jensen_k2,NA,1,NA
+roughtail skate,BC,frisk_k,NA,1,NA
+roughtail skate,BC,frisk_tmat,NA,1,NA
+roughtail skate,BS,fishlife,0.21949099396933225,1,Thorson
+roughtail skate,BS,amax,0.18000000000000002,1,Winton 2011 sectioning
+roughtail skate,BS,amax,0.15000000000000002,2,Winton 2011 histology
+roughtail skate,BS,amax,0.15000000000000002,3,Winton 2013
+roughtail skate,BS,gsi,NA,1,NA
+roughtail skate,BS,then,0.055626132001846476,1,Winton 2011 sectioning
+roughtail skate,BS,then,0.03036304342140112,2,Winton 2011 histology
+roughtail skate,BS,then,0.03646806188605079,3,Winton 2011
+roughtail skate,BS,hamel_k,0.112192,1,Winton 2011 sectioning
+roughtail skate,BS,hamel_k,0.054342999999999995,2,Winton 2011 histology
+roughtail skate,BS,hamel_k,0.06661399999999999,3,Winton 2011
+roughtail skate,BS,jensen_k1,0.096,1,Winton 2011 sectioning
+roughtail skate,BS,jensen_k1,0.0465,2,Winton 2011 histology
+roughtail skate,BS,jensen_k1,0.056999999999999995,3,Winton 2011
+roughtail skate,BS,jensen_k2,0.1024,1,Winton 2011 sectioning
+roughtail skate,BS,jensen_k2,0.049600000000000005,2,Winton 2011 histology
+roughtail skate,BS,jensen_k2,0.0608,3,Winton 2011
+roughtail skate,BS,frisk_k,0.1374301682997449,1,Winton 2011 sectioning
+roughtail skate,BS,frisk_k,0.1013580859406385,2,Winton 2011 histology
+roughtail skate,BS,frisk_k,0.11040674337375465,3,Winton 2011
+roughtail skate,BS,frisk_tmat,0.07850525985241011,1,Winton 2013
+roughtail skate,GOA,fishlife,0.21949099396933225,1,Thorson
+roughtail skate,GOA,amax,NA,1,NA
+roughtail skate,GOA,gsi,NA,1,NA
+roughtail skate,GOA,then,NA,1,NA
+roughtail skate,GOA,hamel_k,NA,1,NA
+roughtail skate,GOA,jensen_k1,NA,1,NA
+roughtail skate,GOA,jensen_k2,NA,1,NA
+roughtail skate,GOA,frisk_k,NA,1,NA
+roughtail skate,GOA,frisk_tmat,NA,1,NA
+roughtail skate,multi_region,fishlife,0.21949099396933225,1,Thorson
+roughtail skate,multi_region,amax,NA,1,NA
+roughtail skate,multi_region,gsi,NA,1,NA
+roughtail skate,multi_region,then,NA,1,NA
+roughtail skate,multi_region,hamel_k,NA,1,NA
+roughtail skate,multi_region,jensen_k1,NA,1,NA
+roughtail skate,multi_region,jensen_k2,NA,1,NA
+roughtail skate,multi_region,frisk_k,NA,1,NA
+roughtail skate,multi_region,frisk_tmat,NA,1,NA
+roughtail skate,WC,fishlife,0.21949099396933225,1,Thorson
+roughtail skate,WC,amax,0.31764705882352945,1,Davis 2006
+roughtail skate,WC,gsi,NA,1,NA
+roughtail skate,WC,then,0.11104770776291752,1,Davis 2006
+roughtail skate,WC,hamel_k,0.10518,1,Davis 2006
+roughtail skate,WC,jensen_k1,0.09,1,Davis 2006
+roughtail skate,WC,jensen_k2,0.096,1,Davis 2006
+roughtail skate,WC,frisk_k,0.13375499652970874,1,Davis 2006
+roughtail skate,WC,frisk_tmat,0.12453300124533,1,Davis 2006
+sandpaper skate,BC,fishlife,0.13551546074338366,1,Thorson
+sandpaper skate,BC,amax,NA,1,NA
+sandpaper skate,BC,gsi,NA,1,NA
+sandpaper skate,BC,then,NA,1,NA
+sandpaper skate,BC,hamel_k,NA,1,NA
+sandpaper skate,BC,jensen_k1,NA,1,NA
+sandpaper skate,BC,jensen_k2,NA,1,NA
+sandpaper skate,BC,frisk_k,NA,1,NA
+sandpaper skate,BC,frisk_tmat,NA,1,NA
+sandpaper skate,BS,fishlife,0.13551546074338366,1,Thorson
+sandpaper skate,BS,amax,NA,1,NA
+sandpaper skate,BS,gsi,NA,1,NA
+sandpaper skate,BS,then,NA,1,NA
+sandpaper skate,BS,hamel_k,NA,1,NA
+sandpaper skate,BS,jensen_k1,NA,1,NA
+sandpaper skate,BS,jensen_k2,NA,1,NA
+sandpaper skate,BS,frisk_k,NA,1,NA
+sandpaper skate,BS,frisk_tmat,NA,1,NA
+sandpaper skate,GOA,fishlife,0.13551546074338366,1,Thorson
+sandpaper skate,GOA,amax,NA,1,NA
+sandpaper skate,GOA,gsi,NA,1,NA
+sandpaper skate,GOA,then,NA,1,NA
+sandpaper skate,GOA,hamel_k,NA,1,NA
+sandpaper skate,GOA,jensen_k1,NA,1,NA
+sandpaper skate,GOA,jensen_k2,NA,1,NA
+sandpaper skate,GOA,frisk_k,NA,1,NA
+sandpaper skate,GOA,frisk_tmat,NA,1,NA
+sandpaper skate,multi_region,fishlife,0.13551546074338366,1,Thorson
+sandpaper skate,multi_region,amax,NA,1,NA
+sandpaper skate,multi_region,gsi,NA,1,NA
+sandpaper skate,multi_region,then,NA,1,NA
+sandpaper skate,multi_region,hamel_k,NA,1,NA
+sandpaper skate,multi_region,jensen_k1,NA,1,NA
+sandpaper skate,multi_region,jensen_k2,NA,1,NA
+sandpaper skate,multi_region,frisk_k,NA,1,NA
+sandpaper skate,multi_region,frisk_tmat,NA,1,NA
+sandpaper skate,WC,fishlife,0.13551546074338366,1,Thorson
+sandpaper skate,WC,amax,0.31764705882352945,1,Perez 2010
+sandpaper skate,WC,gsi,NA,1,NA
+sandpaper skate,WC,then,0.34891850158940085,1,Perez 2010
+sandpaper skate,WC,hamel_k,0.36812999999999996,1,Perez 2010
+sandpaper skate,WC,jensen_k1,0.315,1,Perez 2010
+sandpaper skate,WC,jensen_k2,0.336,1,Perez 2010
+sandpaper skate,WC,frisk_k,0.2263698552053822,1,Perez 2010
+sandpaper skate,WC,frisk_tmat,NA,1,NA
+whiteblotched skate,BC,fishlife,0.12505686594768517,1,Thorson
+whiteblotched skate,BC,amax,NA,1,NA
+whiteblotched skate,BC,gsi,NA,1,NA
+whiteblotched skate,BC,then,NA,1,NA
+whiteblotched skate,BC,hamel_k,NA,1,NA
+whiteblotched skate,BC,jensen_k1,NA,1,NA
+whiteblotched skate,BC,jensen_k2,NA,1,NA
+whiteblotched skate,BC,frisk_k,NA,1,NA
+whiteblotched skate,BC,frisk_tmat,NA,1,NA
+whiteblotched skate,BS,fishlife,0.12505686594768517,1,Thorson
+whiteblotched skate,BS,amax,0.15000000000000002,1,Maurer 2009
+whiteblotched skate,BS,amax,0.16875,2,Maurer 2009
+whiteblotched skate,BS,amax,0.16363636363636364,3,Maurer 2009
+whiteblotched skate,BS,gsi,NA,1,NA
+whiteblotched skate,BS,then,0.04343933707564484,1,Maurer 2009
+whiteblotched skate,BS,then,0.05320298064312852,2,Maurer 2009
+whiteblotched skate,BS,then,0.06891851527554343,3,Maurer 2009
+whiteblotched skate,BS,hamel_k,0.03506,1,Maurer 2009
+whiteblotched skate,BS,hamel_k,0.0462792,2,Maurer 2009
+whiteblotched skate,BS,hamel_k,0.0634586,3,Maurer 2009
+whiteblotched skate,BS,jensen_k1,0.03,1,Maurer 2009
+whiteblotched skate,BS,jensen_k1,0.039599999999999996,2,Maurer 2009
+whiteblotched skate,BS,jensen_k1,0.0543,3,Maurer 2009
+whiteblotched skate,BS,jensen_k2,0.032,1,Maurer 2009
+whiteblotched skate,BS,jensen_k2,0.04224,2,Maurer 2009
+whiteblotched skate,BS,jensen_k2,0.057920000000000006,3,Maurer 2009
+whiteblotched skate,BS,frisk_k,0.0843177652356208,1,Maurer 2009
+whiteblotched skate,BS,frisk_k,0.09474583739022593,2,Maurer 2009
+whiteblotched skate,BS,frisk_k,0.10817928056672661,3,Maurer 2009
+whiteblotched skate,BS,frisk_tmat,0.07513148009015778,1,Maurer 2009
+whiteblotched skate,BS,frisk_tmat,0.08658008658008658,2,Maurer 2009
+whiteblotched skate,BS,frisk_tmat,0.07513148009015778,3,Maurer 2009
+whiteblotched skate,BS,frisk_tmat,0.08658008658008658,4,Maurer 2009
+whiteblotched skate,GOA,fishlife,0.12505686594768517,1,Thorson
+whiteblotched skate,GOA,amax,NA,1,NA
+whiteblotched skate,GOA,gsi,NA,1,NA
+whiteblotched skate,GOA,then,NA,1,NA
+whiteblotched skate,GOA,hamel_k,NA,1,NA
+whiteblotched skate,GOA,jensen_k1,NA,1,NA
+whiteblotched skate,GOA,jensen_k2,NA,1,NA
+whiteblotched skate,GOA,frisk_k,NA,1,NA
+whiteblotched skate,GOA,frisk_tmat,NA,1,NA
+whiteblotched skate,multi_region,fishlife,0.12505686594768517,1,Thorson
+whiteblotched skate,multi_region,amax,NA,1,NA
+whiteblotched skate,multi_region,gsi,NA,1,NA
+whiteblotched skate,multi_region,then,NA,1,NA
+whiteblotched skate,multi_region,hamel_k,NA,1,NA
+whiteblotched skate,multi_region,jensen_k1,NA,1,NA
+whiteblotched skate,multi_region,jensen_k2,NA,1,NA
+whiteblotched skate,multi_region,frisk_k,NA,1,NA
+whiteblotched skate,multi_region,frisk_tmat,NA,1,NA
+whiteblotched skate,WC,fishlife,0.12505686594768517,1,Thorson
+whiteblotched skate,WC,amax,NA,1,NA
+whiteblotched skate,WC,gsi,NA,1,NA
+whiteblotched skate,WC,then,NA,1,NA
+whiteblotched skate,WC,hamel_k,NA,1,NA
+whiteblotched skate,WC,jensen_k1,NA,1,NA
+whiteblotched skate,WC,jensen_k2,NA,1,NA
+whiteblotched skate,WC,frisk_k,NA,1,NA
+whiteblotched skate,WC,frisk_tmat,NA,1,NA
+whitebrow skate,BC,fishlife,0.21949099396933225,1,Thorson
+whitebrow skate,BC,amax,NA,1,NA
+whitebrow skate,BC,gsi,NA,1,NA
+whitebrow skate,BC,then,NA,1,NA
+whitebrow skate,BC,hamel_k,NA,1,NA
+whitebrow skate,BC,jensen_k1,NA,1,NA
+whitebrow skate,BC,jensen_k2,NA,1,NA
+whitebrow skate,BC,frisk_k,NA,1,NA
+whitebrow skate,BC,frisk_tmat,NA,1,NA
+whitebrow skate,BS,fishlife,0.21949099396933225,1,Thorson
+whitebrow skate,BS,amax,0.14594594594594595,1,Ainsley 2011
+whitebrow skate,BS,gsi,NA,1,NA
+whitebrow skate,BS,then,0.03708059917616137,1,Ainsley 2011
+whitebrow skate,BS,hamel_k,0.028398599999999996,1,Ainsley 2011
+whitebrow skate,BS,jensen_k1,0.0243,1,Ainsley 2011
+whitebrow skate,BS,jensen_k2,0.02592,1,Ainsley 2011
+whitebrow skate,BS,frisk_k,0.07717609415851172,1,Ainsley 2011
+whitebrow skate,BS,frisk_tmat,0.08045052292839903,1,Ainsley 2011
+whitebrow skate,GOA,fishlife,0.21949099396933225,1,Thorson
+whitebrow skate,GOA,amax,NA,1,NA
+whitebrow skate,GOA,gsi,NA,1,NA
+whitebrow skate,GOA,then,NA,1,NA
+whitebrow skate,GOA,hamel_k,NA,1,NA
+whitebrow skate,GOA,jensen_k1,NA,1,NA
+whitebrow skate,GOA,jensen_k2,NA,1,NA
+whitebrow skate,GOA,frisk_k,NA,1,NA
+whitebrow skate,GOA,frisk_tmat,NA,1,NA
+whitebrow skate,multi_region,fishlife,0.21949099396933225,1,Thorson
+whitebrow skate,multi_region,amax,NA,1,NA
+whitebrow skate,multi_region,gsi,NA,1,NA
+whitebrow skate,multi_region,then,NA,1,NA
+whitebrow skate,multi_region,hamel_k,NA,1,NA
+whitebrow skate,multi_region,jensen_k1,NA,1,NA
+whitebrow skate,multi_region,jensen_k2,NA,1,NA
+whitebrow skate,multi_region,frisk_k,NA,1,NA
+whitebrow skate,multi_region,frisk_tmat,NA,1,NA
+whitebrow skate,WC,fishlife,0.21949099396933225,1,Thorson
+whitebrow skate,WC,amax,NA,1,NA
+whitebrow skate,WC,gsi,NA,1,NA
+whitebrow skate,WC,then,NA,1,NA
+whitebrow skate,WC,hamel_k,NA,1,NA
+whitebrow skate,WC,jensen_k1,NA,1,NA
+whitebrow skate,WC,jensen_k2,NA,1,NA
+whitebrow skate,WC,frisk_k,NA,1,NA
+whitebrow skate,WC,frisk_tmat,NA,1,NA

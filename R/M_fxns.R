@@ -192,5 +192,22 @@ calcM_hisanotmat <- function(input_tmat,
   return(out)
 }
 
- 
+# FishLife Thorson et al. XXXX
+calcM_fishlife <- function(i){
+  input_species <- stocks[i,5]
+  which_g <- match( input_species, edge_names )
+  Table2023 = cbind(
+    Mean = FishBase_and_Morphometrics$beta_gv[which_g,],
+    SE = sqrt(diag(FishBase_and_Morphometrics$Cov_gvv[which_g,,]))
+    )
+  i_fishlife <- as.data.frame(Table2023) %>% 
+    rownames_to_column(var = 'parameter') %>%
+    clean_names() %>% 
+    filter(parameter == 'log.natural_mortality.') %>% 
+    select(mean) %>% 
+    mutate(mean = exp(mean)) %>% 
+    rename(Mest = mean)
+  return(i_fishlife)
+}
+
  

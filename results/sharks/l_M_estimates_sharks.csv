@@ -1,10 +1,13 @@
 species,input_area,M_method,M_estimate,version,method_or_source
+pacific sleeper_shark,BC,fishlife,0.14795113733491355,1,Thorson
 pacific sleeper_shark,BC,amax,NA,1,NA
 pacific sleeper_shark,BC,gsi,NA,1,NA
 pacific sleeper_shark,BC,frisk_tmat,NA,1,NA
+pacific sleeper_shark,GOA,fishlife,0.14795113733491355,1,Thorson
 pacific sleeper_shark,GOA,amax,NA,1,NA
 pacific sleeper_shark,GOA,gsi,NA,1,NA
 pacific sleeper_shark,GOA,frisk_tmat,NA,1,NA
+pacific sleeper_shark,multi_region,fishlife,0.14795113733491355,1,Thorson
 pacific sleeper_shark,multi_region,amax,0.054000000000000006,1,Courtney 2016
 pacific sleeper_shark,multi_region,amax,0.013775510204081633,2,Nielsen et al. 2016
 pacific sleeper_shark,multi_region,amax,0.010546875,3,Nielsen et al. 2017
@@ -13,28 +16,38 @@ pacific sleeper_shark,multi_region,gsi,NA,1,NA
 pacific sleeper_shark,multi_region,frisk_tmat,0.014182385477237271,1,Nielsen et al. 2019
 pacific sleeper_shark,multi_region,frisk_tmat,0.01643925694558606,2,Nielsen et al. 2020
 pacific sleeper_shark,multi_region,frisk_tmat,0.012470382840753209,3,Nielsen et al. 2021
+pacific sleeper_shark,NWP,fishlife,0.14795113733491355,1,Thorson
 pacific sleeper_shark,NWP,amax,NA,1,NA
 pacific sleeper_shark,NWP,gsi,NA,1,NA
 pacific sleeper_shark,NWP,frisk_tmat,NA,1,NA
+pacific sleeper_shark,WC,fishlife,0.14795113733491355,1,Thorson
 pacific sleeper_shark,WC,amax,NA,1,NA
 pacific sleeper_shark,WC,gsi,NA,1,NA
 pacific sleeper_shark,WC,frisk_tmat,NA,1,NA
+salmon shark,BC,fishlife,0.04692093805813822,1,Thorson
 salmon shark,BC,amax,NA,1,NA
 salmon shark,BC,gsi,NA,1,NA
 salmon shark,BC,frisk_tmat,NA,1,NA
+salmon shark,GOA,fishlife,0.04692093805813822,1,Thorson
 salmon shark,GOA,amax,NA,1,NA
 salmon shark,GOA,gsi,NA,1,NA
 salmon shark,GOA,frisk_tmat,NA,1,NA
+salmon shark,multi_region,fishlife,0.04692093805813822,1,Thorson
 salmon shark,multi_region,amax,0.27,1,Goldman 2006
 salmon shark,multi_region,amax,1.08,2,Goldman 2006
 salmon shark,multi_region,gsi,NA,1,NA
-salmon shark,multi_region,frisk_tmat,NA,1,NA
+salmon shark,multi_region,frisk_tmat,0.15948963317384368,1,Goldman and Music 2006
+salmon shark,multi_region,frisk_tmat,0.17152658662092624,2,Goldman and Music 2006
+salmon shark,NWP,fishlife,0.04692093805813822,1,Thorson
 salmon shark,NWP,amax,NA,1,NA
 salmon shark,NWP,gsi,NA,1,NA
-salmon shark,NWP,frisk_tmat,NA,1,NA
+salmon shark,NWP,frisk_tmat,0.15948963317384368,1,Goldman and Music 2006
+salmon shark,NWP,frisk_tmat,0.17152658662092624,2,Goldman and Music 2006
+salmon shark,WC,fishlife,0.04692093805813822,1,Thorson
 salmon shark,WC,amax,NA,1,NA
 salmon shark,WC,gsi,NA,1,NA
 salmon shark,WC,frisk_tmat,NA,1,NA
+spiny dogfish,BC,fishlife,0.10626397023071905,1,Thorson
 spiny dogfish,BC,amax,0.07714285714285715,1,Smith 1998 (Hoenig 1983)
 spiny dogfish,BC,amax,0.06666666666666667,2,Saunders and McFarlane 1993
 spiny dogfish,BC,amax,0.05046728971962617,3,G. McFarlane (pers comm)
@@ -45,16 +58,20 @@ spiny dogfish,BC,frisk_tmat,0.057175528873642086,1,Saunders and McFarlane 1993
 spiny dogfish,BC,frisk_tmat,0.0683526999316473,2,Jones and Geen 1977
 spiny dogfish,BC,frisk_tmat,0.05941770647653,3,Ketchen 1972
 spiny dogfish,BC,frisk_tmat,0.0777000777000777,4,Smith 1998
+spiny dogfish,GOA,fishlife,0.10626397023071905,1,Thorson
 spiny dogfish,GOA,amax,0.1125,1,C Tribuzio per observation
 spiny dogfish,GOA,gsi,0.07268,1,Tribuzio and Kruse 2012
 spiny dogfish,GOA,frisk_tmat,0.05632533513574405,1,Tribuzio et al. 2010
 spiny dogfish,GOA,frisk_tmat,0.0564652738565782,2,Tribuzio and Kruse 2012
+spiny dogfish,multi_region,fishlife,0.10626397023071905,1,Thorson
 spiny dogfish,multi_region,amax,NA,1,NA
 spiny dogfish,multi_region,gsi,NA,1,NA
 spiny dogfish,multi_region,frisk_tmat,NA,1,NA
+spiny dogfish,NWP,fishlife,0.10626397023071905,1,Thorson
 spiny dogfish,NWP,amax,NA,1,NA
 spiny dogfish,NWP,gsi,NA,1,NA
 spiny dogfish,NWP,frisk_tmat,NA,1,NA
+spiny dogfish,WC,fishlife,0.10626397023071905,1,Thorson
 spiny dogfish,WC,amax,0.06136363636363637,1,AFSC max age
 spiny dogfish,WC,amax,0.06617647058823531,2,AFSC mean top 5
 spiny dogfish,WC,gsi,NA,1,NA

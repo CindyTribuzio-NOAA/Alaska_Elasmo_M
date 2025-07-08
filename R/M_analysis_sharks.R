@@ -100,13 +100,26 @@ input_data %>% print(n=Inf)
 
 # Run analysis ----
 
+#setup for fishlife
+# uses scientific name as input and doesn't have region specificity
+# get scientific names for things
+stocks <- read_sheet("https://docs.google.com/spreadsheets/d/1cj5mtrbQ4w2GCJTK-mRY-rKKBnhm2e1yedlw9KMfXuo/edit?gid=0#gid=0",
+                     sheet = 'stocks_of_interest') %>% 
+  filter(common_name %in% c('spiny_dogfish', 'blue_shark', 'pacific_sleeper_shark', 'salmon_shark')) %>% 
+  rename(species = common_name)
+stocks$species <- sub('_', ' ', stocks$species)
+
+#setup fishbase info
+edge_names = c( FishBase_and_Morphometrics$tree$tip.label,
+                FishBase_and_Morphometrics$tree$node.label[-1] )
+
 # calculate four M estimators for each input species and area combo
 
 species_ls <- unique(input_data$species)
 area_ls <- unique(input_data$input_area)
 
 # save inputs so they can be version controlled as we refine our spreadsheet
-write_csv(input_data, paste0(getwd(), '/data/M_analysis_input_data.csv'))
+write_csv(input_data, paste0(getwd(), '/data/M_analysis_input_data_sharks.csv'))
 
 for(i in 1:length(species_ls)) {
   for(j in 1:length(area_ls)) {
@@ -114,6 +127,12 @@ for(i in 1:length(species_ls)) {
     # i = 1; j = 1; k = 1
     df <- input_data %>% 
       filter(species == species_ls[i] & input_area == area_ls[j]) 
+    
+    # fishlife estimator ----
+    fl_out <- data.frame(method = 'fishlife',
+                         version = 1,
+                         Mest = calcM_fishlife(i = i),
+                         method_or_source = 'Thorson')
     
     # max age estimator ----
     tmpdf <- df %>% filter(lh_param == 'maxage_yr')
@@ -184,7 +203,7 @@ for(i in 1:length(species_ls)) {
     #} 
     
        # Bind and output data
-    out <- bind_rows(amax_out, gsi_out, frisktmat_out) %>% #, hisanotmat_out taken out for now
+    out <- bind_rows(fl_out, amax_out, gsi_out, frisktmat_out) %>% #, hisanotmat_out taken out for now
       mutate(species = species_ls[i],
              input_area = area_ls[j]) %>% 
       select(species, input_area, M_method = method, M_estimate = Mest, 
@@ -210,7 +229,7 @@ fullout <- l_fullout %>%
   pivot_wider(id_cols = c(species, version, M_method),
               names_from = input_area,
               values_from = M_estimate) %>% 
-  select(species, version, M_method, NWP, GOA, BS, BC, WC, multi_region) %>% #note: no data from region = AI
+  select(species, version, M_method, NWP, GOA, BC, WC, multi_region) %>% #note: no data from region = AI
   arrange(species, M_method, version) 
 
 fullout #%>% View()
@@ -230,7 +249,8 @@ summ <- l_fullout %>%
                               & lh_param == 'vbgf_k_cm-1', 1, 
                               ifelse(M_method == 'gsi' & lh_param == 'gsi', 1, 
                                      ifelse(M_method == 'frisk_tmat' & lh_param == 'agemat_yr', 1,
-                                            ifelse(M_method == 'then' & lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'), 1, 0)))))) %>% 
+                                            ifelse(M_method == 'then' & lh_param %in% c('vbgf_k_cm-1', 'vbgf_linf_cm'), 1, 
+                                                   ifelse(M_method == 'fishlife', 1, 0)))))))  %>% 
   filter(keep == 1)
 
 
@@ -255,6 +275,14 @@ summ <- summ %>%
               mutate(input_names = 'Age at Maturity (yr)',
                      input_values = ifelse(is.na(input_values), NA,
                                            paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>% 
+  bind_rows(summ %>% 
+              filter(M_method %in% c('fishlife')) %>% 
+              #mutate(lh_param = 'amat') %>% 
+              rename(input_names = lh_param, input_values = estimate) %>%
+              mutate(input_names = 'species name',
+                     data_area = input_area,
+                     input_values = ifelse(is.na(input_values), NA,
+                                           paste0(formatC(round(input_values, 1), format = 'f', digits = 1))))) %>%
   mutate(M_estimate = formatC(round(M_estimate, 3), format = 'f', digits = 3),
          M_method = paste0(M_method, '.v', version),
          area = ifelse(input_area == 'multi_region', data_area, input_area)) %>% 
@@ -264,24 +292,6 @@ summ <- summ %>%
 
 summ
 
-
-
-
-#summ <- summ %>% 
-#  mutate(species = factor(species, 
-#                          labels = c('dusky rockfish', 'harlequin rockfish',
-#                                     'rebs rockfish','rougheye rockfish','blackspotted rockfish',
-#                                     'redbanded rockfish', 'redstripe rockfish', 
-#                                     'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
-#                                     'yelloweye rockfish', 'shortspine thornyhead'),
-#                          levels = c('dusky rockfish', 'harlequin rockfish',
-#                                     'rebs rockfish','rougheye rockfish','blackspotted rockfish',
-#                                     'redbanded rockfish', 'redstripe rockfish', 
-#                                     'sharpchin rockfish', 'shortraker rockfish','silvergray rockfish',
-#                                     'yelloweye rockfish', 'shortspine thornyhead'),
-#                          ordered = TRUE)) %>% 
-#  arrange(species, area, data_input, version)
-#summ
 summ %>% write_csv(paste0(out_path, '/formatted_M_results_sharks.csv'))
 
 # write results to separate excel sheets using writexl and purrr ----
